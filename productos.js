@@ -803,7 +803,7 @@ const PRODUCTOS = [
     modelos: [
       { nombre: "Black", descripcion: "Negro clásico", imagen: "https://i.ibb.co/1tyyNTz2/moonboot-negra.jpg", color: "#111111" }
     ]
-  },,
+  },
 
   // ── Maison Margiela T-Shirts ──────────────────────────────────
   {
