@@ -618,41 +618,24 @@ const PRODUCTOS = [
     ]
   },
 
-  // ── Supreme Script Logo Zip Up ───────────────────────────────
+  // ── Supreme Cross Big Logo ────────────────────────────────────
   {
-    id: "supreme-zip-script-logo",
-    nombre: "Script Logo Zip Up",
+    id: "supreme-cross-big-logo",
+    nombre: "Cross Big Logo Hoodie",
     marca: "Supreme",
     precio: 110000,
-    descripcion: "Zip up hoodie Supreme con script logo. Distintos colorways disponibles. Importada directo.",
+    descripcion: "Hoodie Supreme con cross big logo bordado. Construcción premium. Importada directo.",
     disponible: true,
     etiqueta: "New",
     talles: ["S", "M", "L", "XL"],
     modelos: [
-      { nombre: "Azul&Amarillo",  descripcion: "Azul con Supreme amarillo",   imagen: "https://i.ibb.co/DHy0kqC2/11.jpg",   color: "#1a3a6a" },
-      { nombre: "Gris&Azul",      descripcion: "Gris con Supreme azul",       imagen: "https://i.ibb.co/0yGfW4tx/12.jpg",   color: "#888888" },
-      { nombre: "Rojo&Blanco",    descripcion: "Rojo con Supreme blanco",     imagen: "https://i.ibb.co/MDGh1ZTH/13.jpg",   color: "#aa1a1a" },
-      { nombre: "Negro&Blanco",   descripcion: "Negro con Supreme blanco",    imagen: "https://i.ibb.co/1YT050M0/14.jpg",   color: "#111111" },
-      { nombre: "Negro&Rojo",     descripcion: "Negro con Supreme rojo",      imagen: "https://i.ibb.co/SDg8GzC6/20.jpg",   color: "#1a0000" },
-      { nombre: "Gris&Blanca",    descripcion: "Gris con Supreme blanco",     imagen: "https://i.ibb.co/VctQwTWZ/21.jpg",   color: "#888888" }
+      { nombre: "Negro", descripcion: "Negro con cross logo", imagen: "https://i.ibb.co/3mCBF095/07.jpg", color: "#111111" },
+      { nombre: "Gris",  descripcion: "Gris con cross logo",  imagen: "https://i.ibb.co/Gmc9dXZ/08.jpg", color: "#888888" }
     ]
   },
 
-  // ── Supreme Denim Jacket ──────────────────────────────────────
-  {
-    id: "supreme-jacket-jean",
-    nombre: "Denim Jacket",
-    marca: "Supreme",
-    precio: 110000,
-    descripcion: "Jacket de jean Supreme. Construcción denim premium con logo bordado. Importada directo.",
-    disponible: true,
-    etiqueta: "New",
-    talles: ["S", "M", "L", "XL"],
-    modelos: [
-      { nombre: "Blue",  descripcion: "Denim jacket azul Supreme",   imagen: "https://i.ibb.co/m5nPyKfY/15.jpg", color: "#1a3a6a" },
-      { nombre: "Black", descripcion: "Denim jacket negro Supreme",  imagen: "https://i.ibb.co/kgf0f76w/16.jpg", color: "#111111" }
-    ]
-  },
+
+
 
   // ── Supreme Big Logo Hoodie ───────────────────────────────────
   {
@@ -665,10 +648,43 @@ const PRODUCTOS = [
     etiqueta: "New",
     talles: ["S", "M", "L", "XL"],
     modelos: [
-      { nombre: "Negro",                      descripcion: "Negro con cross logo",              imagen: "https://i.ibb.co/3mCBF095/07.jpg",  color: "#111111" },
-      { nombre: "Gris con cross logo",        descripcion: "Gris con cross logo",               imagen: "https://i.ibb.co/Gmc9dXZ/08.jpg",   color: "#888888" },
-      { nombre: "Gris detalles azul",         descripcion: "Gris con detalles en azul",         imagen: "https://i.ibb.co/Fq6kLFf2/09.jpg",  color: "#80b8e0" },
-      { nombre: "Gris animal print",          descripcion: "Gris con detalles animal print",    imagen: "https://i.ibb.co/0RspkSKD/10.jpg",  color: "#888888" }
+      { nombre: "Celeste", descripcion: "Celeste con big logo", imagen: "https://i.ibb.co/Fq6kLFf2/09.jpg", color: "#80b8e0" },
+      { nombre: "Gris",    descripcion: "Gris con big logo",    imagen: "https://i.ibb.co/0RspkSKD/10.jpg", color: "#888888" }
+    ]
+  },
+  // ── Supreme Zip Up Script Logo ────────────────────────────────
+  {
+    id: "supreme-zip-script-logo",
+    nombre: "Script Logo Zip Up Hoodie",
+    marca: "Supreme",
+    precio: 110000,
+    descripcion: "Zip up hoodie Supreme con script logo. Importada directo.",
+    disponible: true,
+    etiqueta: "New",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Azul/Amarillo",  descripcion: "Azul con Supreme amarillo",  imagen: "https://i.ibb.co/DHy0kqC2/11.jpg", color: "#1a3a6a" },
+      { nombre: "Gris/Azul",      descripcion: "Gris con Supreme azul",      imagen: "https://i.ibb.co/MDGh1ZTH/13.jpg", color: "#888888" },
+      { nombre: "Roja/Blanca",    descripcion: "Roja con Supreme blanco",    imagen: "https://i.ibb.co/1YT050M0/14.jpg", color: "#aa1a1a" },
+      { nombre: "Negra/Blanca",   descripcion: "Negra con Supreme blanco",   imagen: "https://i.ibb.co/m5nPyKfY/15.jpg", color: "#111111" },
+      { nombre: "Celeste/Azul",   descripcion: "Celeste con letras azules",  imagen: "https://i.ibb.co/kgf0f76w/16.jpg", color: "#80b8e0" },
+      { nombre: "Negro/Rojo",     descripcion: "Negro con letras rojas",     imagen: "https://i.ibb.co/27KjwFwy/18.jpg", color: "#111111" },
+      { nombre: "Gris/Blanca",    descripcion: "Gris con letras blancas",    imagen: "https://i.ibb.co/d4ZmTHDW/22.jpg", color: "#888888" }
+    ]
+  },
+
+  // ── Supreme Jacket Jean ───────────────────────────────────────
+  {
+    id: "supreme-jacket-jean",
+    nombre: "Denim Jacket",
+    marca: "Supreme",
+    precio: 110000,
+    descripcion: "Jacket de jean Supreme. Construcción denim premium con logo bordado. Importada directo.",
+    disponible: true,
+    etiqueta: "New",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Azul", descripcion: "Denim jacket azul Supreme", imagen: "https://i.ibb.co/0yGfW4tx/12.jpg", color: "#1a3a6a" }
     ]
   },
 
@@ -683,13 +699,14 @@ const PRODUCTOS = [
     etiqueta: "New",
     talles: ["S", "M", "L", "XL"],
     modelos: [
-      { nombre: "Pink",       descripcion: "Faded logo rosa",          imagen: "https://i.ibb.co/27KjwFwy/18.jpg", color: "#e890b8" },
-      { nombre: "Negro&Rojo", descripcion: "Negro con letras rojas",   imagen: "https://i.ibb.co/pBhkd5p8/17.jpg", color: "#111111" },
-      { nombre: "Blue&White", descripcion: "Azul con letras blancas",  imagen: "https://i.ibb.co/xRK3S0w/19.jpg",  color: "#1a3a6a" }
+      { nombre: "Negro",             descripcion: "Negro con letras blancas",       imagen: "https://i.ibb.co/pBhkd5p8/17.jpg", color: "#111111" },
+      { nombre: "Rosa/Blanco",       descripcion: "Rosa con letras blancas",        imagen: "https://i.ibb.co/xRK3S0w/19.jpg", color: "#e890b8" },
+      { nombre: "Azul Marino/Blanco",descripcion: "Azul marino con letras blancas", imagen: "https://i.ibb.co/SDg8GzC6/20.jpg", color: "#0a1a3a" }
     ]
   },
 
-  // ── Supreme x MM6 Big Logo Hoodie ────────────────────────────
+
+  // ── Supreme x MM6 Big Logo ────────────────────────────────────
   {
     id: "supreme-x-mm6-big-logo",
     nombre: "x MM6 Big Logo Hoodie",
@@ -700,32 +717,15 @@ const PRODUCTOS = [
     etiqueta: "Collab",
     talles: ["S", "M", "L", "XL"],
     modelos: [
-      { nombre: "Blue Black", descripcion: "Azul y negro MM6", imagen: "https://i.ibb.co/d4ZmTHDW/22.jpg", color: "#1a1a3a" },
-      { nombre: "White",      descripcion: "Blanco MM6",       imagen: "https://i.ibb.co/r2zxnTtx/23.jpg", color: "#e8e8e8" }
-    ]
-  },
-
-  // ── Supreme Rhinestone Zip Up ─────────────────────────────────
-  {
-    id: "supreme-rhinestone-zip",
-    nombre: "Rhinestone Zip Up",
-    marca: "Supreme",
-    precio: 130000,
-    descripcion: "Zip up hoodie Supreme con rhinestone. Detalles de strass premium. Importada directo.",
-    disponible: true,
-    etiqueta: "Premium",
-    talles: ["S", "M", "L", "XL"],
-    modelos: [
-      { nombre: "Negro", descripcion: "Rhinestone negro",  imagen: "https://i.ibb.co/wrzpY88P/30.jpg",  color: "#111111" },
-      { nombre: "Roja",  descripcion: "Rhinestone camo",   imagen: "https://i.ibb.co/q4J7dfS/31.jpg",   color: "#aa1a1a" },
-      { nombre: "Gris",  descripcion: "Rhinestone gris",   imagen: "https://i.ibb.co/xKntW1TG/32.jpg",  color: "#888888" }
+      { nombre: "Negro/Gris Metalizado", descripcion: "Negro con gris metalizado", imagen: "https://i.ibb.co/r2zxnTtx/23.jpg", color: "#1a1a1a" },
+      { nombre: "Blanco Metalizado",     descripcion: "Blanco metalizado",         imagen: "https://i.ibb.co/JwXj40TG/24.jpg", color: "#e8e8e8" }
     ]
   },
 
   // ── Supreme IDGAF Zip Up ──────────────────────────────────────
   {
     id: "supreme-idgaf-zip",
-    nombre: "IDGAF Zip Up",
+    nombre: "IDGAF Zip Up Hoodie",
     marca: "Supreme",
     precio: 110000,
     descripcion: "Zip up hoodie Supreme IDGAF. Importada directo.",
@@ -733,9 +733,8 @@ const PRODUCTOS = [
     etiqueta: "New",
     talles: ["S", "M", "L", "XL"],
     modelos: [
-      { nombre: "Negro",   descripcion: "Negro IDGAF",   imagen: "https://i.ibb.co/JwXj40TG/24.jpg",  color: "#111111" },
-      { nombre: "Gris",    descripcion: "Gris IDGAF",    imagen: "https://i.ibb.co/Hpk2RmWD/25.jpg",  color: "#888888" },
-      { nombre: "Gris v2", descripcion: "Gris IDGAF v2", imagen: "https://i.ibb.co/CKDzfw1y/26.jpg",  color: "#999999" }
+      { nombre: "Negro", descripcion: "Negro IDGAF", imagen: "https://i.ibb.co/Hpk2RmWD/25.jpg", color: "#111111" },
+      { nombre: "Gris",  descripcion: "Gris IDGAF",  imagen: "https://i.ibb.co/VctQwTWZ/21.jpg", color: "#888888" }
     ]
   },
 
@@ -753,6 +752,95 @@ const PRODUCTOS = [
       { nombre: "Washed Navy", descripcion: "Washed Navy",       imagen: "https://i.ibb.co/ks0CvP2P/28.jpg", color: "#1a2a4a" },
       { nombre: "Black",       descripcion: "Black",             imagen: "https://i.ibb.co/bjhGS4q3/29.jpg", color: "#111111" },
       { nombre: "Navy Blue",   descripcion: "Navy Blue washed",  imagen: "https://i.ibb.co/twMR6Vjt/27.jpg", color: "#0a1a3a" }
+    ]
+  },
+
+  // ── Supreme Rhinestone Zip Up ─────────────────────────────────
+  {
+    id: "supreme-rhinestone-zip",
+    nombre: "Rhinestone Zip Up Hoodie",
+    marca: "Supreme",
+    precio: 130000,
+    descripcion: "Zip up hoodie Supreme con rhinestone. Detalles de strass premium. Importada directo.",
+    disponible: true,
+    etiqueta: "Premium",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Camo",  descripcion: "Rhinestone Camo",  imagen: "https://i.ibb.co/wrzpY88P/30.jpg", color: "#6a7a3a" },
+      { nombre: "Negro", descripcion: "Rhinestone Negro",  imagen: "https://i.ibb.co/q4J7dfS/31.jpg", color: "#111111" },
+      { nombre: "Rojo",  descripcion: "Rhinestone Rojo",   imagen: "https://i.ibb.co/xKntW1TG/32.jpg", color: "#aa1a1a" },
+      { nombre: "Gris",  descripcion: "Rhinestone Gris",   imagen: "https://i.ibb.co/CKDzfw1y/26.jpg", color: "#888888" }
+    ]
+  }
+  // ── Nike x NOCTA Tech Fleece Set ─────────────────────────────
+  {
+    id: "nike-nocta-tech-fleece-set",
+    nombre: "x NOCTA Tech Fleece Set",
+    marca: "Nike",
+    precio: 90000,
+    descripcion: "Conjunto completo Nike x NOCTA Tech Fleece — hoodie + joggers. Collab exclusiva con Drake. Construcción premium, tela tech fleece. Importado directo.",
+    disponible: true,
+    etiqueta: "Collab",
+    talles: ["S", "M", "L", "XL", "2XL"],
+    modelos: [
+      { nombre: "Cobalt Blue Tint",   descripcion: "Azul cobalto con detalles tint", imagen: "https://i.ibb.co/xKnmSFpC/Nike-x-NOCTA-Tech-Fleece-Hoodie-Joggers-Set-Cobalt-Blue-Tint.jpg",   color: "#2a5aaa" },
+      { nombre: "Stadium Green Sail", descripcion: "Verde stadium con sail",          imagen: "https://i.ibb.co/Rk6kvsS0/Nike-x-NOCTA-Tech-Fleece-Hoodie-Joggers-Set-Stadium-Green-Sail.jpg", color: "#2a6a3a" },
+      { nombre: "Black",              descripcion: "Negro total",                     imagen: "https://i.ibb.co/Xk6WyBCc/Nike-x-NOCTA-Tech-Fleece-Hoodie-Joggers-Set-Black.jpg",              color: "#111111" }
+    ]
+  },
+
+  // ── Moon Boot ────────────────────────────────────────────────
+  {
+    id: "moon-boot",
+    nombre: "Moon Boot",
+    marca: "Moon Boot",
+    precio: 130000,
+    descripcion: "Moon Boot originales. Icono del après-ski, construcción premium acolchada, suela antideslizante. Importadas directo.",
+    disponible: true,
+    etiqueta: "Classic",
+    talles: ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44"],
+    modelos: [
+      { nombre: "Black", descripcion: "Negro clásico", imagen: "https://i.ibb.co/1tyyNTz2/moonboot-negra.jpg", color: "#111111" }
+    ]
+  },,
+
+  // ── Maison Margiela T-Shirts ──────────────────────────────────
+  {
+    id: "margiela-tshirts",
+    nombre: "T-Shirts",
+    marca: "Maison Margiela",
+    precio: 50000,
+    descripcion: "Remeras Maison Margiela con gráficas originales de la casa. Algodón premium, corte oversize. Importadas directo.",
+    disponible: true,
+    etiqueta: "New",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Blanca 1", descripcion: "Blanca", imagen: "https://i.ibb.co/Q7Nywv1n/open1867150125-1234478995-275000000196693b3e480a8115c2-800-800-jpg.jpg", color: "#f0f0f0" },
+      { nombre: "Negra 1", descripcion: "Negra", imagen: "https://i.ibb.co/kgWjwHD1/open1867150125-1234478995-2b3300000196693b3bd60aa0834c-800-800-jpg.jpg", color: "#111111" },
+      { nombre: "Blanca 2", descripcion: "Blanca", imagen: "https://i.ibb.co/VKn04jR/open1867150125-1234478995-2b3500000196693b4a570aa0834c-800-800-jpg.jpg", color: "#f0f0f0" },
+      { nombre: "Blanca 3", descripcion: "Blanca", imagen: "https://i.ibb.co/5gXGRK1k/open1867150125-1234478995-2b3900000196693b5ad90aa0834c-800-800-jpg.jpg", color: "#f0f0f0" },
+      { nombre: "Gris", descripcion: "Gris", imagen: "https://i.ibb.co/0VhDxT0f/open1867150125-1234478995-2b4300000196693b79a20aa0834c-800-800-jpg.jpg", color: "#888888" },
+      { nombre: "Blanca 4", descripcion: "Blanca", imagen: "https://i.ibb.co/M5fyG4dY/open1867150125-1234478995-11d100000196693b422b0a23b491-800-800-jpg.jpg", color: "#f0f0f0" },
+      { nombre: "Negra 2", descripcion: "Negra", imagen: "https://i.ibb.co/XZvBqkkT/open1867150125-1234478995-15d400000196693b445b0a231226-800-800-jpg.jpg", color: "#111111" },
+      { nombre: "Negra 3", descripcion: "Negra", imagen: "https://i.ibb.co/TDcNFDsK/open1867150125-1234478995-15da00000196693b54f30a231226-800-800-jpg.jpg", color: "#111111" },
+      { nombre: "Blanca 5", descripcion: "Blanca", imagen: "https://i.ibb.co/3mySmQKk/open1867150125-1234478995-15e000000196693b75230a231226-800-800-jpg.jpg", color: "#f0f0f0" },
+      { nombre: "Blanca 6", descripcion: "Blanca", imagen: "https://i.ibb.co/bMpJ6Ctf/open1867150125-1234478995-15e600000196693b84f70a231226-800-800-jpg.jpg", color: "#f0f0f0" },
+      { nombre: "Negra 4", descripcion: "Negra", imagen: "https://i.ibb.co/tPCVQ1Q7/open1867150125-1234478995-20be00000196693b403d0a22d249-800-800-jpg.jpg", color: "#111111" },
+      { nombre: "Negra 5", descripcion: "Negra", imagen: "https://i.ibb.co/sJHVHqNh/open1867150125-1234478995-20c400000196693b50da0a22d249-800-800-jpg.jpg", color: "#111111" },
+      { nombre: "Blanca 7", descripcion: "Blanca", imagen: "https://i.ibb.co/XkpXZbff/open1867150125-1234478995-20c600000196693b62ef0a22d249-800-800-jpg.jpg", color: "#f0f0f0" },
+      { nombre: "Negra 6", descripcion: "Negra", imagen: "https://i.ibb.co/GQpZ2vhN/open1867150125-1234478995-20ca00000196693b72e30a22d249-800-800-jpg.jpg", color: "#111111" },
+      { nombre: "Negra 7", descripcion: "Negra", imagen: "https://i.ibb.co/r2R4DYBT/open1867150125-1234478995-20d000000196693b80700a22d249-800-800-jpg.jpg", color: "#111111" },
+      { nombre: "Negra 8", descripcion: "Negra", imagen: "https://i.ibb.co/BH27LH3D/open1867150125-1234478995-30a000000196693b48700a8133b0-800-800-jpg.jpg", color: "#111111" },
+      { nombre: "Negra 9", descripcion: "Negra", imagen: "https://i.ibb.co/YBYLw5hf/open1867150125-1234478995-30a600000196693b59070a8133b0-800-800-jpg.jpg", color: "#111111" },
+      { nombre: "Negra 10", descripcion: "Negra", imagen: "https://i.ibb.co/8DWy8v6N/open1867150125-1234478995-30ae00000196693b77680a8133b0-800-800-jpg.jpg", color: "#111111" },
+      { nombre: "Blanca 8", descripcion: "Blanca", imagen: "https://i.ibb.co/yBBPB7S7/open1867150125-1234478995-30b200000196693b88ea0a8133b0-800-800-jpg.jpg", color: "#f0f0f0" },
+      { nombre: "Blanca 9", descripcion: "Blanca", imagen: "https://i.ibb.co/LdXLt5CY/open1867150125-1234478995-213b00000196693b70e50aa08290-800-800-jpg.jpg", color: "#f0f0f0" },
+      { nombre: "Blanca 10", descripcion: "Blanca", imagen: "https://i.ibb.co/TDkPTCnd/open1867150125-1234478995-309e00000196693b39e90a8133b0-800-800-jpg.jpg", color: "#f0f0f0" },
+      { nombre: "Negra 11", descripcion: "Negra", imagen: "https://i.ibb.co/MD8f9Lbc/open1867150125-1234478995-275400000196693b4cea0a8115c2-800-800-jpg.jpg", color: "#111111" },
+      { nombre: "Negra 12", descripcion: "Negra", imagen: "https://i.ibb.co/5xX3WqCV/open1867150125-1234478995-276000000196693b7c850a8115c2-800-800-jpg.jpg", color: "#111111" },
+      { nombre: "Blanca 11", descripcion: "Blanca", imagen: "https://i.ibb.co/DcPkKjJ/open1867150125-1234478995-276200000196693b8d1a0a8115c2-800-800-jpg.jpg", color: "#f0f0f0" },
+      { nombre: "Negra 13", descripcion: "Negra", imagen: "https://i.ibb.co/rGXJBXQG/open1867150125-1234478995-328200000196693b86f40a23b4de-800-800-jpg.jpg", color: "#111111" },
+      { nombre: "Negra 14", descripcion: "Negra", imagen: "https://i.ibb.co/0jq1WF1H/pcitem1934672132-7b7e00000198c3f93b950a20e7c7-800-800-jpg.jpg", color: "#111111" }
     ]
   }
 
