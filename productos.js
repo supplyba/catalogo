@@ -771,7 +771,8 @@ const PRODUCTOS = [
       { nombre: "Rojo",  descripcion: "Rhinestone Rojo",   imagen: "https://i.ibb.co/xKntW1TG/32.jpg", color: "#aa1a1a" },
       { nombre: "Gris",  descripcion: "Rhinestone Gris",   imagen: "https://i.ibb.co/CKDzfw1y/26.jpg", color: "#888888" }
     ]
-  }
+  },
+
   // ── Nike x NOCTA Tech Fleece Set ─────────────────────────────
   {
     id: "nike-nocta-tech-fleece-set",
