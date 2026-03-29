@@ -733,8 +733,9 @@ const PRODUCTOS = [
     etiqueta: "New",
     talles: ["S", "M", "L", "XL"],
     modelos: [
-      { nombre: "Negro", descripcion: "Negro IDGAF", imagen: "https://i.ibb.co/Hpk2RmWD/25.jpg", color: "#111111" },
-      { nombre: "Gris",  descripcion: "Gris IDGAF",  imagen: "https://i.ibb.co/VctQwTWZ/21.jpg", color: "#888888" }
+      { nombre: "Negro",     descripcion: "Negro IDGAF",     imagen: "https://i.ibb.co/Hpk2RmWD/25.jpg", color: "#111111" },
+      { nombre: "Gris",      descripcion: "Gris IDGAF",      imagen: "https://i.ibb.co/VctQwTWZ/21.jpg", color: "#888888" },
+      { nombre: "Navy Blue", descripcion: "Navy Blue IDGAF", imagen: "https://i.ibb.co/CKDzfw1y/26.jpg", color: "#0a1a3a" }
     ]
   },
 
@@ -767,8 +768,7 @@ const PRODUCTOS = [
       { nombre: "Camo",   descripcion: "Rhinestone Camo",   imagen: "https://i.ibb.co/wrzpY88P/30.jpg", color: "#6a7a3a" },
       { nombre: "Camo 2", descripcion: "Rhinestone Camo 2", imagen: "https://i.ibb.co/bjhGS4q3/29.jpg", color: "#4a6a3a" },
       { nombre: "Negro",  descripcion: "Rhinestone Negro",  imagen: "https://i.ibb.co/q4J7dfS/31.jpg",  color: "#111111" },
-      { nombre: "Rojo",   descripcion: "Rhinestone Rojo",   imagen: "https://i.ibb.co/xKntW1TG/32.jpg", color: "#aa1a1a" },
-      { nombre: "Gris",   descripcion: "Rhinestone Gris",   imagen: "https://i.ibb.co/CKDzfw1y/26.jpg", color: "#888888" }
+      { nombre: "Rojo", descripcion: "Rhinestone Rojo", imagen: "https://i.ibb.co/xKntW1TG/32.jpg", color: "#aa1a1a" }
     ]
   },
 
