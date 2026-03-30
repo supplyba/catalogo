@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>SUPPLY BA — Hype a tu puerta</title>
 <link rel="icon" href="https://i.ibb.co/zTgQgrTw/Gemini-Generated-Image-fdghblfdghblfdgh.png" type="image/png">
 
@@ -33,7 +33,7 @@
     line-height: 1.5;
     min-height: 100vh;
     overflow-x: hidden;
-    padding-top: 56px;
+    padding-top: calc(56px + env(safe-area-inset-top));
   }
 
   /* Grain overlay for opium aesthetic */
@@ -59,8 +59,8 @@
     isolation: isolate;
     background: #0a0a0a;
     border-bottom: 1px solid var(--border);
-    padding: 0 20px;
-    height: 56px;
+    padding: env(safe-area-inset-top) 20px 0;
+    height: calc(56px + env(safe-area-inset-top));
     display: flex;
     align-items: center;
     justify-content: space-between;
