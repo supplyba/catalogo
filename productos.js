@@ -484,6 +484,507 @@ const PRODUCTOS = [
       { nombre: "Nubuck Camo", descripcion: "Nubuck Camo - BAPE x Undefeated x Timberland", imagen: "https://i.ibb.co/5hzrXhHs/1681856724-undefeated-a-bathing-ape-timberland-release-date-price-011.jpg", color: "#1a1a1a" }
     ]
   },
+  // ── PRODUCTO 20: Chrome Hearts Monogram Cross Pocket T ───────
+  {
+    id: "chrome-hearts-monogram-cross-pocket",
+    nombre: "Monogram Cross Print Pocket T-Shirt",
+    marca: "Chrome Hearts",
+    precio: 99999,
+    descripcion: "Remera Chrome Hearts con bolsillo y cruz monograma. Algodón premium, corte oversize. Importada directo.",
+    disponible: true,
+    etiqueta: "Premium",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Black", descripcion: "Negro", imagen: "https://i.ibb.co/zHtj7D6k/86-Chrome-Hearts-Monogram-Cross-Print-Pocket-T-Shirt-1-en-negro.png", color: "#111111" }
+    ]
+  },
+
+  // ── PRODUCTO 21: Chrome Hearts Multi Logo Triple Cross Star ────
+  {
+    id: "chrome-hearts-multi-logo-triple-cross-star",
+    nombre: "Multi Logo T-Shirt with Embroidered Triple Cross and Star",
+    marca: "Chrome Hearts",
+    precio: 99999,
+    descripcion: "Remera Chrome Hearts con triple cruz y estrella bordadas. Algodón premium, diseño exclusivo. Importada directo.",
+    disponible: true,
+    etiqueta: "Premium",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "White", descripcion: "Blanco", imagen: "https://i.ibb.co/VYmsLQm1/85-Chrome-Hearts-Multi-Logo-T-Shirt-with-Embroidered-Triple-Cross-and-Star-1-en-blanco-y-1-en-negr.png", color: "#f0f0f0" },
+      { nombre: "Black", descripcion: "Negro", imagen: "https://i.ibb.co/VYmsLQm1/85-Chrome-Hearts-Multi-Logo-T-Shirt-with-Embroidered-Triple-Cross-and-Star-1-en-blanco-y-1-en-negr.png", color: "#111111" }
+    ]
+  },
+
+  // ── PRODUCTO 22: Chrome Hearts Fleur-de-Lis Coaches Jacket ───────
+  {
+    id: "chrome-hearts-fleur-de-lis-coaches",
+    nombre: "Fleur-de-Lis Patch Coaches Jacket",
+    marca: "Chrome Hearts",
+    precio: 149999,
+    descripcion: "Coaches jacket Chrome Hearts con parche fleur-de-lis. Cuero y tela premium, construcción de alta calidad. Importada directo.",
+    disponible: true,
+    etiqueta: "Premium",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Black", descripcion: "Negro", imagen: "https://i.ibb.co/1Jtfvfmp/84-Chrome-Hearts-Fleur-de-Lis-Patch-Coaches-Jacket-1-en-negro.png", color: "#111111" }
+    ]
+  },
+
+  // ── PRODUCTO 23: Chrome Hearts Matty Boy Chomper Horseshoe ───────
+  {
+    id: "chrome-hearts-matty-boy-chomper",
+    nombre: "Matty Boy Chomper Horseshoe T-Shirt",
+    marca: "Chrome Hearts",
+    precio: 99999,
+    descripcion: "Remera Chrome Hearts Matty Boy con logo horseshoe. Algodón premium, diseño exclusivo. Importada directo.",
+    disponible: true,
+    etiqueta: "Premium",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "White", descripcion: "Blanco", imagen: "https://i.ibb.co/XxbHRm14/83-Chrome-Hearts-Matty-Boy-Chomper-Horseshoe-T-Shirt-1-en-blanco-y-1-en-negro.png", color: "#f0f0f0" },
+      { nombre: "Black", descripcion: "Negro", imagen: "https://i.ibb.co/XxbHRm14/83-Chrome-Hearts-Matty-Boy-Chomper-Horseshoe-T-Shirt-1-en-blanco-y-1-en-negro.png", color: "#111111" }
+    ]
+  },
+
+  // ── PRODUCTO 24: Chrome Hearts Vertical Cross Turtle Neck ─────────
+  {
+    id: "chrome-hearts-vertical-cross-turtleneck",
+    nombre: "Vertical Cross Patch Turtle Neck Knit Sweater",
+    marca: "Chrome Hearts",
+    precio: 119999,
+    descripcion: "Sweater turtle neck Chrome Hearts con parche de cruz vertical. Tejido de punto premium, diseño exclusivo. Importado directo.",
+    disponible: true,
+    etiqueta: "Premium",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Grey", descripcion: "Gris", imagen: "https://i.ibb.co/hRxYc9zf/82-Chrome-Hearts-Vertical-Cross-Patch-Turtle-Neck-Knit-Sweater-1-en-gris-y-1-en-negro.png", color: "#888888" },
+      { nombre: "Black", descripcion: "Negro", imagen: "https://i.ibb.co/hRxYc9zf/82-Chrome-Hearts-Vertical-Cross-Patch-Turtle-Neck-Knit-Sweater-1-en-gris-y-1-en-negro.png", color: "#111111" }
+    ]
+  },
+
+  // ── PRODUCTO 25: Chrome Hearts Multi Logo Crosses Stars ──────────
+  {
+    id: "chrome-hearts-multi-logo-crosses-stars",
+    nombre: "Multi Logo T-Shirt with Embroidered Crosses and Stars",
+    marca: "Chrome Hearts",
+    precio: 99999,
+    descripcion: "Remera Chrome Hearts con cruces y estrellas bordadas. Algodón premium, diseño exclusivo. Importada directo.",
+    disponible: true,
+    etiqueta: "Premium",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "White", descripcion: "Blanco", imagen: "https://i.ibb.co/SDXjnYQ7/81-Chrome-Hearts-Multi-Logo-T-Shirt-with-Embroidered-Crosses-and-Stars-1-en-blanco-y-1-en-negro.png", color: "#f0f0f0" },
+      { nombre: "Black", descripcion: "Negro", imagen: "https://i.ibb.co/SDXjnYQ7/81-Chrome-Hearts-Multi-Logo-T-Shirt-with-Embroidered-Crosses-and-Stars-1-en-blanco-y-1-en-negro.png", color: "#111111" }
+    ]
+  },
+
+  // ── PRODUCTO 26: Chrome Hearts Horseshoe Sherpa Fleece ───────────
+  {
+    id: "chrome-hearts-horseshoe-sherpa-fleece",
+    nombre: "Horseshoe Logo Sherpa Fleece Jacket",
+    marca: "Chrome Hearts",
+    precio: 159999,
+    descripcion: "Jacket de Sherpa fleece Chrome Hearts con logo horseshoe. Forro suave premium, construcción de alta calidad. Importada directo.",
+    disponible: true,
+    etiqueta: "Premium",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Black", descripcion: "Negro", imagen: "https://i.ibb.co/Xrs8sv99/80-Chrome-Hearts-Horseshoe-Logo-Sherpa-Fleece-Jacket-1-en-negro.png", color: "#111111" }
+    ]
+  },
+
+  // ── PRODUCTO 27: Chrome Hearts Multi Cross Varsity ────────────────
+  {
+    id: "chrome-hearts-multi-cross-varsity",
+    nombre: "Multi Cross Patch Varsity Jacket",
+    marca: "Chrome Hearts",
+    precio: 179999,
+    descripcion: "Varsity jacket Chrome Hearts con parches de cruces múltiples. Cuero y tela premium, construcción de alta calidad. Importada directo.",
+    disponible: true,
+    etiqueta: "Premium",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Grey", descripcion: "Gris", imagen: "https://i.ibb.co/3yWqk0jT/79-Chrome-Hearts-Multi-Cross-Patch-Varsity-Jacket-1-en-gris-y-1-en-negro.png", color: "#888888" },
+      { nombre: "Black", descripcion: "Negro", imagen: "https://i.ibb.co/3yWqk0jT/79-Chrome-Hearts-Multi-Cross-Patch-Varsity-Jacket-1-en-gris-y-1-en-negro.png", color: "#111111" }
+    ]
+  },
+
+  // ── PRODUCTO 28: Chrome Hearts Denim Patch Horseshoe ──────────────
+  {
+    id: "chrome-hearts-denim-patch-horseshoe",
+    nombre: "Denim Patch Horseshoe T-Shirt",
+    marca: "Chrome Hearts",
+    precio: 99999,
+    descripcion: "Remera Chrome Hearts con parche horseshoe en denim. Algodón premium, diseño exclusivo. Importada directo.",
+    disponible: true,
+    etiqueta: "Premium",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "White", descripcion: "Blanco", imagen: "https://i.ibb.co/sdvqbSFC/78-Chrome-Hearts-Denim-Patch-Horseshoe-T-Shirt-1-en-blanco-y-1-en-negro.png", color: "#f0f0f0" },
+      { nombre: "Black", descripcion: "Negro", imagen: "https://i.ibb.co/sdvqbSFC/78-Chrome-Hearts-Denim-Patch-Horseshoe-T-Shirt-1-en-blanco-y-1-en-negro.png", color: "#111111" }
+    ]
+  },
+
+  // ── PRODUCTO 29: Chrome Hearts Triple Cross Heart Distressed ──────
+  {
+    id: "chrome-hearts-triple-cross-heart-distressed",
+    nombre: "Triple Cross Heart Distressed Long Sleeve T-Shirt",
+    marca: "Chrome Hearts",
+    precio: 109999,
+    descripcion: "Remera manga larga Chrome Hearts con triple cruz heart y efecto distressed. Algodón premium, diseño exclusivo. Importada directo.",
+    disponible: true,
+    etiqueta: "Premium",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "White", descripcion: "Blanco", imagen: "https://i.ibb.co/yFbQMtTF/77-Chrome-Hearts-Triple-Cross-Heart-Distressed-Long-Sleeve-T-Shirt-1-en-blanco-y-1-en-negro.png", color: "#f0f0f0" },
+      { nombre: "Black", descripcion: "Negro", imagen: "https://i.ibb.co/yFbQMtTF/77-Chrome-Hearts-Triple-Cross-Heart-Distressed-Long-Sleeve-T-Shirt-1-en-blanco-y-1-en-negro.png", color: "#111111" }
+    ]
+  },
+
+  // ── PRODUCTO 30: Chrome Hearts Embroidered Horseshoe ───────────────
+  {
+    id: "chrome-hearts-embroidered-horseshoe",
+    nombre: "Embroidered Horseshoe Logo T-Shirt",
+    marca: "Chrome Hearts",
+    precio: 99999,
+    descripcion: "Remera Chrome Hearts con logo horseshoe bordado. Algodón premium, diseño exclusivo. Importada directo.",
+    disponible: true,
+    etiqueta: "Premium",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "White", descripcion: "Blanco", imagen: "https://i.ibb.co/ZztXBNLT/76-Chrome-Hearts-Embroidered-Horseshoe-Logo-T-Shirt-1-en-blanco-y-1-en-negro.png", color: "#f0f0f0" },
+      { nombre: "Black", descripcion: "Negro", imagen: "https://i.ibb.co/ZztXBNLT/76-Chrome-Hearts-Embroidered-Horseshoe-Logo-T-Shirt-1-en-blanco-y-1-en-negro.png", color: "#111111" }
+    ]
+  },
+
+  // ── PRODUCTO 31: Chrome Hearts Multi Cross Outline ───────────────
+  {
+    id: "chrome-hearts-multi-cross-outline",
+    nombre: "Multi Cross Outline T-Shirt",
+    marca: "Chrome Hearts",
+    precio: 99999,
+    descripcion: "Remera Chrome Hearts con cruces outline. Algodón premium, diseño exclusivo. Importada directo.",
+    disponible: true,
+    etiqueta: "Premium",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "White", descripcion: "Blanco", imagen: "https://i.ibb.co/1Gnt8MBH/75-Chrome-Hearts-Multi-Cross-Outline-T-Shirt-1-en-blanco-y-1-en-negro.png", color: "#f0f0f0" },
+      { nombre: "Black", descripcion: "Negro", imagen: "https://i.ibb.co/1Gnt8MBH/75-Chrome-Hearts-Multi-Cross-Outline-T-Shirt-1-en-blanco-y-1-en-negro.png", color: "#111111" }
+    ]
+  },
+
+  // ── PRODUCTO 32: Chrome Hearts Multi Logo Pin Patch ────────────────
+  {
+    id: "chrome-hearts-multi-logo-pin-patch",
+    nombre: "Multi Logo Pin Patch T-Shirt",
+    marca: "Chrome Hearts",
+    precio: 99999,
+    descripcion: "Remera Chrome Hearts con parches de pin logo. Algodón premium, diseño exclusivo. Importada directo.",
+    disponible: true,
+    etiqueta: "Premium",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Yellow", descripcion: "Amarillo", imagen: "https://i.ibb.co/RpdWn0Ft/74-Chrome-Hearts-Multi-Logo-Pin-Patch-T-Shirt-1-en-amarillo-y-1-en-negro.png", color: "#d4c01a" },
+      { nombre: "Black", descripcion: "Negro", imagen: "https://i.ibb.co/RpdWn0Ft/74-Chrome-Hearts-Multi-Logo-Pin-Patch-T-Shirt-1-en-amarillo-y-1-en-negro.png", color: "#111111" }
+    ]
+  },
+
+  // ── PRODUCTO 33: Chrome Hearts CDG Homme Paris Distressed ──────────
+  {
+    id: "chrome-hearts-cdg-homme-distressed",
+    nombre: "CDG Homme Paris Distressed Cross T-Shirt",
+    marca: "Chrome Hearts",
+    precio: 109999,
+    descripcion: "Collab Chrome Hearts x CDG Homme Paris con cruz distressed. Algodón premium, edición limitada. Importada directo.",
+    disponible: true,
+    etiqueta: "Collab",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "White", descripcion: "Blanco", imagen: "https://i.ibb.co/Wvtxkvdb/73-Chrome-Hearts-CDG-Homme-Paris-Distressed-Cross-T-Shirt-1-en-blanco-y-1-en-negro.png", color: "#f0f0f0" },
+      { nombre: "Black", descripcion: "Negro", imagen: "https://i.ibb.co/Wvtxkvdb/73-Chrome-Hearts-CDG-Homme-Paris-Distressed-Cross-T-Shirt-1-en-blanco-y-1-en-negro.png", color: "#111111" }
+    ]
+  },
+
+  // ── PRODUCTO 34: Chrome Hearts CDG Homme Paris Cross ──────────────
+  {
+    id: "chrome-hearts-cdg-homme-cross",
+    nombre: "CDG Homme Paris Cross T-Shirt",
+    marca: "Chrome Hearts",
+    precio: 109999,
+    descripcion: "Collab Chrome Hearts x CDG Homme Paris con cruz. Algodón premium, edición limitada. Importada directo.",
+    disponible: true,
+    etiqueta: "Collab",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "White", descripcion: "Blanco", imagen: "https://i.ibb.co/jvjCs7Jh/72-Chrome-Hearts-CDG-Homme-Paris-Cross-T-Shirt-1-en-blanco-y-1-en-negro.png", color: "#f0f0f0" },
+      { nombre: "Black", descripcion: "Negro", imagen: "https://i.ibb.co/jvjCs7Jh/72-Chrome-Hearts-CDG-Homme-Paris-Cross-T-Shirt-1-en-blanco-y-1-en-negro.png", color: "#111111" }
+    ]
+  },
+
+  // ── PRODUCTO 35: Chrome Hearts Multi Logo Pocket ─────────────────
+  {
+    id: "chrome-hearts-multi-logo-pocket",
+    nombre: "Multi Logo Pocket T-Shirt",
+    marca: "Chrome Hearts",
+    precio: 99999,
+    descripcion: "Remera Chrome Hearts con bolsillo y logos múltiples. Algodón premium, diseño exclusivo. Importada directo.",
+    disponible: true,
+    etiqueta: "Premium",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "White", descripcion: "Blanco", imagen: "https://i.ibb.co/yFH3vT2Z/71-Chrome-Hearts-Multi-Logo-Pocket-T-Shirt-1-en-blanco-y-1-en-negro.png", color: "#f0f0f0" },
+      { nombre: "Black", descripcion: "Negro", imagen: "https://i.ibb.co/yFH3vT2Z/71-Chrome-Hearts-Multi-Logo-Pocket-T-Shirt-1-en-blanco-y-1-en-negro.png", color: "#111111" }
+    ]
+  },
+
+  // ── PRODUCTO 36: Chrome Hearts CH Patch Bottom Crosses ────────────
+  {
+    id: "chrome-hearts-ch-patch-bottom-crosses",
+    nombre: "CH Patch T-Shirt with Bottom Crosses",
+    marca: "Chrome Hearts",
+    precio: 99999,
+    descripcion: "Remera Chrome Hearts con parche CH y cruces en la parte inferior. Algodón premium, diseño exclusivo. Importada directo.",
+    disponible: true,
+    etiqueta: "Premium",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Black", descripcion: "Negro", imagen: "https://i.ibb.co/wFFqXhLy/70-Chrome-Hearts-CH-Patch-T-Shirt-with-Bottom-Crosses-1-en-negro.png", color: "#111111" }
+    ]
+  },
+
+  // ── PRODUCTO 37: Chrome Hearts Black Crewneck Leather Horseshoe ────
+  {
+    id: "chrome-hearts-crewneck-leather-horseshoe",
+    nombre: "Black Crewneck Sweatshirt with Leather Horseshoe Patch",
+    marca: "Chrome Hearts",
+    precio: 129999,
+    descripcion: "Sudadera crewneck Chrome Hearts con parche de cuero horseshoe. Algodón premium, construcción de alta calidad. Importada directo.",
+    disponible: true,
+    etiqueta: "Premium",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Black", descripcion: "Negro", imagen: "https://i.ibb.co/CKzgTtSz/69-Chrome-Hearts-Black-Crewneck-Sweatshirt-with-Leather-Horseshoe-Patch-1-en-negro.png", color: "#111111" }
+    ]
+  },
+
+  // ── PRODUCTO 38: Chrome Hearts Monogram Print Zip Up ───────────────
+  {
+    id: "chrome-hearts-monogram-zip-up",
+    nombre: "Monogram Print Zip Up Hoodie",
+    marca: "Chrome Hearts",
+    precio: 139999,
+    descripcion: "Hoodie zip up Chrome Hearts con print monograma. Algodón premium, construcción de alta calidad. Importada directo.",
+    disponible: true,
+    etiqueta: "Premium",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "White", descripcion: "Blanco", imagen: "https://i.ibb.co/KjdLnFKv/68-Chrome-Hearts-Monogram-Print-Zip-Up-Hoodie-1-en-blanco-y-1-en-negro-y-1-en-celeste.png", color: "#f0f0f0" },
+      { nombre: "Black", descripcion: "Negro", imagen: "https://i.ibb.co/KjdLnFKv/68-Chrome-Hearts-Monogram-Print-Zip-Up-Hoodie-1-en-blanco-y-1-en-negro-y-1-en-celeste.png", color: "#111111" },
+      { nombre: "Light Blue", descripcion: "Celeste", imagen: "https://i.ibb.co/KjdLnFKv/68-Chrome-Hearts-Monogram-Print-Zip-Up-Hoodie-1-en-blanco-y-1-en-negro-y-1-en-celeste.png", color: "#80b8e0" }
+    ]
+  },
+
+  // ── PRODUCTO 39: Chrome Hearts Horseshoe Filigree Cross ───────────
+  {
+    id: "chrome-hearts-horseshoe-filigree-cross",
+    nombre: "Horseshoe and Filigree Cross T-Shirt",
+    marca: "Chrome Hearts",
+    precio: 99999,
+    descripcion: "Remera Chrome Hearts con horseshoe y cruz filigree. Algodón premium, diseño exclusivo. Importada directo.",
+    disponible: true,
+    etiqueta: "Premium",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "White", descripcion: "Blanco", imagen: "https://i.ibb.co/9mL8grcs/67-Chrome-Hearts-Horseshoe-and-Filigree-Cross-T-Shirt-1-en-blanco-y-1-en-negro-y-1-en-gris.png", color: "#f0f0f0" },
+      { nombre: "Black", descripcion: "Negro", imagen: "https://i.ibb.co/9mL8grcs/67-Chrome-Hearts-Horseshoe-and-Filigree-Cross-T-Shirt-1-en-blanco-y-1-en-negro-y-1-en-gris.png", color: "#111111" },
+      { nombre: "Grey", descripcion: "Gris", imagen: "https://i.ibb.co/9mL8grcs/67-Chrome-Hearts-Horseshoe-and-Filigree-Cross-T-Shirt-1-en-blanco-y-1-en-negro-y-1-en-gris.png", color: "#888888" }
+    ]
+  },
+
+  // ── PRODUCTO 40: Chrome Hearts Scattered Cross Patch ──────────────
+  {
+    id: "chrome-hearts-scattered-cross-patch",
+    nombre: "Scattered Cross Patch T-Shirt",
+    marca: "Chrome Hearts",
+    precio: 99999,
+    descripcion: "Remera Chrome Hearts con parches de cruz dispersos. Algodón premium, diseño exclusivo. Importada directo.",
+    disponible: true,
+    etiqueta: "Premium",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "White", descripcion: "Blanco", imagen: "https://i.ibb.co/4QLJ4h1/66-Chrome-Hearts-Scattered-Cross-Patch-T-Shirt-1-en-blanco-y-1-en-negro.png", color: "#f0f0f0" },
+      { nombre: "Black", descripcion: "Negro", imagen: "https://i.ibb.co/4QLJ4h1/66-Chrome-Hearts-Scattered-Cross-Patch-T-Shirt-1-en-blanco-y-1-en-negro.png", color: "#111111" }
+    ]
+  },
+
+  // ── PRODUCTO 41: Chrome Hearts Multi Cross Patch ──────────────────
+  {
+    id: "chrome-hearts-multi-cross-patch",
+    nombre: "Multi Cross Patch T-Shirt",
+    marca: "Chrome Hearts",
+    precio: 99999,
+    descripcion: "Remera Chrome Hearts con múltiples parches de cruz. Algodón premium, diseño exclusivo. Importada directo.",
+    disponible: true,
+    etiqueta: "Premium",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "White", descripcion: "Blanco", imagen: "https://i.ibb.co/ZpK73Fcs/65-Chrome-Hearts-Multi-Cross-Patch-T-Shirt-1-en-blanco-y-1-en-negro.png", color: "#f0f0f0" },
+      { nombre: "Black", descripcion: "Negro", imagen: "https://i.ibb.co/ZpK73Fcs/65-Chrome-Hearts-Multi-Cross-Patch-T-Shirt-1-en-blanco-y-1-en-negro.png", color: "#111111" }
+    ]
+  },
+
+  // ── PRODUCTO 42: Chrome Hearts Cross Patch ────────────────────────
+  {
+    id: "chrome-hearts-cross-patch",
+    nombre: "Cross Patch T-Shirt",
+    marca: "Chrome Hearts",
+    precio: 99999,
+    descripcion: "Remera Chrome Hearts con parche de cruz. Algodón premium, diseño exclusivo. Importada directo.",
+    disponible: true,
+    etiqueta: "Premium",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Grey", descripcion: "Gris", imagen: "https://i.ibb.co/jvCrQrQF/64-Chrome-Hearts-Cross-Patch-T-Shirt-1-en-gris-y-1-en-negro.png", color: "#888888" },
+      { nombre: "Black", descripcion: "Negro", imagen: "https://i.ibb.co/jvCrQrQF/64-Chrome-Hearts-Cross-Patch-T-Shirt-1-en-gris-y-1-en-negro.png", color: "#111111" }
+    ]
+  },
+
+  // ── PRODUCTO 43: Chrome Hearts Triple Cemetery Cross ──────────────
+  {
+    id: "chrome-hearts-triple-cemetery-cross",
+    nombre: "Triple Cemetery Cross T-Shirt",
+    marca: "Chrome Hearts",
+    precio: 99999,
+    descripcion: "Remera Chrome Hearts con triple cruz cemetery. Algodón premium, diseño exclusivo. Importada directo.",
+    disponible: true,
+    etiqueta: "Premium",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "White", descripcion: "Blanco", imagen: "https://i.ibb.co/0yqnCLnY/63-Chrome-Hearts-Triple-Cemetery-Cross-T-Shirt-1-blanco-y-1-en-negro.png", color: "#f0f0f0" },
+      { nombre: "Black", descripcion: "Negro", imagen: "https://i.ibb.co/0yqnCLnY/63-Chrome-Hearts-Triple-Cemetery-Cross-T-Shirt-1-blanco-y-1-en-negro.png", color: "#111111" }
+    ]
+  },
+
+  // ── PRODUCTO 44: Chrome Hearts Black Mesh Football Jersey ─────────
+  {
+    id: "chrome-hearts-mesh-football-jersey",
+    nombre: "Black Mesh V-Neck Football Jersey with Silver Script Logo",
+    marca: "Chrome Hearts",
+    precio: 89999,
+    descripcion: "Jersey de fútbol mesh Chrome Hearts con logo plateado. Malla premium, diseño deportivo. Importado directo.",
+    disponible: true,
+    etiqueta: "Premium",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Black", descripcion: "Negro", imagen: "https://i.ibb.co/99vfdvdK/62-Chrome-Hearts-Black-Mesh-V-Neck-Football-Jersey-with-Silver-Script-Logo-1-en-negro.png", color: "#111111" }
+    ]
+  },
+
+  // ── PRODUCTO 45: Chrome Hearts Leather Belt Star Studs ─────────────
+  {
+    id: "chrome-hearts-leather-belt-star-studs",
+    nombre: "Black Leather Belt with Silver Star Studs and Star Buckle",
+    marca: "Chrome Hearts",
+    precio: 59999,
+    descripcion: "Cinturón de cuero Chrome Hearts con studs de estrella y hebilla estrella. Cuero premium, acabado de alta calidad. Importado directo.",
+    disponible: true,
+    etiqueta: "Premium",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Black", descripcion: "Negro", imagen: "https://i.ibb.co/FbfKcJVJ/61-Chrome-Hearts-Black-Leather-Belt-with-Silver-Star-Studs-and-Star-Buckle-1-en-negro.png", color: "#111111" }
+    ]
+  },
+
+  // ── PRODUCTO 46: Chrome Hearts Zip Up Hoodie Scroll Logo ────────────
+  {
+    id: "chrome-hearts-zip-up-scroll-logo",
+    nombre: "Black Zip Up Hoodie with Scroll Logo and Sleeve Script Print",
+    marca: "Chrome Hearts",
+    precio: 139999,
+    descripcion: "Hoodie zip up Chrome Hearts con logo scroll y print en manga. Algodón premium, construcción de alta calidad. Importada directo.",
+    disponible: true,
+    etiqueta: "Premium",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Black", descripcion: "Negro", imagen: "https://i.ibb.co/tpfMmX7y/60-Chrome-Hearts-Black-Zip-Up-Hoodie-with-Scroll-Logo-and-Sleeve-Script-Print-1-en-negro.png", color: "#111111" }
+    ]
+  },
+
+  // ── PRODUCTO 47: Chrome Hearts Zip Up Fleece Horseshoe ──────────────
+  {
+    id: "chrome-hearts-zip-up-fleece-horseshoe",
+    nombre: "Black Zip Up Fleece Hoodie with Horseshoe Logo",
+    marca: "Chrome Hearts",
+    precio: 129999,
+    descripcion: "Hoodie fleece zip up Chrome Hearts con logo horseshoe. Forro suave premium, construcción de alta calidad. Importada directo.",
+    disponible: true,
+    etiqueta: "Premium",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Black", descripcion: "Negro", imagen: "https://i.ibb.co/XfJ1H3zD/59-Chrome-Hearts-Black-Zip-Up-Fleece-Hoodie-with-Horseshoe-Logo-1-en-negro.png", color: "#111111" }
+    ]
+  },
+
+  // ── PRODUCTO 48: Chrome Hearts Half Zip Fleece Pullover ────────────
+  {
+    id: "chrome-hearts-half-zip-fleece",
+    nombre: "Horseshoe Logo Half Zip Fleece Pullover",
+    marca: "Chrome Hearts",
+    precio: 119999,
+    descripcion: "Pullover fleece half zip Chrome Hearts con logo horseshoe. Forro suave premium, construcción de alta calidad. Importado directo.",
+    disponible: true,
+    etiqueta: "Premium",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Black", descripcion: "Negro", imagen: "https://i.ibb.co/hRByvdtN/58-Chrome-Hearts-Horseshoe-Logo-Half-Zip-Fleece-Pullover-1-en-negro.png", color: "#111111" }
+    ]
+  },
+
+  // ── PRODUCTO 49: Chrome Hearts Varsity Leather Sleeves ────────────
+  {
+    id: "chrome-hearts-varsity-leather-sleeves",
+    nombre: "Black Varsity Jacket with Leather Sleeves and Red Cemetery Cross Embroidery",
+    marca: "Chrome Hearts",
+    precio: 199999,
+    descripcion: "Varsity jacket Chrome Hearts con mangas de cuero y bordado de cruz cemetery roja. Premium construcción. Importada directo.",
+    disponible: true,
+    etiqueta: "Premium",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Black", descripcion: "Negro", imagen: "https://i.ibb.co/TDL4ccKw/57-Chrome-Hearts-Black-Varsity-Jacket-with-Leather-Sleeves-and-Red-Cemetery-Cross-Embroidery-1-en.png", color: "#111111" }
+    ]
+  },
+
+  // ── PRODUCTO 50: Chrome Horseshoe Panel Track Jacket ───────────────
+  {
+    id: "chrome-hearts-panel-track-jacket",
+    nombre: "Horseshoe Logo Panel Track Jacket",
+    marca: "Chrome Hearts",
+    precio: 149999,
+    descripcion: "Track jacket Chrome Hearts con panel y logo horseshoe. Tela técnica premium, construcción de alta calidad. Importada directo.",
+    disponible: true,
+    etiqueta: "Premium",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Black", descripcion: "Negro", imagen: "https://i.ibb.co/TMXNCrvP/56-Chrome-Hearts-Horseshoe-Logo-Panel-Track-Jacket-1-en-negro.png", color: "#111111" }
+    ]
+  },
+
+  // ── PRODUCTO 51: Chrome Hearts Dagger Monogram Zip Up ─────────────
+  {
+    id: "chrome-hearts-dagger-monogram-zip-up",
+    nombre: "Charcoal Grey Zip Up Hoodie with All Over White Dagger Monogram Print",
+    marca: "Chrome Hearts",
+    precio: 139999,
+    descripcion: "Hoodie zip up Chrome Hearts con print monograma daga. Algodón premium, construcción de alta calidad. Importada directo.",
+    disponible: true,
+    etiqueta: "Premium",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Charcoal Grey", descripcion: "Gris carbón", imagen: "https://i.ibb.co/BKKNNCGR/55-Chrome-Hearts-Charcoal-Grey-Zip-Up-Hoodie-with-All-Over-White-Dagger-Monogram-Print-1-en-gris.png", color: "#36454f" }
+    ]
+  },
+
   // ── PRODUCTO 19: Jordan 4 ─────────────────────────────────────
   {
     id: "jordan-4",
@@ -847,6 +1348,486 @@ const PRODUCTOS = [
       { nombre: "Blanca/Camo",descripcion: "Lado blanco / lado camo reversible",imagen: "https://i.ibb.co/HTMN1ySf/bape-reversible-blanca-lado-camo.jpg", color: "#f0f0f0" },
       { nombre: "Verde/Camo", descripcion: "Lado verde / lado camo reversible", imagen: "https://i.ibb.co/gnfbzhk/bape-reversible-verde-lado-camo.jpg",   color: "#2a6a3a" },
       { nombre: "Azul/Camo",  descripcion: "Lado azul / lado camo reversible",  imagen: "https://i.ibb.co/Y48vLBfB/bape-reversible-azul-lado-camo.jpg",   color: "#1a3a6a" }
+    ]
+  },
+
+  // ── Chrome Hearts Horseshoe Logo Panel Track Jacket ────────────
+  {
+    id: "chrome-hearts-panel-track-jacket",
+    nombre: "Horseshoe Logo Panel Track Jacket",
+    marca: "Chrome Hearts",
+    precio: 149999,
+    descripcion: "Chaqueta de panel con logo Horseshoe Chrome Hearts. Construcción premium, detalles en panel. Importada directo.",
+    disponible: true,
+    etiqueta: "New",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Negro", descripcion: "Negro con logo Horseshoe", imagen: "", color: "#111111" }
+    ]
+  },
+
+  // ── Chrome Hearts Black Varsity Jacket ─────────────────────────
+  {
+    id: "chrome-hearts-varsity-jacket",
+    nombre: "Varsity Jacket with Leather Sleeves",
+    marca: "Chrome Hearts",
+    precio: 149999,
+    descripcion: "Chaqueta varsity Chrome Hearts con mangas de cuero y bordado de Cemetery Cross rojo. Construcción premium. Importada directo.",
+    disponible: true,
+    etiqueta: "Premium",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Negro/Rojo", descripcion: "Negro con rojas de Cemetery Cross", imagen: "", color: "#880000" }
+    ]
+  },
+
+  // ── Chrome Hearts Horseshoe Logo Half-Zip Fleece ────────────────
+  {
+    id: "chrome-hearts-half-zip-fleece",
+    nombre: "Horseshoe Logo Half-Zip Fleece Pullover",
+    marca: "Chrome Hearts",
+    precio: 99999,
+    descripcion: "Sweater medio cierre con logo Horseshoe. Felpa suave, construcción premium. Importado directo.",
+    disponible: true,
+    etiqueta: "New",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Gris", descripcion: "Gris con logo Horseshoe", imagen: "", color: "#666666" }
+    ]
+  },
+
+  // ── Chrome Hearts Zip-Up Fleece Hoodie ───────────────────────────
+  {
+    id: "chrome-hearts-zip-fleece-hoodie",
+    nombre: "Zip-Up Fleece Hoodie with Horseshoe Logo",
+    marca: "Chrome Hearts",
+    precio: 99999,
+    descripcion: "Hoodie con cierre de felpa con logo Horseshoe. Interior suave, construcción premium. Importado directo.",
+    disponible: true,
+    etiqueta: "Hot",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Negro", descripcion: "Negro con logo Horseshoe", imagen: "", color: "#111111" }
+    ]
+  },
+
+  // ── Chrome Hearts Zip-Up Hoodie Scroll Logo ─────────────────────
+  {
+    id: "chrome-hearts-zip-hoodie-scroll",
+    nombre: "Zip-Up Hoodie with Scroll Logo",
+    marca: "Chrome Hearts",
+    precio: 99999,
+    descripcion: "Hoodie con cierre y print de Scroll Logo en las mangas. Construcción premium. Importado directo.",
+    disponible: true,
+    etiqueta: "New",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Negro", descripcion: "Negro con Scroll Logo", imagen: "", color: "#111111" }
+    ]
+  },
+
+  // ── Chrome Hearts Leather Belt Silver Star Studs ────────────────
+  {
+    id: "chrome-hearts-belt-star-stud",
+    nombre: "Leather Belt with Silver Star Studs and Star Buckle",
+    marca: "Chrome Hearts",
+    precio: 44999,
+    descripcion: "Cinturón de cuero con tachas de estrella y hebilla estrella. Acabado premium. Importado directo.",
+    disponible: true,
+    etiqueta: "New",
+    talles: ["110cm"],
+    modelos: [
+      { nombre: "Negro", descripcion: "Negro con estrellas plateadas", imagen: "", color: "#111111" }
+    ]
+  },
+
+  // ── Chrome Hearts Mesh Football Jersey ───────────────────────────
+  {
+    id: "chrome-hearts-football-jersey",
+    nombre: "Mesh V-Neck Football Jersey with Script Logo",
+    marca: "Chrome Hearts",
+    precio: 79999,
+    descripcion: "Camiseta de fútbol mesh con logo Script en plata. Malla ventilada, construcción premium. Importada directa.",
+    disponible: true,
+    etiqueta: "New",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Negro", descripcion: "Negro con logo Script plateado", imagen: "", color: "#111111" }
+    ]
+  },
+
+  // ── Chrome Hearts Triple Cemetery Cross T-Shirt ─────────────────
+  {
+    id: "chrome-hearts-tshirt-triple-cross",
+    nombre: "Triple Cemetery Cross T-Shirt",
+    marca: "Chrome Hearts",
+    precio: 54999,
+    descripcion: "Remera con triple parche Cemetery Cross. Algodón premium, corte oversize. Importada directa.",
+    disponible: true,
+    etiqueta: "New",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Negro", descripcion: "Negro con triple cruz", imagen: "", color: "#111111" }
+    ]
+  },
+
+  // ── Chrome Hearts Cross Patch T-Shirt ───────────────────────────
+  {
+    id: "chrome-hearts-tshirt-cross-patch",
+    nombre: "Cross Patch T-Shirt",
+    marca: "Chrome Hearts",
+    precio: 54999,
+    descripcion: "Remera con parche de cruz. Algodón premium, corte oversize. Importada directa.",
+    disponible: true,
+    etiqueta: "New",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Negro", descripcion: "Negro con cruz", imagen: "", color: "#111111" }
+    ]
+  },
+
+  // ── Chrome Hearts Multi-Cross Patch T-Shirt ──────────────────────
+  {
+    id: "chrome-hearts-tshirt-multi-cross",
+    nombre: "Multi-Cross Patch T-Shirt",
+    marca: "Chrome Hearts",
+    precio: 54999,
+    descripcion: "Remera con múltiples cruces. Algodón premium, corte oversize. Importada directa.",
+    disponible: true,
+    etiqueta: "New",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Negro", descripcion: "Negro con múltiples cruces", imagen: "", color: "#111111" }
+    ]
+  },
+
+  // ── Chrome Hearts Scattered Cross Patch T-Shirt ────────────────
+  {
+    id: "chrome-hearts-tshirt-scattered-cross",
+    nombre: "Scattered Cross Patch T-Shirt",
+    marca: "Chrome Hearts",
+    precio: 54999,
+    descripcion: "Remera con cruces dispersas. Algodón premium, corte oversize. Importada directa.",
+    disponible: true,
+    etiqueta: "New",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Negro", descripcion: "Negro con cruces dispersas", imagen: "", color: "#111111" }
+    ]
+  },
+
+  // ── Chrome Hearts Horseshoe and Filigree Cross T-Shirt ──────────
+  {
+    id: "chrome-hearts-tshirt-horseshoe-filigree",
+    nombre: "Horseshoe and Filigree Cross T-Shirt",
+    marca: "Chrome Hearts",
+    precio: 54999,
+    descripcion: "Remera con logo Horseshoe y cruz filigree. Algodón premium, corte oversize. Importada directa.",
+    disponible: true,
+    etiqueta: "New",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Negro", descripcion: "Negro con Horseshoe y filigree", imagen: "", color: "#111111" }
+    ]
+  },
+
+  // ── Chrome Hearts Monogram Print Zip-Up Hoodie ──────────────────
+  {
+    id: "chrome-hearts-zip-hoodie-monogram",
+    nombre: "Monogram Print Zip-Up Hoodie",
+    marca: "Chrome Hearts",
+    precio: 99999,
+    descripcion: "Hoodie con cierre y print monograma. Construcción premium, interior de felpa. Importado directo.",
+    disponible: true,
+    etiqueta: "New",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Negro", descripcion: "Negro con monograma", imagen: "", color: "#111111" }
+    ]
+  },
+
+  // ── Chrome Hearts Crewneck Sweatshirt ────────────────────────────
+  {
+    id: "chrome-hearts-crewneck-horseshoe",
+    nombre: "Crewneck Sweatshirt with Leather Horseshoe Patch",
+    marca: "Chrome Hearts",
+    precio: 89999,
+    descripcion: "Sweater crewneck con parche de cuero Horseshoe. Construcción premium. Importado directo.",
+    disponible: true,
+    etiqueta: "New",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Negro", descripcion: "Negro con parche Horseshoe", imagen: "", color: "#111111" }
+    ]
+  },
+
+  // ── Chrome Hearts CH Patch T-Shirt ────────────────────────────────
+  {
+    id: "chrome-hearts-tshirt-ch-patch",
+    nombre: "CH Patch T-Shirt with Bottom Crosses",
+    marca: "Chrome Hearts",
+    precio: 54999,
+    descripcion: "Remera con parche CH y cruces inferiores. Algodón premium, corte oversize. Importada directa.",
+    disponible: true,
+    etiqueta: "New",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Negro", descripcion: "Negro con CH y cruces", imagen: "", color: "#111111" }
+    ]
+  },
+
+  // ── Chrome Hearts Multi-Logo Pocket T-Shirt ───────────────────────
+  {
+    id: "chrome-hearts-tshirt-multi-logo-pocket",
+    nombre: "Multi-Logo Pocket T-Shirt",
+    marca: "Chrome Hearts",
+    precio: 54999,
+    descripcion: "Remera con bolsillo y múltiples logos. Algodón premium, corte oversize. Importada directa.",
+    disponible: true,
+    etiqueta: "New",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Negro", descripcion: "Negro multi-logo", imagen: "", color: "#111111" }
+    ]
+  },
+
+  // ── Chrome Hearts CDG Homme Paris Cross T-Shirt ──────────────────
+  {
+    id: "chrome-hearts-tshirt-cdg-cross",
+    nombre: "CDG Homme Paris Cross T-Shirt",
+    marca: "Chrome Hearts",
+    precio: 54999,
+    descripcion: "Remera colaborativa CDG Homme Paris con cruz. Algodón premium, corte oversize. Importada directa.",
+    disponible: true,
+    etiqueta: "Collab",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Negro", descripcion: "Negro CDG", imagen: "", color: "#111111" }
+    ]
+  },
+
+  // ── Chrome Hearts CDG Homme Paris Distressed Cross T-Shirt ──────
+  {
+    id: "chrome-hearts-tshirt-cdg-distressed",
+    nombre: "CDG Homme Paris Distressed Cross T-Shirt",
+    marca: "Chrome Hearts",
+    precio: 54999,
+    descripcion: "Remera CDG con cruz distressed. Algodón premium, corte oversize. Importada directa.",
+    disponible: true,
+    etiqueta: "Collab",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Negro", descripcion: "Negro distressed", imagen: "", color: "#111111" }
+    ]
+  },
+
+  // ── Chrome Hearts Multi-Logo Pin/Patch T-Shirt ──────────────────
+  {
+    id: "chrome-hearts-tshirt-multi-pin-patch",
+    nombre: "Multi-Logo Pin/Patch T-Shirt",
+    marca: "Chrome Hearts",
+    precio: 54999,
+    descripcion: "Remera con múltiples pins y parches. Algodón premium, corte oversize. Importada directa.",
+    disponible: true,
+    etiqueta: "New",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Negro", descripcion: "Negro con pins", imagen: "", color: "#111111" }
+    ]
+  },
+
+  // ── Chrome Hearts Multi-Cross Outline T-Shirt ────────────────────
+  {
+    id: "chrome-hearts-tshirt-multi-cross-outline",
+    nombre: "Multi-Cross Outline T-Shirt",
+    marca: "Chrome Hearts",
+    precio: 54999,
+    descripcion: "Remera con contorno de múltiples cruces. Algodón premium, corte oversize. Importada directa.",
+    disponible: true,
+    etiqueta: "New",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Negro", descripcion: "Negro outline", imagen: "", color: "#111111" }
+    ]
+  },
+
+  // ── Chrome Hearts Embroidered Horseshoe Logo T-Shirt ─────────────
+  {
+    id: "chrome-hearts-tshirt-horseshoe-embroidered",
+    nombre: "Embroidered Horseshoe Logo T-Shirt",
+    marca: "Chrome Hearts",
+    precio: 54999,
+    descripcion: "Remera con logo Horseshoe bordado. Algodón premium, corte oversize. Importada directa.",
+    disponible: true,
+    etiqueta: "New",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Negro", descripcion: "Negro bordado", imagen: "", color: "#111111" }
+    ]
+  },
+
+  // ── Chrome Hearts Triple Cross Heart Distressed Long Sleeve ──────
+  {
+    id: "chrome-hearts-long-sleeve-triple-cross",
+    nombre: "Triple Cross Heart Distressed Long Sleeve T-Shirt",
+    marca: "Chrome Hearts",
+    precio: 59999,
+    descripcion: "Remera manga larga con triple cruz y corazón distressado. Algodón premium. Importada directa.",
+    disponible: true,
+    etiqueta: "New",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Negro", descripcion: "Negro distressado", imagen: "", color: "#111111" }
+    ]
+  },
+
+  // ── Chrome Hearts Denim Patch Horseshoe T-Shirt ────────────────
+  {
+    id: "chrome-hearts-tshirt-denim-patch",
+    nombre: "Denim Patch Horseshoe T-Shirt",
+    marca: "Chrome Hearts",
+    precio: 54999,
+    descripcion: "Remera con parche de denim y Horseshoe. Algodón premium, corte oversize. Importada directa.",
+    disponible: true,
+    etiqueta: "New",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Negro", descripcion: "Negro con denim", imagen: "", color: "#111111" }
+    ]
+  },
+
+  // ── Chrome Hearts Multi-Cross Patch Varsity Jacket ──────────────
+  {
+    id: "chrome-hearts-varsity-multi-cross",
+    nombre: "Multi-Cross Patch Varsity Jacket",
+    marca: "Chrome Hearts",
+    precio: 149999,
+    descripcion: "Chaqueta varsity con múltiples parches de cruz. Construcción premium. Importada directa.",
+    disponible: true,
+    etiqueta: "Premium",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Negro", descripcion: "Negro multi-cross", imagen: "", color: "#111111" }
+    ]
+  },
+
+  // ── Chrome Hearts Horseshoe Logo Sherpa Fleece Jacket ───────────
+  {
+    id: "chrome-hearts-sherpa-fleece",
+    nombre: "Horseshoe Logo Sherpa Fleece Jacket",
+    marca: "Chrome Hearts",
+    precio: 149999,
+    descripcion: "Chaqueta de sherpa con logo Horseshoe. Forro suave, construcción premium. Importada directa.",
+    disponible: true,
+    etiqueta: "Premium",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Gris", descripcion: "Gris sherpa", imagen: "", color: "#666666" }
+    ]
+  },
+
+  // ── Chrome Hearts Multi-Logo T-Shirt Embroidered Crosses Stars ─
+  {
+    id: "chrome-hearts-tshirt-multi-logo-embroidered",
+    nombre: "Multi-Logo T-Shirt with Embroidered Crosses and Stars",
+    marca: "Chrome Hearts",
+    precio: 54999,
+    descripcion: "Remera multi-logo con cruces y estrellas bordadas. Algodón premium, corte oversize. Importada directa.",
+    disponible: true,
+    etiqueta: "New",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Negro", descripcion: "Negro bordado", imagen: "", color: "#111111" }
+    ]
+  },
+
+  // ── Chrome Hearts Vertical Cross Patch Turtle Neck ───────────────
+  {
+    id: "chrome-hearts-turtleneck-cross",
+    nombre: "Vertical Cross Patch Turtle Neck Knit Sweater",
+    marca: "Chrome Hearts",
+    precio: 89999,
+    descripcion: "Sweter de cuello alto con parche de cruz vertical. Tejido de punto premium. Importado directo.",
+    disponible: true,
+    etiqueta: "New",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Negro", descripcion: "Negro cuello alto", imagen: "", color: "#111111" }
+    ]
+  },
+
+  // ── Chrome Hearts Matty Boy Chomper Horseshoe T-Shirt ───────────
+  {
+    id: "chrome-hearts-tshirt-matty-boy",
+    nombre: "Matty Boy Chomper Horseshoe T-Shirt",
+    marca: "Chrome Hearts",
+    precio: 54999,
+    descripcion: "Remera Matty Boy Chomper con Horseshoe. Algodón premium, edición especial. Importada directa.",
+    disponible: true,
+    etiqueta: "Limited",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Negro", descripcion: "Negro Matty Boy", imagen: "", color: "#111111" }
+    ]
+  },
+
+  // ── Chrome Hearts Fleur-de-Lis Patch Coaches Jacket ─────────────
+  {
+    id: "chrome-hearts-coaches-jacket",
+    nombre: "Fleur-de-Lis Patch Coaches Jacket",
+    marca: "Chrome Hearts",
+    precio: 109999,
+    descripcion: "Chaqueta coaches con parche Fleur-de-Lis. Construcción premium. Importada directa.",
+    disponible: true,
+    etiqueta: "New",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Negro", descripcion: "Negro Fleur-de-Lis", imagen: "", color: "#111111" }
+    ]
+  },
+
+  // ── Chrome Hearts Multi-Logo T-Shirt Triple Cross Star ─────────
+  {
+    id: "chrome-hearts-tshirt-triple-cross-star",
+    nombre: "Multi-Logo T-Shirt with Embroidered Triple Cross and Star",
+    marca: "Chrome Hearts",
+    precio: 54999,
+    descripcion: "Remera multi-logo con triple cruz y estrella bordadas. Algodón premium, corte oversize. Importada directa.",
+    disponible: true,
+    etiqueta: "New",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Negro", descripcion: "Negro bordado", imagen: "", color: "#111111" }
+    ]
+  },
+
+  // ── Chrome Hearts Monogram Cross Print Pocket T-Shirt ──────────
+  {
+    id: "chrome-hearts-tshirt-monogram-pocket",
+    nombre: "Monogram Cross Print Pocket T-Shirt",
+    marca: "Chrome Hearts",
+    precio: 54999,
+    descripcion: "Remera con bolsillo y print de cruz monograma. Algodón premium, corte oversize. Importada directa.",
+    disponible: true,
+    etiqueta: "New",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Negro", descripcion: "Negro monograma", imagen: "", color: "#111111" }
+    ]
+  },
+
+  // ── Chrome Hearts Camo Cargo Pants ───────────────────────────────
+  {
+    id: "chrome-hearts-camo-cargo-pants",
+    nombre: "Camo Cargo Pants",
+    marca: "Chrome Hearts",
+    precio: 79999,
+    descripcion: "Pantalón cargo camo. Tela premium, múltiples bolsillos. Importado directo.",
+    disponible: true,
+    etiqueta: "New",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Camo", descripcion: "Camo militar", imagen: "", color: "#3a4a2a" }
     ]
   }
 

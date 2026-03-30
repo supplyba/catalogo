@@ -1283,15 +1283,15 @@ let selectedModel   = null;
 function init() {
   const container = document.getElementById('brandSections');
   const BRAND_ORDER = ['BAPE', 'Supreme', 'Chrome Hearts', 'Jordan', 'Maison Margiela', 'Timberland', 'Valley Dreams'];
-  const allBrands = [...new Set(PRODUCTOS.map(p => p.marca))];
+  const allBrands = [...new Set(PRODUCTOS.map(p => p.marca))].filter(b => b !== 'Nike');
   const brands = [
     ...BRAND_ORDER.filter(b => allBrands.includes(b)),
     ...allBrands.filter(b => !BRAND_ORDER.includes(b))
   ];
 
-  // IDs extra que se agregan a una seccion de marca aunque tengan otra marca
   const BRAND_EXTRAS = {
-    'Timberland': ['bape-undefeated-timberland']
+    'Timberland': ['bape-undefeated-timberland'],
+    'Jordan': PRODUCTOS.filter(p => p.marca === 'Nike').map(p => p.id)
   };
 
   brands.forEach(brand => {
