@@ -96,9 +96,9 @@ const PRODUCTOS = [
     etiqueta: "Collab",
     talles: ["S", "M", "L", "XL"],
     modelos: [
-      { nombre: "Black", descripcion: "Negro con calaveras bordadas en capucha", imagen: "https://i.ibb.co/939wggVf/9e2b03b9.jpg", color: "#111111" },
-      { nombre: "Grey", descripcion: "Gris con calaveras bordadas en capucha", imagen: "https://i.ibb.co/RpTk12v2/cf24dd23.jpg", color: "#888888" },
-      { nombre: "White", descripcion: "Blanco con calaveras bordadas en capucha", imagen: "https://i.ibb.co/9m3j0cg7/d8b8830d.jpg", color: "#e8e8e8" }
+      { nombre: "Grey",  descripcion: "Gris con calaveras bordadas en capucha",  imagen: "https://i.ibb.co/939wggVf/9e2b03b9.jpg", color: "#888888" },
+      { nombre: "Black", descripcion: "Negro con calaveras bordadas en capucha", imagen: "https://i.ibb.co/RpTk12v2/cf24dd23.jpg", color: "#111111" },
+      { nombre: "Green", descripcion: "Verde con calaveras bordadas en capucha", imagen: "https://i.ibb.co/9m3j0cg7/d8b8830d.jpg", color: "#2a5a2a" }
     ]
   },
 
@@ -618,21 +618,6 @@ const PRODUCTOS = [
     ]
   },
 
-  // ── Supreme Cross Big Logo ────────────────────────────────────
-  {
-    id: "supreme-cross-big-logo",
-    nombre: "Cross Big Logo Hoodie",
-    marca: "Supreme",
-    precio: 110000,
-    descripcion: "Hoodie Supreme con cross big logo bordado. Construcción premium. Importada directo.",
-    disponible: true,
-    etiqueta: "New",
-    talles: ["S", "M", "L", "XL"],
-    modelos: [
-      { nombre: "Negro", descripcion: "Negro con cross logo", imagen: "https://i.ibb.co/3mCBF095/07.jpg", color: "#111111" },
-      { nombre: "Gris",  descripcion: "Gris con cross logo",  imagen: "https://i.ibb.co/Gmc9dXZ/08.jpg", color: "#888888" }
-    ]
-  },
 
 
 
@@ -648,8 +633,10 @@ const PRODUCTOS = [
     etiqueta: "New",
     talles: ["S", "M", "L", "XL"],
     modelos: [
-      { nombre: "Celeste", descripcion: "Celeste con big logo", imagen: "https://i.ibb.co/Fq6kLFf2/09.jpg", color: "#80b8e0" },
-      { nombre: "Gris",    descripcion: "Gris con big logo",    imagen: "https://i.ibb.co/0RspkSKD/10.jpg", color: "#888888" }
+      { nombre: "Negro Cross",  descripcion: "Cross Big Logo negro",  imagen: "https://i.ibb.co/3mCBF095/07.jpg", color: "#111111" },
+      { nombre: "Gris Cross",   descripcion: "Cross Big Logo gris",   imagen: "https://i.ibb.co/Gmc9dXZ/08.jpg",  color: "#888888" },
+      { nombre: "Celeste",      descripcion: "Big Logo celeste",       imagen: "https://i.ibb.co/Fq6kLFf2/09.jpg", color: "#80b8e0" },
+      { nombre: "Gris",         descripcion: "Big Logo gris",          imagen: "https://i.ibb.co/0RspkSKD/10.jpg", color: "#888888" }
     ]
   },
   // ── Supreme Zip Up Script Logo ────────────────────────────────
@@ -663,13 +650,12 @@ const PRODUCTOS = [
     etiqueta: "New",
     talles: ["S", "M", "L", "XL"],
     modelos: [
-      { nombre: "Azul/Amarillo",  descripcion: "Azul con Supreme amarillo",  imagen: "https://i.ibb.co/DHy0kqC2/11.jpg", color: "#1a3a6a" },
-      { nombre: "Gris/Azul",      descripcion: "Gris con Supreme azul",      imagen: "https://i.ibb.co/MDGh1ZTH/13.jpg", color: "#888888" },
-      { nombre: "Roja/Blanca",    descripcion: "Roja con Supreme blanco",    imagen: "https://i.ibb.co/1YT050M0/14.jpg", color: "#aa1a1a" },
-      { nombre: "Negra/Blanca",   descripcion: "Negra con Supreme blanco",   imagen: "https://i.ibb.co/m5nPyKfY/15.jpg", color: "#111111" },
-      { nombre: "Celeste/Azul",   descripcion: "Celeste con letras azules",  imagen: "https://i.ibb.co/kgf0f76w/16.jpg", color: "#80b8e0" },
-      { nombre: "Negro/Rojo",     descripcion: "Negro con letras rojas",     imagen: "https://i.ibb.co/27KjwFwy/18.jpg", color: "#111111" },
-      { nombre: "Gris/Blanca",    descripcion: "Gris con letras blancas",    imagen: "https://i.ibb.co/d4ZmTHDW/22.jpg", color: "#888888" }
+      { nombre: "Azul/Amarillo", descripcion: "Azul con Supreme amarillo", imagen: "https://i.ibb.co/DHy0kqC2/11.jpg",  color: "#1a3a6a" },
+      { nombre: "Gris",          descripcion: "Gris con Supreme",          imagen: "https://i.ibb.co/0yGfW4tx/12.jpg",  color: "#888888" },
+      { nombre: "Gris/Azul",     descripcion: "Gris con Supreme azul",     imagen: "https://i.ibb.co/MDGh1ZTH/13.jpg",  color: "#6a8ecc" },
+      { nombre: "Roja/Blanca",   descripcion: "Roja con Supreme blanco",   imagen: "https://i.ibb.co/1YT050M0/14.jpg",  color: "#aa1a1a" },
+      { nombre: "Rojo/Negro",    descripcion: "Rojo con Supreme negro",     imagen: "https://i.ibb.co/SDg8GzC6/20.jpg",  color: "#aa1a1a" },
+      { nombre: "Gris 2",        descripcion: "Gris segunda versión",       imagen: "https://i.ibb.co/VctQwTWZ/21.jpg",  color: "#888888" }
     ]
   },
 
@@ -684,7 +670,8 @@ const PRODUCTOS = [
     etiqueta: "New",
     talles: ["S", "M", "L", "XL"],
     modelos: [
-      { nombre: "Azul", descripcion: "Denim jacket azul Supreme", imagen: "https://i.ibb.co/0yGfW4tx/12.jpg", color: "#1a3a6a" }
+      { nombre: "Blue Denim", descripcion: "Blue Denim jacket", imagen: "https://i.ibb.co/m5nPyKfY/15.jpg", color: "#1a3a6a" },
+      { nombre: "Black Denim",descripcion: "Black Denim jacket",imagen: "https://i.ibb.co/kgf0f76w/16.jpg", color: "#111111" }
     ]
   },
 
@@ -699,9 +686,9 @@ const PRODUCTOS = [
     etiqueta: "New",
     talles: ["S", "M", "L", "XL"],
     modelos: [
-      { nombre: "Negro",             descripcion: "Negro con letras blancas",       imagen: "https://i.ibb.co/pBhkd5p8/17.jpg", color: "#111111" },
-      { nombre: "Rosa/Blanco",       descripcion: "Rosa con letras blancas",        imagen: "https://i.ibb.co/xRK3S0w/19.jpg", color: "#e890b8" },
-      { nombre: "Azul Marino/Blanco",descripcion: "Azul marino con letras blancas", imagen: "https://i.ibb.co/SDg8GzC6/20.jpg", color: "#0a1a3a" }
+      { nombre: "Negro",          descripcion: "Negro",           imagen: "https://i.ibb.co/pBhkd5p8/17.jpg", color: "#111111" },
+      { nombre: "Rosa/Blanco",    descripcion: "Rosa con blanco", imagen: "https://i.ibb.co/27KjwFwy/18.jpg", color: "#e890b8" },
+      { nombre: "Rosa/Blanco 2",  descripcion: "Rosa con blanco segunda versión", imagen: "https://i.ibb.co/xRK3S0w/19.jpg", color: "#e890b8" }
     ]
   },
 
@@ -717,8 +704,8 @@ const PRODUCTOS = [
     etiqueta: "Collab",
     talles: ["S", "M", "L", "XL"],
     modelos: [
-      { nombre: "Negro/Gris Metalizado", descripcion: "Negro con gris metalizado", imagen: "https://i.ibb.co/r2zxnTtx/23.jpg", color: "#1a1a1a" },
-      { nombre: "Blanco Metalizado",     descripcion: "Blanco metalizado",         imagen: "https://i.ibb.co/JwXj40TG/24.jpg", color: "#e8e8e8" }
+      { nombre: "Negro/Gris Metalizado",   descripcion: "Negro con gris metalizado",   imagen: "https://i.ibb.co/r2zxnTtx/23.jpg", color: "#1a1a1a" },
+      { nombre: "Negro/Gris Metalizado 2", descripcion: "Negro con gris metalizado v2", imagen: "https://i.ibb.co/d4ZmTHDW/22.jpg", color: "#1a1a1a" }
     ]
   },
 
@@ -733,9 +720,10 @@ const PRODUCTOS = [
     etiqueta: "New",
     talles: ["S", "M", "L", "XL"],
     modelos: [
-      { nombre: "Negro",     descripcion: "Negro IDGAF",     imagen: "https://i.ibb.co/Hpk2RmWD/25.jpg", color: "#111111" },
-      { nombre: "Gris",      descripcion: "Gris IDGAF",      imagen: "https://i.ibb.co/VctQwTWZ/21.jpg", color: "#888888" },
-      { nombre: "Navy Blue", descripcion: "Navy Blue IDGAF", imagen: "https://i.ibb.co/CKDzfw1y/26.jpg", color: "#0a1a3a" }
+      { nombre: "Negro",       descripcion: "Negro IDGAF",          imagen: "https://i.ibb.co/Hpk2RmWD/25.jpg", color: "#111111" },
+      { nombre: "Negro 2",     descripcion: "Negro IDGAF versión 2", imagen: "https://i.ibb.co/JwXj40TG/24.jpg", color: "#111111" },
+      { nombre: "Navy Blue",   descripcion: "Navy Blue IDGAF",      imagen: "https://i.ibb.co/CKDzfw1y/26.jpg", color: "#0a1a3a" },
+      { nombre: "Azul Oscuro", descripcion: "Azul Oscuro IDGAF",    imagen: "https://i.ibb.co/xKntW1TG/32.jpg", color: "#0a0a2a" }
     ]
   },
 
@@ -750,7 +738,8 @@ const PRODUCTOS = [
     etiqueta: "New",
     talles: ["S", "M", "L", "XL"],
     modelos: [
-      { nombre: "Navy Blue", descripcion: "Navy Blue washed", imagen: "https://i.ibb.co/twMR6Vjt/27.jpg", color: "#0a1a3a" }
+      { nombre: "Navy Blue", descripcion: "Navy Blue washed",  imagen: "https://i.ibb.co/twMR6Vjt/27.jpg", color: "#0a1a3a" },
+      { nombre: "Black",     descripcion: "Black",             imagen: "https://i.ibb.co/ks0CvP2P/28.jpg", color: "#111111" }
     ]
   },
 
@@ -767,8 +756,7 @@ const PRODUCTOS = [
     modelos: [
       { nombre: "Camo",   descripcion: "Rhinestone Camo",   imagen: "https://i.ibb.co/wrzpY88P/30.jpg", color: "#6a7a3a" },
       { nombre: "Camo 2", descripcion: "Rhinestone Camo 2", imagen: "https://i.ibb.co/bjhGS4q3/29.jpg", color: "#4a6a3a" },
-      { nombre: "Negro",  descripcion: "Rhinestone Negro",  imagen: "https://i.ibb.co/q4J7dfS/31.jpg",  color: "#111111" },
-      { nombre: "Rojo", descripcion: "Rhinestone Rojo", imagen: "https://i.ibb.co/xKntW1TG/32.jpg", color: "#aa1a1a" }
+      { nombre: "Negro",  descripcion: "Rhinestone Negro",  imagen: "https://i.ibb.co/q4J7dfS/31.jpg",  color: "#111111" }
     ]
   },
 
@@ -841,6 +829,24 @@ const PRODUCTOS = [
       { nombre: "Blanca 11", descripcion: "Blanca", imagen: "https://i.ibb.co/DcPkKjJ/open1867150125-1234478995-276200000196693b8d1a0a8115c2-800-800-jpg.jpg", color: "#f0f0f0" },
       { nombre: "Negra 13", descripcion: "Negra", imagen: "https://i.ibb.co/rGXJBXQG/open1867150125-1234478995-328200000196693b86f40a23b4de-800-800-jpg.jpg", color: "#111111" },
       { nombre: "Negra 14", descripcion: "Negra", imagen: "https://i.ibb.co/0jq1WF1H/pcitem1934672132-7b7e00000198c3f93b950a20e7c7-800-800-jpg.jpg", color: "#111111" }
+    ]
+  },
+
+  // ── BAPE Reversible Jacket ────────────────────────────────────
+  {
+    id: "bape-reversible-jacket",
+    nombre: "Reversible Jacket",
+    marca: "BAPE",
+    precio: 150000,
+    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    disponible: true,
+    etiqueta: "Premium",
+    talles: ["S", "M", "L", "XL"],
+    modelos: [
+      { nombre: "Colección",  descripcion: "Vista de los 3 colorways",         imagen: "https://i.ibb.co/wZD4LHFT/bape-reversible-las-3-lado-lado.jpg",  color: "#888888" },
+      { nombre: "Blanca/Camo",descripcion: "Lado blanco / lado camo reversible",imagen: "https://i.ibb.co/HTMN1ySf/bape-reversible-blanca-lado-camo.jpg", color: "#f0f0f0" },
+      { nombre: "Verde/Camo", descripcion: "Lado verde / lado camo reversible", imagen: "https://i.ibb.co/gnfbzhk/bape-reversible-verde-lado-camo.jpg",   color: "#2a6a3a" },
+      { nombre: "Azul/Camo",  descripcion: "Lado azul / lado camo reversible",  imagen: "https://i.ibb.co/Y48vLBfB/bape-reversible-azul-lado-camo.jpg",   color: "#1a3a6a" }
     ]
   }
 
