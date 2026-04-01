@@ -11,12 +11,12 @@ const PRODUCTOS = [
     nombre: "Shark Full Zip Hoodie - Pink Camo",
     marca: "BAPE",
     precio: 79999,
-    descripcion: "Icónica hoodie con full zip y capucha shark. Construcción premium, interior de felpa suave. Importada directo.",
+    descripcion: "Camuflado rosa clásico",
     disponible: true,
     etiqueta: "Hot",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/qY4G2PQV/Bape-Full-Zip-Pink-Camo.jpg",
+    color: "#e8a0b4"
   },
 
   // ── PRODUCTO 2: Shark Full Zip Hoodie - 1st Camo Shark Black Green ────────────────────
@@ -25,12 +25,12 @@ const PRODUCTOS = [
     nombre: "Shark Full Zip Hoodie - 1st Camo Shark Black Green",
     marca: "BAPE",
     precio: 79999,
-    descripcion: "Icónica hoodie con full zip y capucha shark. Construcción premium, interior de felpa suave. Importada directo.",
+    descripcion: "Camuflado verde militar con shark negro",
     disponible: true,
     etiqueta: "Hot",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/7NYLsNHH/Bape-Full-Zip-1st-Camo-Shark-Black-Green.jpg",
+    color: "#3a5a2a"
   },
 
   // ── PRODUCTO 3: Shark Full Zip Hoodie - Blue Pink Camo ────────────────────
@@ -39,12 +39,12 @@ const PRODUCTOS = [
     nombre: "Shark Full Zip Hoodie - Blue Pink Camo",
     marca: "BAPE",
     precio: 79999,
-    descripcion: "Icónica hoodie con full zip y capucha shark. Construcción premium, interior de felpa suave. Importada directo.",
+    descripcion: "Camuflado azul con detalles rosa",
     disponible: true,
     etiqueta: "Hot",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/4g9JVnWw/Bape-Full-Zip-Blue-Pink-Camo.jpg",
+    color: "#6a8ecc"
   },
 
   // ── PRODUCTO 4: Shark Full Zip Hoodie - White Camo ────────────────────
@@ -53,12 +53,12 @@ const PRODUCTOS = [
     nombre: "Shark Full Zip Hoodie - White Camo",
     marca: "BAPE",
     precio: 79999,
-    descripcion: "Icónica hoodie con full zip y capucha shark. Construcción premium, interior de felpa suave. Importada directo.",
+    descripcion: "Camuflado blanco clásico",
     disponible: true,
     etiqueta: "Hot",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/Mb8T5mp/Bape-Full-Zip-White-Camo.jpg",
+    color: "#e8e8e8"
   },
 
   // ── PRODUCTO 5: Shark Full Zip Hoodie - Dream Camo ────────────────────
@@ -67,12 +67,12 @@ const PRODUCTOS = [
     nombre: "Shark Full Zip Hoodie - Dream Camo",
     marca: "BAPE",
     precio: 79999,
-    descripcion: "Icónica hoodie con full zip y capucha shark. Construcción premium, interior de felpa suave. Importada directo.",
+    descripcion: "Camo multicolor dream edition",
     disponible: true,
     etiqueta: "Hot",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/1Gqyb8wT/Bape-Full-Zip-Dream-Camo.jpg",
+    color: "#b08ec0"
   },
 
   // ── PRODUCTO 6: Shark Full Zip Hoodie - Nigo's Camo ────────────────────
@@ -81,12 +81,12 @@ const PRODUCTOS = [
     nombre: "Shark Full Zip Hoodie - Nigo's Camo",
     marca: "BAPE",
     precio: 79999,
-    descripcion: "Icónica hoodie con full zip y capucha shark. Construcción premium, interior de felpa suave. Importada directo.",
+    descripcion: "Edición especial Nigo",
     disponible: true,
     etiqueta: "Hot",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/nqQC7Ly2/Bape-Full-Zip-Nigo-s-Camo.jpg",
+    color: "#8a6a4a"
   },
 
   // ── PRODUCTO 7: Shark Full Zip Hoodie - Black White Camo ────────────────────
@@ -95,12 +95,12 @@ const PRODUCTOS = [
     nombre: "Shark Full Zip Hoodie - Black White Camo",
     marca: "BAPE",
     precio: 79999,
-    descripcion: "Icónica hoodie con full zip y capucha shark. Construcción premium, interior de felpa suave. Importada directo.",
+    descripcion: "Camuflado negro y blanco",
     disponible: true,
     etiqueta: "Hot",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/7Jqth0P2/Bape-Full-Zip-Up-Black-White-Camo.jpg",
+    color: "#444444"
   },
 
   // ── PRODUCTO 8: Shark Full Zip Hoodie - Black Grey Camo ────────────────────
@@ -109,12 +109,12 @@ const PRODUCTOS = [
     nombre: "Shark Full Zip Hoodie - Black Grey Camo",
     marca: "BAPE",
     precio: 79999,
-    descripcion: "Icónica hoodie con full zip y capucha shark. Construcción premium, interior de felpa suave. Importada directo.",
+    descripcion: "Camuflado negro y gris",
     disponible: true,
     etiqueta: "Hot",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/JRdhqMnx/Bape-Full-Zip-Black-Grey-Camo.jpg",
+    color: "#2a2a2a"
   },
 
   // ── PRODUCTO 9: Shark Full Zip Hoodie - Strass Black Camo ────────────────────
@@ -123,12 +123,12 @@ const PRODUCTOS = [
     nombre: "Shark Full Zip Hoodie - Strass Black Camo",
     marca: "BAPE",
     precio: 79999,
-    descripcion: "Icónica hoodie con full zip y capucha shark. Construcción premium, interior de felpa suave. Importada directo.",
+    descripcion: "Camo negro con strass brillante",
     disponible: true,
     etiqueta: "Hot",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/0yjSHMRh/Bape-Full-Zip-Strass-Black-Camo.jpg",
+    color: "#1a1a1a"
   },
 
   // ── PRODUCTO 10: Shark Full Zip Hoodie - White Coloured Camo ────────────────────
@@ -137,12 +137,12 @@ const PRODUCTOS = [
     nombre: "Shark Full Zip Hoodie - White Coloured Camo",
     marca: "BAPE",
     precio: 79999,
-    descripcion: "Icónica hoodie con full zip y capucha shark. Construcción premium, interior de felpa suave. Importada directo.",
+    descripcion: "Camo blanco con detalles de colores",
     disponible: true,
     etiqueta: "Hot",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/nNhhNxNF/Bape-Full-Zip-White-Coloured-Camo.jpg",
+    color: "#f0ece0"
   },
 
   // ── PRODUCTO 11: Shark Full Zip Hoodie - Orange Black Camo ────────────────────
@@ -151,12 +151,12 @@ const PRODUCTOS = [
     nombre: "Shark Full Zip Hoodie - Orange Black Camo",
     marca: "BAPE",
     precio: 79999,
-    descripcion: "Icónica hoodie con full zip y capucha shark. Construcción premium, interior de felpa suave. Importada directo.",
+    descripcion: "Camuflado naranja y negro",
     disponible: true,
     etiqueta: "Hot",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/MDZgGZqc/Bape-Full-Zip-Orange-Black-Camo.jpg",
+    color: "#d4601a"
   },
 
   // ── PRODUCTO 12: Shark Full Zip Hoodie - Black Half Camo ────────────────────
@@ -165,12 +165,12 @@ const PRODUCTOS = [
     nombre: "Shark Full Zip Hoodie - Black Half Camo",
     marca: "BAPE",
     precio: 79999,
-    descripcion: "Icónica hoodie con full zip y capucha shark. Construcción premium, interior de felpa suave. Importada directo.",
+    descripcion: "Mitad negro liso, mitad camo",
     disponible: true,
     etiqueta: "Hot",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/q3wp0jwT/Bape-Full-Zip-Black-Half-Camo.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 13: Shark Full Zip Hoodie - Green Camo ────────────────────
@@ -179,12 +179,12 @@ const PRODUCTOS = [
     nombre: "Shark Full Zip Hoodie - Green Camo",
     marca: "BAPE",
     precio: 79999,
-    descripcion: "Icónica hoodie con full zip y capucha shark. Construcción premium, interior de felpa suave. Importada directo.",
+    descripcion: "Camuflado verde militar",
     disponible: true,
     etiqueta: "Hot",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/67QMBjdZ/Bape-Full-Zip-Green-Camo.jpg",
+    color: "#4a7a3a"
   },
 
   // ── PRODUCTO 14: Shark Full Zip Hoodie - White Half Grey Camo ────────────────────
@@ -193,12 +193,12 @@ const PRODUCTOS = [
     nombre: "Shark Full Zip Hoodie - White Half Grey Camo",
     marca: "BAPE",
     precio: 79999,
-    descripcion: "Icónica hoodie con full zip y capucha shark. Construcción premium, interior de felpa suave. Importada directo.",
+    descripcion: "Mitad blanca, mitad camo gris",
     disponible: true,
     etiqueta: "Hot",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/9Hyj3G3F/Bape-Full-Zip-White-Half-Grey-Camo.jpg",
+    color: "#c8c8c8"
   },
 
   // ── PRODUCTO 15: Shark Full Zip Hoodie - Green Light Blue Camo ────────────────────
@@ -207,12 +207,12 @@ const PRODUCTOS = [
     nombre: "Shark Full Zip Hoodie - Green Light Blue Camo",
     marca: "BAPE",
     precio: 79999,
-    descripcion: "Icónica hoodie con full zip y capucha shark. Construcción premium, interior de felpa suave. Importada directo.",
+    descripcion: "Camuflado verde y celeste",
     disponible: true,
     etiqueta: "Hot",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/KcBrDvFx/Bape-Full-Zip-Up-Green-Light-Blue-Camo.jpg",
+    color: "#5aaa8a"
   },
 
   // ── PRODUCTO 16: Shark Full Zip Hoodie - Patchwork Camo v1 ────────────────────
@@ -221,12 +221,12 @@ const PRODUCTOS = [
     nombre: "Shark Full Zip Hoodie - Patchwork Camo v1",
     marca: "BAPE",
     precio: 79999,
-    descripcion: "Icónica hoodie con full zip y capucha shark. Construcción premium, interior de felpa suave. Importada directo.",
+    descripcion: "Patchwork de camuflados combinados",
     disponible: true,
     etiqueta: "Hot",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/MyqgsPGX/Bape-Full-Zip-Patchwork-Camo-1.jpg",
+    color: "#7a6a5a"
   },
 
   // ── PRODUCTO 17: Shark Full Zip Hoodie - Light Blue Camo ────────────────────
@@ -235,12 +235,12 @@ const PRODUCTOS = [
     nombre: "Shark Full Zip Hoodie - Light Blue Camo",
     marca: "BAPE",
     precio: 79999,
-    descripcion: "Icónica hoodie con full zip y capucha shark. Construcción premium, interior de felpa suave. Importada directo.",
+    descripcion: "Camuflado azul cielo",
     disponible: true,
     etiqueta: "Hot",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/jStgjt2/Bape-Full-Zip-Light-Blue-Camo.jpg",
+    color: "#80b8e0"
   },
 
   // ── PRODUCTO 18: Shark Full Zip Hoodie - Purple Camo ────────────────────
@@ -249,12 +249,12 @@ const PRODUCTOS = [
     nombre: "Shark Full Zip Hoodie - Purple Camo",
     marca: "BAPE",
     precio: 79999,
-    descripcion: "Icónica hoodie con full zip y capucha shark. Construcción premium, interior de felpa suave. Importada directo.",
+    descripcion: "Camuflado lila violeta",
     disponible: true,
     etiqueta: "Hot",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/vxgDyYdC/Bape-Full-Zip-Purple-Camo.jpg",
+    color: "#8a50c0"
   },
 
   // ── PRODUCTO 19: Shark Full Zip Hoodie - Pink Camo v2 ────────────────────
@@ -263,12 +263,12 @@ const PRODUCTOS = [
     nombre: "Shark Full Zip Hoodie - Pink Camo v2",
     marca: "BAPE",
     precio: 79999,
-    descripcion: "Icónica hoodie con full zip y capucha shark. Construcción premium, interior de felpa suave. Importada directo.",
+    descripcion: "Rosa alternativo — segunda versión",
     disponible: true,
     etiqueta: "Hot",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/8nMYjGbT/Bape-Full-Zip-Pink-Camo-1.jpg",
+    color: "#f0a0c0"
   },
 
   // ── PRODUCTO 20: Shark Full Zip Hoodie - Dark Purple Camo ────────────────────
@@ -277,12 +277,12 @@ const PRODUCTOS = [
     nombre: "Shark Full Zip Hoodie - Dark Purple Camo",
     marca: "BAPE",
     precio: 79999,
-    descripcion: "Icónica hoodie con full zip y capucha shark. Construcción premium, interior de felpa suave. Importada directo.",
+    descripcion: "Camuflado violeta oscuro",
     disponible: true,
     etiqueta: "Hot",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/gnk3SSn/Bape-Full-Zip-Dark-Purple-Camo.jpg",
+    color: "#4a1a6a"
   },
 
   // ── PRODUCTO 21: Shark Full Zip Hoodie - Patchwork Camo v2 ────────────────────
@@ -291,12 +291,12 @@ const PRODUCTOS = [
     nombre: "Shark Full Zip Hoodie - Patchwork Camo v2",
     marca: "BAPE",
     precio: 79999,
-    descripcion: "Icónica hoodie con full zip y capucha shark. Construcción premium, interior de felpa suave. Importada directo.",
+    descripcion: "Patchwork edición alternativa",
     disponible: true,
     etiqueta: "Hot",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/ccTWp54F/Bape-Full-Zip-Patchwork-Camo.jpg",
+    color: "#9a8a6a"
   },
 
   // ── PRODUCTO 22: Shark Full Zip Hoodie - Dark Green Camo ────────────────────
@@ -305,12 +305,12 @@ const PRODUCTOS = [
     nombre: "Shark Full Zip Hoodie - Dark Green Camo",
     marca: "BAPE",
     precio: 79999,
-    descripcion: "Icónica hoodie con full zip y capucha shark. Construcción premium, interior de felpa suave. Importada directo.",
+    descripcion: "Verde profundo oscuro",
     disponible: true,
     etiqueta: "Hot",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/r20x5DyC/Bape-Full-Zip-Dark-Green-Camo.jpg",
+    color: "#1e3a1e"
   },
 
   // ── PRODUCTO 23: Shark Full Zip Hoodie - Black White Camo v2 ────────────────────
@@ -319,12 +319,12 @@ const PRODUCTOS = [
     nombre: "Shark Full Zip Hoodie - Black White Camo v2",
     marca: "BAPE",
     precio: 79999,
-    descripcion: "Icónica hoodie con full zip y capucha shark. Construcción premium, interior de felpa suave. Importada directo.",
+    descripcion: "Negro y blanco versión alternativa",
     disponible: true,
     etiqueta: "Hot",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/LzDvzsK9/Bape-Full-Zip-Black-White-Camo.jpg",
+    color: "#333333"
   },
 
   // ── PRODUCTO 24: Shark Full Zip Hoodie - Dark Blue Camo ────────────────────
@@ -333,12 +333,12 @@ const PRODUCTOS = [
     nombre: "Shark Full Zip Hoodie - Dark Blue Camo",
     marca: "BAPE",
     precio: 79999,
-    descripcion: "Icónica hoodie con full zip y capucha shark. Construcción premium, interior de felpa suave. Importada directo.",
+    descripcion: "Azul marino oscuro",
     disponible: true,
     etiqueta: "Hot",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/0jsP2Xcb/Bape-Full-Zip-Dark-Blue-Camo.jpg",
+    color: "#0a1a3a"
   },
 
   // ── PRODUCTO 25: Shark Full Zip Hoodie - Yellow Camo ────────────────────
@@ -347,12 +347,12 @@ const PRODUCTOS = [
     nombre: "Shark Full Zip Hoodie - Yellow Camo",
     marca: "BAPE",
     precio: 79999,
-    descripcion: "Icónica hoodie con full zip y capucha shark. Construcción premium, interior de felpa suave. Importada directo.",
+    descripcion: "Camuflado amarillo vibrante",
     disponible: true,
     etiqueta: "Hot",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/SXFhVpRn/Bape-Full-Zip-Yellow-Camo.jpg",
+    color: "#d4c01a"
   },
 
   // ── PRODUCTO 26: Shark Full Zip Hoodie - Black White Stars ────────────────────
@@ -361,12 +361,12 @@ const PRODUCTOS = [
     nombre: "Shark Full Zip Hoodie - Black White Stars",
     marca: "BAPE",
     precio: 79999,
-    descripcion: "Icónica hoodie con full zip y capucha shark. Construcción premium, interior de felpa suave. Importada directo.",
+    descripcion: "Estampado de estrellas negro y blanco",
     disponible: true,
     etiqueta: "Hot",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/gbWQMwhz/Bape-Full-Zip-Black-White-Stars.jpg",
+    color: "#222222"
   },
 
   // ── PRODUCTO 27: Shark Full Zip Hoodie - Pastel Camo ────────────────────
@@ -375,12 +375,12 @@ const PRODUCTOS = [
     nombre: "Shark Full Zip Hoodie - Pastel Camo",
     marca: "BAPE",
     precio: 79999,
-    descripcion: "Icónica hoodie con full zip y capucha shark. Construcción premium, interior de felpa suave. Importada directo.",
+    descripcion: "Camo en tonos pastel suaves",
     disponible: true,
     etiqueta: "Hot",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/SwYPP5G2/Bape-Full-Zip-Pastel-Camo.jpg",
+    color: "#d0c0e8"
   },
 
   // ── PRODUCTO 28: Shark Full Zip Hoodie - Red Camo ────────────────────
@@ -389,12 +389,12 @@ const PRODUCTOS = [
     nombre: "Shark Full Zip Hoodie - Red Camo",
     marca: "BAPE",
     precio: 79999,
-    descripcion: "Icónica hoodie con full zip y capucha shark. Construcción premium, interior de felpa suave. Importada directo.",
+    descripcion: "Camuflado rojo intenso",
     disponible: true,
     etiqueta: "Hot",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/F4Nsx0CX/Bape-Full-Zip-Red-Camo.jpg",
+    color: "#aa1a1a"
   },
 
   // ── PRODUCTO 29: Shark Full Zip Hoodie - Classic Olive Camo ────────────────────
@@ -403,12 +403,12 @@ const PRODUCTOS = [
     nombre: "Shark Full Zip Hoodie - Classic Olive Camo",
     marca: "BAPE",
     precio: 79999,
-    descripcion: "Icónica hoodie con full zip y capucha shark. Construcción premium, interior de felpa suave. Importada directo.",
+    descripcion: "Oliva clásico — el original",
     disponible: true,
     etiqueta: "Hot",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/zWjypNtS/Bape-Full-Zip-Classic-Olive-Camo.jpg",
+    color: "#6a7a3a"
   },
 
   // ── PRODUCTO 30: Shark Full Zip Hoodie - Pink Light Blue Camo ────────────────────
@@ -417,12 +417,12 @@ const PRODUCTOS = [
     nombre: "Shark Full Zip Hoodie - Pink Light Blue Camo",
     marca: "BAPE",
     precio: 79999,
-    descripcion: "Icónica hoodie con full zip y capucha shark. Construcción premium, interior de felpa suave. Importada directo.",
+    descripcion: "Rosa y celeste combinados",
     disponible: true,
     etiqueta: "Hot",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/Nns0VRJG/Bape-Full-Zip-Pink-Light-Blue-Camo.jpg",
+    color: "#d4a0d0"
   },
 
   // ── PRODUCTO 31: Shark Full Zip Hoodie - Acqua Blue Camo ────────────────────
@@ -431,12 +431,12 @@ const PRODUCTOS = [
     nombre: "Shark Full Zip Hoodie - Acqua Blue Camo",
     marca: "BAPE",
     precio: 79999,
-    descripcion: "Icónica hoodie con full zip y capucha shark. Construcción premium, interior de felpa suave. Importada directo.",
+    descripcion: "Camuflado aqua turquesa",
     disponible: true,
     etiqueta: "Hot",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/JWsYX9f6/Bape-Full-Zip-Acqua-Blue-Camo.jpg",
+    color: "#1ac0c0"
   },
 
   // ── PRODUCTO 32: Shark Full Zip Hoodie - White Camo v2 ────────────────────
@@ -445,12 +445,12 @@ const PRODUCTOS = [
     nombre: "Shark Full Zip Hoodie - White Camo v2",
     marca: "BAPE",
     precio: 79999,
-    descripcion: "Icónica hoodie con full zip y capucha shark. Construcción premium, interior de felpa suave. Importada directo.",
+    descripcion: "Blanco alternativo segunda versión",
     disponible: true,
     etiqueta: "Hot",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/rRYpqFnm/Bape-Full-Zip-White-Camo-1.jpg",
+    color: "#f5f5f0"
   },
 
   // ── PRODUCTO 33: Shark Full Zip Hoodie - Black Pastel Camo ────────────────────
@@ -459,12 +459,12 @@ const PRODUCTOS = [
     nombre: "Shark Full Zip Hoodie - Black Pastel Camo",
     marca: "BAPE",
     precio: 79999,
-    descripcion: "Icónica hoodie con full zip y capucha shark. Construcción premium, interior de felpa suave. Importada directo.",
+    descripcion: "Negro con detalles pastel",
     disponible: true,
     etiqueta: "Hot",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/XqBGrNW/Bape-Full-Zip-Black-Pastel-Camo.jpg",
+    color: "#1e1e2e"
   },
 
   // ── PRODUCTO 34: Shark Full Zip Hoodie - Black Grey White Camo ────────────────────
@@ -473,12 +473,12 @@ const PRODUCTOS = [
     nombre: "Shark Full Zip Hoodie - Black Grey White Camo",
     marca: "BAPE",
     precio: 79999,
-    descripcion: "Icónica hoodie con full zip y capucha shark. Construcción premium, interior de felpa suave. Importada directo.",
+    descripcion: "Triple tono: negro, gris y blanco",
     disponible: true,
     etiqueta: "Hot",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/RGxHcfp8/Bape-Full-Zip-Black-Grey-White-Camo.jpg",
+    color: "#555555"
   },
 
   // ── PRODUCTO 35: Shark Full Zip Hoodie - Black Camo ────────────────────
@@ -487,12 +487,12 @@ const PRODUCTOS = [
     nombre: "Shark Full Zip Hoodie - Black Camo",
     marca: "BAPE",
     precio: 79999,
-    descripcion: "Icónica hoodie con full zip y capucha shark. Construcción premium, interior de felpa suave. Importada directo.",
+    descripcion: "Camuflado negro total",
     disponible: true,
     etiqueta: "Hot",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/DHY7JWth/Bape-Full-Zip-Black-Camo.jpg",
+    color: "#0a0a0a"
   },
 
   // ── PRODUCTO 36: Shark Full Zip Hoodie - x PSG Blue ────────────────────
@@ -501,12 +501,12 @@ const PRODUCTOS = [
     nombre: "Shark Full Zip Hoodie - x PSG Blue",
     marca: "BAPE",
     precio: 79999,
-    descripcion: "Icónica hoodie con full zip y capucha shark. Construcción premium, interior de felpa suave. Importada directo.",
+    descripcion: "Collab BAPE x Paris Saint-Germain — edición limitada",
     disponible: true,
     etiqueta: "Hot",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/vvxkcCQD/Bape-x-PSG-Full-Zip.jpg",
+    color: "#00408a"
   },
 
   // ── PRODUCTO 37: Double Hood Full Zip - Purple ────────────────────
@@ -515,12 +515,12 @@ const PRODUCTOS = [
     nombre: "Double Hood Full Zip - Purple",
     marca: "BAPE",
     precio: 89999,
-    descripcion: "Hoodie con doble cierre full zip. Dos cremalleras YKK, construcción más elaborada. Edición premium del clásico shark.",
+    descripcion: "Lila sólido con logo bordado",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/7NRLxPJX/Bape-Double-Full-Zip-Purple.jpg",
+    color: "#7a3aaa"
   },
 
   // ── PRODUCTO 38: Double Hood Full Zip - Blue Camo Double ────────────────────
@@ -529,12 +529,12 @@ const PRODUCTOS = [
     nombre: "Double Hood Full Zip - Blue Camo Double",
     marca: "BAPE",
     precio: 89999,
-    descripcion: "Hoodie con doble cierre full zip. Dos cremalleras YKK, construcción más elaborada. Edición premium del clásico shark.",
+    descripcion: "Camo azul en corte doble zip",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/9HW7WSHZ/Bape-Full-Zip-Blue-Camo-Double.jpg",
+    color: "#2a5a9a"
   },
 
   // ── PRODUCTO 39: Double Hood Full Zip - Pink Light Blue Camo ────────────────────
@@ -543,12 +543,12 @@ const PRODUCTOS = [
     nombre: "Double Hood Full Zip - Pink Light Blue Camo",
     marca: "BAPE",
     precio: 89999,
-    descripcion: "Hoodie con doble cierre full zip. Dos cremalleras YKK, construcción más elaborada. Edición premium del clásico shark.",
+    descripcion: "Rosa y celeste — doble zip",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/dszhLmgY/Bape-Double-Full-Zip-Pink-Light-Blue-Camo.jpg",
+    color: "#e0a0cc"
   },
 
   // ── PRODUCTO 40: Double Hood Full Zip - White Camo ────────────────────
@@ -557,12 +557,12 @@ const PRODUCTOS = [
     nombre: "Double Hood Full Zip - White Camo",
     marca: "BAPE",
     precio: 89999,
-    descripcion: "Hoodie con doble cierre full zip. Dos cremalleras YKK, construcción más elaborada. Edición premium del clásico shark.",
+    descripcion: "Camo blanco en versión doble zip",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/chStVTZs/Bape-Double-Full-Zip-White-Camo.jpg",
+    color: "#e8e8e8"
   },
 
   // ── PRODUCTO 41: Double Hood Full Zip - Purple Camo ────────────────────
@@ -571,12 +571,12 @@ const PRODUCTOS = [
     nombre: "Double Hood Full Zip - Purple Camo",
     marca: "BAPE",
     precio: 89999,
-    descripcion: "Hoodie con doble cierre full zip. Dos cremalleras YKK, construcción más elaborada. Edición premium del clásico shark.",
+    descripcion: "Camuflado violeta — doble zip",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/6JGWB4Yy/Bape-Double-Full-Zip-Purple-Camo.jpg",
+    color: "#6030a0"
   },
 
   // ── PRODUCTO 42: Double Hood Full Zip - Black Light Blue Camo ────────────────────
@@ -585,12 +585,12 @@ const PRODUCTOS = [
     nombre: "Double Hood Full Zip - Black Light Blue Camo",
     marca: "BAPE",
     precio: 89999,
-    descripcion: "Hoodie con doble cierre full zip. Dos cremalleras YKK, construcción más elaborada. Edición premium del clásico shark.",
+    descripcion: "Negro con toques celeste",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/k2yY5ZwN/Bape-Double-Full-Zip-Black-Light-Blue-Camo.jpg",
+    color: "#1a2a4a"
   },
 
   // ── PRODUCTO 43: Double Hood Full Zip - White Grey Camo ────────────────────
@@ -599,12 +599,12 @@ const PRODUCTOS = [
     nombre: "Double Hood Full Zip - White Grey Camo",
     marca: "BAPE",
     precio: 89999,
-    descripcion: "Hoodie con doble cierre full zip. Dos cremalleras YKK, construcción más elaborada. Edición premium del clásico shark.",
+    descripcion: "Blanco y gris — doble zip",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/ymxdr11j/Bape-Double-Full-Zip-White-Grey-Camo.jpg",
+    color: "#b8b8b8"
   },
 
   // ── PRODUCTO 44: Double Hood Full Zip - Dark Blue Camo ────────────────────
@@ -613,12 +613,12 @@ const PRODUCTOS = [
     nombre: "Double Hood Full Zip - Dark Blue Camo",
     marca: "BAPE",
     precio: 89999,
-    descripcion: "Hoodie con doble cierre full zip. Dos cremalleras YKK, construcción más elaborada. Edición premium del clásico shark.",
+    descripcion: "Azul oscuro profundo",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/Tx88W6zC/Bape-Double-Full-Zip-Dark-Blue-Camo.jpg",
+    color: "#0a1830"
   },
 
   // ── PRODUCTO 45: Double Hood Full Zip - White Black Camo ────────────────────
@@ -627,12 +627,12 @@ const PRODUCTOS = [
     nombre: "Double Hood Full Zip - White Black Camo",
     marca: "BAPE",
     precio: 89999,
-    descripcion: "Hoodie con doble cierre full zip. Dos cremalleras YKK, construcción más elaborada. Edición premium del clásico shark.",
+    descripcion: "Blanco y negro combinados",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/S17GVrf/Bape-Double-Full-Zip-White-Black-Camo.jpg",
+    color: "#d0d0d0"
   },
 
   // ── PRODUCTO 46: Double Hood Full Zip - Red Camo Variant ────────────────────
@@ -641,12 +641,12 @@ const PRODUCTOS = [
     nombre: "Double Hood Full Zip - Red Camo Variant",
     marca: "BAPE",
     precio: 89999,
-    descripcion: "Hoodie con doble cierre full zip. Dos cremalleras YKK, construcción más elaborada. Edición premium del clásico shark.",
+    descripcion: "Rojo variante especial double",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/5XDb7dQZ/Bape-Double-Variant-Full-Zip-Red-Camo.jpg",
+    color: "#c01a1a"
   },
 
   // ── PRODUCTO 47: Double Hood Full Zip - Red Camo ────────────────────
@@ -655,12 +655,12 @@ const PRODUCTOS = [
     nombre: "Double Hood Full Zip - Red Camo",
     marca: "BAPE",
     precio: 89999,
-    descripcion: "Hoodie con doble cierre full zip. Dos cremalleras YKK, construcción más elaborada. Edición premium del clásico shark.",
+    descripcion: "Rojo camuflado clásico — doble zip",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/wr8NyHZw/Bape-Double-Full-Zip-Red-Camo.jpg",
+    color: "#8a0a0a"
   },
 
   // ── PRODUCTO 48: Double Hood Full Zip - Pink Camo ────────────────────
@@ -669,12 +669,12 @@ const PRODUCTOS = [
     nombre: "Double Hood Full Zip - Pink Camo",
     marca: "BAPE",
     precio: 89999,
-    descripcion: "Hoodie con doble cierre full zip. Dos cremalleras YKK, construcción más elaborada. Edición premium del clásico shark.",
+    descripcion: "Rosa camuflado — doble zip",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/sv0BWtPv/Bape-Double-Full-Zip-Pink-Camo.jpg",
+    color: "#e890b8"
   },
 
   // ── PRODUCTO 49: Double Hood Full Zip - Black Pink Camo ────────────────────
@@ -683,12 +683,12 @@ const PRODUCTOS = [
     nombre: "Double Hood Full Zip - Black Pink Camo",
     marca: "BAPE",
     precio: 89999,
-    descripcion: "Hoodie con doble cierre full zip. Dos cremalleras YKK, construcción más elaborada. Edición premium del clásico shark.",
+    descripcion: "Negro con detalles rosa",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/YFChs3m9/Bape-Double-Full-Zip-Black-Pink-Camo.jpg",
+    color: "#2a0a1a"
   },
 
   // ── PRODUCTO 50: Double Hood Full Zip - White Grey Camo v2 ────────────────────
@@ -697,12 +697,12 @@ const PRODUCTOS = [
     nombre: "Double Hood Full Zip - White Grey Camo v2",
     marca: "BAPE",
     precio: 89999,
-    descripcion: "Hoodie con doble cierre full zip. Dos cremalleras YKK, construcción más elaborada. Edición premium del clásico shark.",
+    descripcion: "Blanco y gris segunda versión",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/zWJwP3wd/Bape-Double-Full-Zip-White-Grey-Camo-1.jpg",
+    color: "#c0c0c0"
   },
 
   // ── PRODUCTO 51: x MM6 Skull Zip Up Hoodie - Grey ────────────────────
@@ -711,12 +711,12 @@ const PRODUCTOS = [
     nombre: "x MM6 Skull Zip Up Hoodie - Grey",
     marca: "Supreme",
     precio: 99999,
-    descripcion: "Collab Supreme x Maison Margiela MM6. Calaveras bordadas en la capucha, construcción premium. Edición limitada, muy difícil de conseguir.",
+    descripcion: "Gris con calaveras bordadas en capucha",
     disponible: true,
     etiqueta: "Collab",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/939wggVf/9e2b03b9.jpg",
+    color: "#888888"
   },
 
   // ── PRODUCTO 52: x MM6 Skull Zip Up Hoodie - Black ────────────────────
@@ -725,12 +725,12 @@ const PRODUCTOS = [
     nombre: "x MM6 Skull Zip Up Hoodie - Black",
     marca: "Supreme",
     precio: 99999,
-    descripcion: "Collab Supreme x Maison Margiela MM6. Calaveras bordadas en la capucha, construcción premium. Edición limitada, muy difícil de conseguir.",
+    descripcion: "Negro con calaveras bordadas en capucha",
     disponible: true,
     etiqueta: "Collab",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/RpTk12v2/cf24dd23.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 53: x MM6 Skull Zip Up Hoodie - Green ────────────────────
@@ -739,12 +739,12 @@ const PRODUCTOS = [
     nombre: "x MM6 Skull Zip Up Hoodie - Green",
     marca: "Supreme",
     precio: 99999,
-    descripcion: "Collab Supreme x Maison Margiela MM6. Calaveras bordadas en la capucha, construcción premium. Edición limitada, muy difícil de conseguir.",
+    descripcion: "Verde con calaveras bordadas en capucha",
     disponible: true,
     etiqueta: "Collab",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/9m3j0cg7/d8b8830d.jpg",
+    color: "#2a5a2a"
   },
 
   // ── PRODUCTO 54: Leather Belt - Black Cross Silver ────────────────────
@@ -753,12 +753,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Black Cross Silver",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero negro, hebilla plateada con cruz",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/0jTs2rW0/57.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 55: Leather Belt - Black Cross Gold ────────────────────
@@ -767,12 +767,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Black Cross Gold",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero negro, hebilla dorada con cruz",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/214BZRJQ/08.jpg",
+    color: "#1a1a08"
   },
 
   // ── PRODUCTO 56: Leather Belt - Brown Cross Silver ────────────────────
@@ -781,12 +781,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Brown Cross Silver",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero marrón, hebilla plateada con cruz",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/Fq7xW29N/05.jpg",
+    color: "#5a3010"
   },
 
   // ── PRODUCTO 57: Leather Belt - Black Multi Cross ────────────────────
@@ -795,12 +795,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Black Multi Cross",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero negro, cruces multicolor",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/RTC7wxGG/02.jpg",
+    color: "#0a0a0a"
   },
 
   // ── PRODUCTO 58: Leather Belt - Black Red Cross ────────────────────
@@ -809,12 +809,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Black Red Cross",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero negro, cruces rojas",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/ZRLW1NR4/03.jpg",
+    color: "#1a0000"
   },
 
   // ── PRODUCTO 59: Leather Belt - Black Blue Cross ────────────────────
@@ -823,12 +823,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Black Blue Cross",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero negro, cruces azules",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/j92875Rf/10.jpg",
+    color: "#00001a"
   },
 
   // ── PRODUCTO 60: Leather Belt - Black Green Cross ────────────────────
@@ -837,12 +837,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Black Green Cross",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero negro, cruces verdes",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/LDRyTygj/01.jpg",
+    color: "#001a00"
   },
 
   // ── PRODUCTO 61: Leather Belt - Black Pink Cross ────────────────────
@@ -851,12 +851,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Black Pink Cross",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero negro, cruces rosas",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/3y2nmy1Q/06.jpg",
+    color: "#1a0010"
   },
 
   // ── PRODUCTO 62: Leather Belt - Black Yellow Cross ────────────────────
@@ -865,12 +865,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Black Yellow Cross",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero negro, cruces amarillas",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/3ysNfL5H/07.jpg",
+    color: "#1a1500"
   },
 
   // ── PRODUCTO 63: Leather Belt - White Cross Silver ────────────────────
@@ -879,12 +879,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - White Cross Silver",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero blanco, hebilla plateada con cruz",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/XkC70X7h/11.jpg",
+    color: "#e0e0e0"
   },
 
   // ── PRODUCTO 64: Leather Belt - White Cross Gold ────────────────────
@@ -893,12 +893,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - White Cross Gold",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero blanco, hebilla dorada con cruz",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/d4W7mBrB/12.jpg",
+    color: "#e8e0c8"
   },
 
   // ── PRODUCTO 65: Leather Belt - White Red Cross ────────────────────
@@ -907,12 +907,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - White Red Cross",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero blanco, cruces rojas",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/ymvChXGY/16.jpg",
+    color: "#e8d0d0"
   },
 
   // ── PRODUCTO 66: Leather Belt - White Blue Cross ────────────────────
@@ -921,12 +921,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - White Blue Cross",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero blanco, cruces azules",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/39nJ3YRh/14.jpg",
+    color: "#d0d8e8"
   },
 
   // ── PRODUCTO 67: Leather Belt - White Green Cross ────────────────────
@@ -935,12 +935,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - White Green Cross",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero blanco, cruces verdes",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/HfQh82d6/13.jpg",
+    color: "#d0e8d0"
   },
 
   // ── PRODUCTO 68: Leather Belt - White Pink Cross ────────────────────
@@ -949,12 +949,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - White Pink Cross",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero blanco, cruces rosas",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/KYtpyMG/15.jpg",
+    color: "#e8d0e0"
   },
 
   // ── PRODUCTO 69: Leather Belt - White Purple Cross ────────────────────
@@ -963,12 +963,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - White Purple Cross",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero blanco, cruces violeta",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/RT14mK6g/17.jpg",
+    color: "#ddd0e8"
   },
 
   // ── PRODUCTO 70: Leather Belt - White Multi Cross ────────────────────
@@ -977,12 +977,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - White Multi Cross",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero blanco, cruces multicolor",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/xShSChD7/19.jpg",
+    color: "#e8e8e8"
   },
 
   // ── PRODUCTO 71: Leather Belt - Brown Multi Cross ────────────────────
@@ -991,12 +991,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Brown Multi Cross",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero marrón, cruces multicolor",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/k6rW6WVD/18.jpg",
+    color: "#6a3a18"
   },
 
   // ── PRODUCTO 72: Leather Belt - Brown Red Cross ────────────────────
@@ -1005,12 +1005,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Brown Red Cross",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero marrón, cruces rojas",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/XfC9vRZ1/21.jpg",
+    color: "#5a2010"
   },
 
   // ── PRODUCTO 73: Leather Belt - Brown Blue Cross ────────────────────
@@ -1019,12 +1019,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Brown Blue Cross",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero marrón, cruces azules",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/5hb1sLzV/23.jpg",
+    color: "#3a3a5a"
   },
 
   // ── PRODUCTO 74: Leather Belt - Brown Green Cross ────────────────────
@@ -1033,12 +1033,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Brown Green Cross",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero marrón, cruces verdes",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/qMwNGpQk/22.jpg",
+    color: "#3a5a30"
   },
 
   // ── PRODUCTO 75: Leather Belt - Brown Pink Cross ────────────────────
@@ -1047,12 +1047,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Brown Pink Cross",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero marrón, cruces rosas",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/fJkzRbn/20.jpg",
+    color: "#5a3040"
   },
 
   // ── PRODUCTO 76: Leather Belt - Brown Purple Cross ────────────────────
@@ -1061,12 +1061,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Brown Purple Cross",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero marrón, cruces violeta",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/sp0vgfkc/26.jpg",
+    color: "#3a2850"
   },
 
   // ── PRODUCTO 77: Leather Belt - Brown Yellow Cross ────────────────────
@@ -1075,12 +1075,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Brown Yellow Cross",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero marrón, cruces amarillas",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/V0d6V93K/28.jpg",
+    color: "#5a4a10"
   },
 
   // ── PRODUCTO 78: Leather Belt - Tan Cross Silver ────────────────────
@@ -1089,12 +1089,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Tan Cross Silver",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero canela, hebilla plateada con cruz",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/Z1v35pfZ/27.jpg",
+    color: "#c8a878"
   },
 
   // ── PRODUCTO 79: Leather Belt - Tan Multi Cross ────────────────────
@@ -1103,12 +1103,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Tan Multi Cross",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero canela, cruces multicolor",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/cccPNMxg/30.jpg",
+    color: "#c0a060"
   },
 
   // ── PRODUCTO 80: Leather Belt - Tan Red Cross ────────────────────
@@ -1117,12 +1117,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Tan Red Cross",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero canela, cruces rojas",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/NqGWQDd/25.jpg",
+    color: "#c89878"
   },
 
   // ── PRODUCTO 81: Leather Belt - Tan Blue Cross ────────────────────
@@ -1131,12 +1131,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Tan Blue Cross",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero canela, cruces azules",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/fYnCMJRS/29.jpg",
+    color: "#a8b8c8"
   },
 
   // ── PRODUCTO 82: Leather Belt - Tan Green Cross ────────────────────
@@ -1145,12 +1145,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Tan Green Cross",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero canela, cruces verdes",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/Y4gXKhsP/31.jpg",
+    color: "#a8c0a0"
   },
 
   // ── PRODUCTO 83: Leather Belt - Tan Pink Cross ────────────────────
@@ -1159,12 +1159,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Tan Pink Cross",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero canela, cruces rosas",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/r8LVG4f/32.jpg",
+    color: "#c8a8b8"
   },
 
   // ── PRODUCTO 84: Leather Belt - Tan Purple Cross ────────────────────
@@ -1173,12 +1173,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Tan Purple Cross",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero canela, cruces violeta",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/YTyDtBJ3/33.jpg",
+    color: "#b0a0c0"
   },
 
   // ── PRODUCTO 85: Leather Belt - Black Silver Chain ────────────────────
@@ -1187,12 +1187,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Black Silver Chain",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero negro, hebilla con cadena plateada",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/XZJcCmLj/37.jpg",
+    color: "#222222"
   },
 
   // ── PRODUCTO 86: Leather Belt - Black Gold Chain ────────────────────
@@ -1201,12 +1201,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Black Gold Chain",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero negro, hebilla con cadena dorada",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/FbHVVWVB/38.jpg",
+    color: "#181508"
   },
 
   // ── PRODUCTO 87: Leather Belt - Brown Silver Chain ────────────────────
@@ -1215,12 +1215,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Brown Silver Chain",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero marrón, cadena plateada",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/QFKbFm62/39.jpg",
+    color: "#4a2a10"
   },
 
   // ── PRODUCTO 88: Leather Belt - Brown Gold Chain ────────────────────
@@ -1229,12 +1229,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Brown Gold Chain",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero marrón, cadena dorada",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/9mMsFrRN/35.jpg",
+    color: "#4a3010"
   },
 
   // ── PRODUCTO 89: Leather Belt - Black Floral Silver ────────────────────
@@ -1243,12 +1243,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Black Floral Silver",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero negro, grabado floral plateado",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/wrcY1Ryj/40.jpg",
+    color: "#0d0d0d"
   },
 
   // ── PRODUCTO 90: Leather Belt - Brown Floral Silver ────────────────────
@@ -1257,12 +1257,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Brown Floral Silver",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero marrón, grabado floral plateado",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/Ym0h6Vz/36.jpg",
+    color: "#5a3520"
   },
 
   // ── PRODUCTO 91: Leather Belt - Black Star Silver ────────────────────
@@ -1271,12 +1271,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Black Star Silver",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero negro, hebilla estrella plateada",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/Kc6RM09m/42.jpg",
+    color: "#141414"
   },
 
   // ── PRODUCTO 92: Leather Belt - Black Star Gold ────────────────────
@@ -1285,12 +1285,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Black Star Gold",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero negro, hebilla estrella dorada",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/qT7wvWr/44.jpg",
+    color: "#141410"
   },
 
   // ── PRODUCTO 93: Leather Belt - Black Dagger Silver ────────────────────
@@ -1299,12 +1299,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Black Dagger Silver",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero negro, hebilla daga plateada",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/ZQzJQmk/43.jpg",
+    color: "#181818"
   },
 
   // ── PRODUCTO 94: Leather Belt - Black Dagger Gold ────────────────────
@@ -1313,12 +1313,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Black Dagger Gold",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero negro, hebilla daga dorada",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/hJxzJ1Kj/41.jpg",
+    color: "#181810"
   },
 
   // ── PRODUCTO 95: Leather Belt - White Star Silver ────────────────────
@@ -1327,12 +1327,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - White Star Silver",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero blanco, hebilla estrella plateada",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/YTBYSDvK/45.jpg",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 96: Leather Belt - White Dagger Silver ────────────────────
@@ -1341,12 +1341,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - White Dagger Silver",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero blanco, hebilla daga plateada",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/F4hWXQVy/46.jpg",
+    color: "#eeeeee"
   },
 
   // ── PRODUCTO 97: Leather Belt - Black Skull Silver ────────────────────
@@ -1355,12 +1355,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Black Skull Silver",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero negro, hebilla calavera plateada",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/R4Pzjtfk/49.jpg",
+    color: "#0a0a0a"
   },
 
   // ── PRODUCTO 98: Leather Belt - Black Skull Gold ────────────────────
@@ -1369,12 +1369,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Black Skull Gold",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero negro, hebilla calavera dorada",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/chmdFZjt/47.jpg",
+    color: "#0a0a08"
   },
 
   // ── PRODUCTO 99: Leather Belt - Brown Skull Silver ────────────────────
@@ -1383,12 +1383,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Brown Skull Silver",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero marrón, hebilla calavera plateada",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/hxMZ15y0/50.jpg",
+    color: "#503018"
   },
 
   // ── PRODUCTO 100: Leather Belt - Brown Skull Gold ────────────────────
@@ -1397,12 +1397,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Brown Skull Gold",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero marrón, hebilla calavera dorada",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/MDJ8yrbT/48.jpg",
+    color: "#503010"
   },
 
   // ── PRODUCTO 101: Leather Belt - Black Double Cross Silver ────────────────────
@@ -1411,12 +1411,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Black Double Cross Silver",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero negro, doble cruz plateada",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/XksrCN62/53.jpg",
+    color: "#0f0f0f"
   },
 
   // ── PRODUCTO 102: Leather Belt - Black Double Cross Gold ────────────────────
@@ -1425,12 +1425,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Black Double Cross Gold",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero negro, doble cruz dorada",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/HfS42tXN/56.jpg",
+    color: "#0f0f08"
   },
 
   // ── PRODUCTO 103: Leather Belt - Black CH Logo Gold ────────────────────
@@ -1439,12 +1439,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Black CH Logo Gold",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero negro, logo CH grande dorado",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/933QkfRL/51.jpg",
+    color: "#131310"
   },
 
   // ── PRODUCTO 104: Leather Belt - Brown CH Logo Silver ────────────────────
@@ -1453,12 +1453,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Brown CH Logo Silver",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero marrón, logo CH plateado",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/DP0JPCts/54.jpg",
+    color: "#5a3520"
   },
 
   // ── PRODUCTO 105: Leather Belt - Brown CH Logo Gold ────────────────────
@@ -1467,12 +1467,12 @@ const PRODUCTOS = [
     nombre: "Leather Belt - Brown CH Logo Gold",
     marca: "Chrome Hearts",
     precio: 44999,
-    descripcion: "Cinturón de cuero genuino Chrome Hearts. 110cm de largo, 3.8cm de alto. Hebilla metálica con cruz grabada, acabado premium. Importado directo.",
+    descripcion: "Cuero marrón, logo CH dorado",
     disponible: true,
     etiqueta: "Premium",
     talles: ["110cm"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/dJ2Ddg68/55.jpg",
+    color: "#5a3518"
   },
 
   // ── PRODUCTO 106: Shark Shorts - White ────────────────────
@@ -1481,12 +1481,12 @@ const PRODUCTOS = [
     nombre: "Shark Shorts - White",
     marca: "BAPE",
     precio: 49999,
-    descripcion: "Short deportivo BAPE con diseño shark icónico. Tela premium, elástico ajustable con cordón, bolsillos laterales. Importado directo.",
+    descripcion: "Blanco con logo shark",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/23L1zcgq/54-Bape-Shark-Shorts-White.png",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 107: Shark Shorts - Blue ────────────────────
@@ -1495,12 +1495,12 @@ const PRODUCTOS = [
     nombre: "Shark Shorts - Blue",
     marca: "BAPE",
     precio: 49999,
-    descripcion: "Short deportivo BAPE con diseño shark icónico. Tela premium, elástico ajustable con cordón, bolsillos laterales. Importado directo.",
+    descripcion: "Azul con logo shark",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/6JHSSj2q/53-Bape-Shark-Shorts-Blue.png",
+    color: "#2a5a9a"
   },
 
   // ── PRODUCTO 108: Shark Shorts - Green ────────────────────
@@ -1509,12 +1509,12 @@ const PRODUCTOS = [
     nombre: "Shark Shorts - Green",
     marca: "BAPE",
     precio: 49999,
-    descripcion: "Short deportivo BAPE con diseño shark icónico. Tela premium, elástico ajustable con cordón, bolsillos laterales. Importado directo.",
+    descripcion: "Verde con logo shark",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/b5FqgCg6/52-Bape-Shark-Shorts-Green.png",
+    color: "#2a7a3a"
   },
 
   // ── PRODUCTO 109: Shark Shorts - Pink ────────────────────
@@ -1523,12 +1523,12 @@ const PRODUCTOS = [
     nombre: "Shark Shorts - Pink",
     marca: "BAPE",
     precio: 49999,
-    descripcion: "Short deportivo BAPE con diseño shark icónico. Tela premium, elástico ajustable con cordón, bolsillos laterales. Importado directo.",
+    descripcion: "Rosa con logo shark",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/5xw171q5/51-Bape-Shark-Shorts-Pink.png",
+    color: "#e890b8"
   },
 
   // ── PRODUCTO 110: Shark Shorts - Purple ────────────────────
@@ -1537,12 +1537,12 @@ const PRODUCTOS = [
     nombre: "Shark Shorts - Purple",
     marca: "BAPE",
     precio: 49999,
-    descripcion: "Short deportivo BAPE con diseño shark icónico. Tela premium, elástico ajustable con cordón, bolsillos laterales. Importado directo.",
+    descripcion: "Violeta con logo shark",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/h1cFxckz/55-Bape-Shark-Shorts-Purple.png",
+    color: "#7a3aaa"
   },
 
   // ── PRODUCTO 111: Shark Shorts - Dark Blue ────────────────────
@@ -1551,12 +1551,12 @@ const PRODUCTOS = [
     nombre: "Shark Shorts - Dark Blue",
     marca: "BAPE",
     precio: 49999,
-    descripcion: "Short deportivo BAPE con diseño shark icónico. Tela premium, elástico ajustable con cordón, bolsillos laterales. Importado directo.",
+    descripcion: "Azul oscuro con logo shark",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/zHjhdSLf/56-Bape-Shark-Shorts-Dark-Blue.png",
+    color: "#0a1a3a"
   },
 
   // ── PRODUCTO 112: Shark Shorts - Red ────────────────────
@@ -1565,12 +1565,12 @@ const PRODUCTOS = [
     nombre: "Shark Shorts - Red",
     marca: "BAPE",
     precio: 49999,
-    descripcion: "Short deportivo BAPE con diseño shark icónico. Tela premium, elástico ajustable con cordón, bolsillos laterales. Importado directo.",
+    descripcion: "Rojo con logo shark",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/YTF01B9F/57-Bape-Shark-Shorts-Red.png",
+    color: "#aa1a1a"
   },
 
   // ── PRODUCTO 113: Shark Shorts - Camo ────────────────────
@@ -1579,12 +1579,12 @@ const PRODUCTOS = [
     nombre: "Shark Shorts - Camo",
     marca: "BAPE",
     precio: 49999,
-    descripcion: "Short deportivo BAPE con diseño shark icónico. Tela premium, elástico ajustable con cordón, bolsillos laterales. Importado directo.",
+    descripcion: "Camuflado clásico BAPE",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/fVLt3D3M/58-Bape-Shark-Shorts-Camo.png",
+    color: "#6a7a3a"
   },
 
   // ── PRODUCTO 114: Shark Shorts - Black ────────────────────
@@ -1593,12 +1593,12 @@ const PRODUCTOS = [
     nombre: "Shark Shorts - Black",
     marca: "BAPE",
     precio: 49999,
-    descripcion: "Short deportivo BAPE con diseño shark icónico. Tela premium, elástico ajustable con cordón, bolsillos laterales. Importado directo.",
+    descripcion: "Negro con logo shark",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/hFBnw5q1/59-Bape-Shark-Shorts-Black.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 115: Shark Shorts - Gray ────────────────────
@@ -1607,12 +1607,12 @@ const PRODUCTOS = [
     nombre: "Shark Shorts - Gray",
     marca: "BAPE",
     precio: 49999,
-    descripcion: "Short deportivo BAPE con diseño shark icónico. Tela premium, elástico ajustable con cordón, bolsillos laterales. Importado directo.",
+    descripcion: "Gris con logo shark",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/0pMScYMT/60-Bape-Shark-Shorts-Gray.png",
+    color: "#888888"
   },
 
   // ── PRODUCTO 116: Shark Shorts - Double Shark ────────────────────
@@ -1621,12 +1621,12 @@ const PRODUCTOS = [
     nombre: "Shark Shorts - Double Shark",
     marca: "BAPE",
     precio: 49999,
-    descripcion: "Short deportivo BAPE con diseño shark icónico. Tela premium, elástico ajustable con cordón, bolsillos laterales. Importado directo.",
+    descripcion: "Edición Double Shark — diseño especial",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/wFSPLz25/61-Bape-Double-Shark-Shorts.png",
+    color: "#333333"
   },
 
   // ── PRODUCTO 117: Shark Shorts - Blue Camo ────────────────────
@@ -1635,12 +1635,12 @@ const PRODUCTOS = [
     nombre: "Shark Shorts - Blue Camo",
     marca: "BAPE",
     precio: 49999,
-    descripcion: "Short deportivo BAPE con diseño shark icónico. Tela premium, elástico ajustable con cordón, bolsillos laterales. Importado directo.",
+    descripcion: "Camuflado azul clásico BAPE",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/CpWdnwTx/62-Bape-Blue-Camo-Shorts.png",
+    color: "#2a4a8a"
   },
 
   // ── PRODUCTO 118: Shark Shorts - Pink Camo ────────────────────
@@ -1649,12 +1649,12 @@ const PRODUCTOS = [
     nombre: "Shark Shorts - Pink Camo",
     marca: "BAPE",
     precio: 49999,
-    descripcion: "Short deportivo BAPE con diseño shark icónico. Tela premium, elástico ajustable con cordón, bolsillos laterales. Importado directo.",
+    descripcion: "Camuflado rosa clásico BAPE",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/rGDKf2ZD/63-Bape-Pink-Camo-Shorts.png",
+    color: "#e8a0c0"
   },
 
   // ── PRODUCTO 119: x Miami Shorts - White ────────────────────
@@ -1663,12 +1663,12 @@ const PRODUCTOS = [
     nombre: "x Miami Shorts - White",
     marca: "BAPE",
     precio: 54999,
-    descripcion: "Collab exclusiva BAPE x Miami. Short con diseño especial de la colección edición Miami. Importado directo.",
+    descripcion: "Blanco edición Miami",
     disponible: true,
     etiqueta: "Collab",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/rfb1T9gk/65-Bape-x-Miami-Shorts-White.png",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 120: x Miami Shorts - Pink ────────────────────
@@ -1677,12 +1677,12 @@ const PRODUCTOS = [
     nombre: "x Miami Shorts - Pink",
     marca: "BAPE",
     precio: 54999,
-    descripcion: "Collab exclusiva BAPE x Miami. Short con diseño especial de la colección edición Miami. Importado directo.",
+    descripcion: "Rosa edición Miami",
     disponible: true,
     etiqueta: "Collab",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/Fb2xBrVJ/64-Bape-x-Miami-Shorts-Pink.png",
+    color: "#e890b8"
   },
 
   // ── PRODUCTO 121: x Miami Shorts - Black ────────────────────
@@ -1691,12 +1691,12 @@ const PRODUCTOS = [
     nombre: "x Miami Shorts - Black",
     marca: "BAPE",
     precio: 54999,
-    descripcion: "Collab exclusiva BAPE x Miami. Short con diseño especial de la colección edición Miami. Importado directo.",
+    descripcion: "Negro edición Miami",
     disponible: true,
     etiqueta: "Collab",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/Tf42dg9/66-Bape-x-Miami-Shorts-Black.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 122: x Eric Emanuel Shorts - White ────────────────────
@@ -1705,12 +1705,12 @@ const PRODUCTOS = [
     nombre: "x Eric Emanuel Shorts - White",
     marca: "BAPE",
     precio: 54999,
-    descripcion: "Collab BAPE x Eric Emanuel. Short de básquet premium con gráficas exclusivas de la colaboración. Importado directo.",
+    descripcion: "Blanco — Basket edition",
     disponible: true,
     etiqueta: "Collab",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/4n2DYwT9/67-Bape-x-Eric-Emanuel-Basket-Shorts-White.png",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 123: x Eric Emanuel Shorts - Purple ────────────────────
@@ -1719,12 +1719,12 @@ const PRODUCTOS = [
     nombre: "x Eric Emanuel Shorts - Purple",
     marca: "BAPE",
     precio: 54999,
-    descripcion: "Collab BAPE x Eric Emanuel. Short de básquet premium con gráficas exclusivas de la colaboración. Importado directo.",
+    descripcion: "Violeta edición collab",
     disponible: true,
     etiqueta: "Collab",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/xS2Pvt8X/68-Bape-x-Eric-Emanuel-Purple.png",
+    color: "#7a3aaa"
   },
 
   // ── PRODUCTO 124: x Eric Emanuel Shorts - Red ────────────────────
@@ -1733,12 +1733,12 @@ const PRODUCTOS = [
     nombre: "x Eric Emanuel Shorts - Red",
     marca: "BAPE",
     precio: 54999,
-    descripcion: "Collab BAPE x Eric Emanuel. Short de básquet premium con gráficas exclusivas de la colaboración. Importado directo.",
+    descripcion: "Rojo edición collab",
     disponible: true,
     etiqueta: "Collab",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/tRVcHpk/69-Bape-x-Eric-Emanuel-Shorts-Red.png",
+    color: "#aa1a1a"
   },
 
   // ── PRODUCTO 125: x Eric Emanuel Shorts - Black Brown Stars ────────────────────
@@ -1747,12 +1747,12 @@ const PRODUCTOS = [
     nombre: "x Eric Emanuel Shorts - Black Brown Stars",
     marca: "BAPE",
     precio: 54999,
-    descripcion: "Collab BAPE x Eric Emanuel. Short de básquet premium con gráficas exclusivas de la colaboración. Importado directo.",
+    descripcion: "Negro y marrón con estrellas",
     disponible: true,
     etiqueta: "Collab",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/bgdFWXzc/70-Bape-x-Eric-Emanuel-Black-Brown-Stars.png",
+    color: "#2a1a0a"
   },
 
   // ── PRODUCTO 126: x Eric Emanuel Shorts - Brown ────────────────────
@@ -1761,12 +1761,12 @@ const PRODUCTOS = [
     nombre: "x Eric Emanuel Shorts - Brown",
     marca: "BAPE",
     precio: 54999,
-    descripcion: "Collab BAPE x Eric Emanuel. Short de básquet premium con gráficas exclusivas de la colaboración. Importado directo.",
+    descripcion: "Marrón edición collab",
     disponible: true,
     etiqueta: "Collab",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/bMb2fyzb/71-Bape-x-Eric-Emanuel-Shorts-Brown.png",
+    color: "#6a3a1a"
   },
 
   // ── PRODUCTO 127: Zip Up Jacket - Triple Cross Patch ────────────────────
@@ -1775,12 +1775,12 @@ const PRODUCTOS = [
     nombre: "Zip Up Jacket - Triple Cross Patch",
     marca: "Chrome Hearts",
     precio: 89999,
-    descripcion: "Zip up jacket Chrome Hearts. Construcción premium con parches de cruz icónicos y logo CH. Importada directo.",
+    descripcion: "Parches triple cruz en frente y espalda",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/BVYv4cGC/Chrome-Hearts-Triple-Cross-Patch-Zip-Up.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 128: Zip Up Jacket - Quilted Nylon Cross Patch ────────────────────
@@ -1789,12 +1789,12 @@ const PRODUCTOS = [
     nombre: "Zip Up Jacket - Quilted Nylon Cross Patch",
     marca: "Chrome Hearts",
     precio: 89999,
-    descripcion: "Zip up jacket Chrome Hearts. Construcción premium con parches de cruz icónicos y logo CH. Importada directo.",
+    descripcion: "Nylon acolchado con parche de cruz CH",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/V533c5G/Chrome-Hearts-Quilted-Nylon-Cross-Patch-Jacket.png",
+    color: "#1a1a2a"
   },
 
   // ── PRODUCTO 129: Denim Jeans - Modelo 1 ────────────────────
@@ -1803,12 +1803,12 @@ const PRODUCTOS = [
     nombre: "Denim Jeans - Modelo 1",
     marca: "Chrome Hearts",
     precio: 89999,
-    descripcion: "Jeans de denim Chrome Hearts. Corte premium, detalles bordados con cruces y logo CH. Talle USA (cintura en pulgadas). Importados directo.",
+    descripcion: "Denim Chrome Hearts",
     disponible: true,
     etiqueta: "Premium",
     talles: ["28","29","30","31","32","33","34","35","36"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/8Z4z2gS/650f4a9a-aaba-49ee-a3c8-5139379cb400.jpg",
+    color: "#1a2a4a"
   },
 
   // ── PRODUCTO 130: Denim Jeans - Modelo 2 ────────────────────
@@ -1817,12 +1817,12 @@ const PRODUCTOS = [
     nombre: "Denim Jeans - Modelo 2",
     marca: "Chrome Hearts",
     precio: 89999,
-    descripcion: "Jeans de denim Chrome Hearts. Corte premium, detalles bordados con cruces y logo CH. Talle USA (cintura en pulgadas). Importados directo.",
+    descripcion: "Denim Chrome Hearts",
     disponible: true,
     etiqueta: "Premium",
     talles: ["28","29","30","31","32","33","34","35","36"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/3yCz0Qsf/3b77d4f0-bd33-4ecc-93d6-9110d8639d4a.jpg",
+    color: "#2a3a5a"
   },
 
   // ── PRODUCTO 131: Denim Jeans - Modelo 3 ────────────────────
@@ -1831,12 +1831,12 @@ const PRODUCTOS = [
     nombre: "Denim Jeans - Modelo 3",
     marca: "Chrome Hearts",
     precio: 89999,
-    descripcion: "Jeans de denim Chrome Hearts. Corte premium, detalles bordados con cruces y logo CH. Talle USA (cintura en pulgadas). Importados directo.",
+    descripcion: "Denim Chrome Hearts",
     disponible: true,
     etiqueta: "Premium",
     talles: ["28","29","30","31","32","33","34","35","36"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/gbWC6D6t/3186eeca-2939-47be-8353-0d82f6f45f2b.jpg",
+    color: "#1a2a4a"
   },
 
   // ── PRODUCTO 132: Denim Jeans - Modelo 4 ────────────────────
@@ -1845,12 +1845,12 @@ const PRODUCTOS = [
     nombre: "Denim Jeans - Modelo 4",
     marca: "Chrome Hearts",
     precio: 89999,
-    descripcion: "Jeans de denim Chrome Hearts. Corte premium, detalles bordados con cruces y logo CH. Talle USA (cintura en pulgadas). Importados directo.",
+    descripcion: "Denim Chrome Hearts",
     disponible: true,
     etiqueta: "Premium",
     talles: ["28","29","30","31","32","33","34","35","36"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/JV6t8cK/f0f2a84e-9db9-4e82-945e-51657d0ef940.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 133: Denim Jeans - Modelo 5 ────────────────────
@@ -1859,12 +1859,12 @@ const PRODUCTOS = [
     nombre: "Denim Jeans - Modelo 5",
     marca: "Chrome Hearts",
     precio: 89999,
-    descripcion: "Jeans de denim Chrome Hearts. Corte premium, detalles bordados con cruces y logo CH. Talle USA (cintura en pulgadas). Importados directo.",
+    descripcion: "Denim Chrome Hearts",
     disponible: true,
     etiqueta: "Premium",
     talles: ["28","29","30","31","32","33","34","35","36"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/Hf4CS0Gx/4e23c7c7-35e9-430c-ac3a-59ebc5089997.jpg",
+    color: "#2a3a5a"
   },
 
   // ── PRODUCTO 134: Denim Jeans - Modelo 6 ────────────────────
@@ -1873,12 +1873,12 @@ const PRODUCTOS = [
     nombre: "Denim Jeans - Modelo 6",
     marca: "Chrome Hearts",
     precio: 89999,
-    descripcion: "Jeans de denim Chrome Hearts. Corte premium, detalles bordados con cruces y logo CH. Talle USA (cintura en pulgadas). Importados directo.",
+    descripcion: "Denim Chrome Hearts",
     disponible: true,
     etiqueta: "Premium",
     talles: ["28","29","30","31","32","33","34","35","36"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/B2gDCxLj/c6d69887-5228-4e60-878a-5a3472957794.jpg",
+    color: "#1a2a4a"
   },
 
   // ── PRODUCTO 135: Denim Jeans - Modelo 7 ────────────────────
@@ -1887,12 +1887,12 @@ const PRODUCTOS = [
     nombre: "Denim Jeans - Modelo 7",
     marca: "Chrome Hearts",
     precio: 89999,
-    descripcion: "Jeans de denim Chrome Hearts. Corte premium, detalles bordados con cruces y logo CH. Talle USA (cintura en pulgadas). Importados directo.",
+    descripcion: "Denim Chrome Hearts",
     disponible: true,
     etiqueta: "Premium",
     talles: ["28","29","30","31","32","33","34","35","36"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/FbkPSXbV/93e15e17-5001-4aa4-a470-ed6a2d5b0575.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 136: Denim Jeans - Modelo 8 ────────────────────
@@ -1901,12 +1901,12 @@ const PRODUCTOS = [
     nombre: "Denim Jeans - Modelo 8",
     marca: "Chrome Hearts",
     precio: 89999,
-    descripcion: "Jeans de denim Chrome Hearts. Corte premium, detalles bordados con cruces y logo CH. Talle USA (cintura en pulgadas). Importados directo.",
+    descripcion: "Denim Chrome Hearts",
     disponible: true,
     etiqueta: "Premium",
     talles: ["28","29","30","31","32","33","34","35","36"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/DDmcc6cB/811173a2-199f-451b-b718-4bb88b738a9b.jpg",
+    color: "#2a3a5a"
   },
 
   // ── PRODUCTO 137: Denim Jeans - Modelo 9 ────────────────────
@@ -1915,12 +1915,12 @@ const PRODUCTOS = [
     nombre: "Denim Jeans - Modelo 9",
     marca: "Chrome Hearts",
     precio: 89999,
-    descripcion: "Jeans de denim Chrome Hearts. Corte premium, detalles bordados con cruces y logo CH. Talle USA (cintura en pulgadas). Importados directo.",
+    descripcion: "Denim Chrome Hearts",
     disponible: true,
     etiqueta: "Premium",
     talles: ["28","29","30","31","32","33","34","35","36"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/Q39pTtxZ/ee0e26fb-e3b8-4846-b292-f547fff32bde.jpg",
+    color: "#1a2a4a"
   },
 
   // ── PRODUCTO 138: Denim Jeans - Modelo 10 ────────────────────
@@ -1929,12 +1929,12 @@ const PRODUCTOS = [
     nombre: "Denim Jeans - Modelo 10",
     marca: "Chrome Hearts",
     precio: 89999,
-    descripcion: "Jeans de denim Chrome Hearts. Corte premium, detalles bordados con cruces y logo CH. Talle USA (cintura en pulgadas). Importados directo.",
+    descripcion: "Denim Chrome Hearts",
     disponible: true,
     etiqueta: "Premium",
     talles: ["28","29","30","31","32","33","34","35","36"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/B51BFPsX/a54aa605-2fcf-4f0e-9983-06d204e4530f.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 139: Denim Jeans - Modelo 11 ────────────────────
@@ -1943,12 +1943,12 @@ const PRODUCTOS = [
     nombre: "Denim Jeans - Modelo 11",
     marca: "Chrome Hearts",
     precio: 89999,
-    descripcion: "Jeans de denim Chrome Hearts. Corte premium, detalles bordados con cruces y logo CH. Talle USA (cintura en pulgadas). Importados directo.",
+    descripcion: "Denim Chrome Hearts",
     disponible: true,
     etiqueta: "Premium",
     talles: ["28","29","30","31","32","33","34","35","36"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/Z6dFM4MD/039c8abd-2d0a-48de-8d3c-74ff636a1eb9.jpg",
+    color: "#2a3a5a"
   },
 
   // ── PRODUCTO 140: Denim Jeans - Modelo 12 ────────────────────
@@ -1957,12 +1957,12 @@ const PRODUCTOS = [
     nombre: "Denim Jeans - Modelo 12",
     marca: "Chrome Hearts",
     precio: 89999,
-    descripcion: "Jeans de denim Chrome Hearts. Corte premium, detalles bordados con cruces y logo CH. Talle USA (cintura en pulgadas). Importados directo.",
+    descripcion: "Denim Chrome Hearts",
     disponible: true,
     etiqueta: "Premium",
     talles: ["28","29","30","31","32","33","34","35","36"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/Tx2zkPXD/17cc1fba-ffb2-49c0-b4cf-d0fa20f6c620.jpg",
+    color: "#1a2a4a"
   },
 
   // ── PRODUCTO 141: Denim Jeans - Modelo 13 ────────────────────
@@ -1971,12 +1971,12 @@ const PRODUCTOS = [
     nombre: "Denim Jeans - Modelo 13",
     marca: "Chrome Hearts",
     precio: 89999,
-    descripcion: "Jeans de denim Chrome Hearts. Corte premium, detalles bordados con cruces y logo CH. Talle USA (cintura en pulgadas). Importados directo.",
+    descripcion: "Denim Chrome Hearts",
     disponible: true,
     etiqueta: "Premium",
     talles: ["28","29","30","31","32","33","34","35","36"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/G4sjJLBP/bcde5fbb-4c6b-43c9-8328-aa6ff8b6585e.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 142: Denim Jeans - Modelo 14 ────────────────────
@@ -1985,12 +1985,12 @@ const PRODUCTOS = [
     nombre: "Denim Jeans - Modelo 14",
     marca: "Chrome Hearts",
     precio: 89999,
-    descripcion: "Jeans de denim Chrome Hearts. Corte premium, detalles bordados con cruces y logo CH. Talle USA (cintura en pulgadas). Importados directo.",
+    descripcion: "Denim Chrome Hearts",
     disponible: true,
     etiqueta: "Premium",
     talles: ["28","29","30","31","32","33","34","35","36"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/rRSyvWWb/74c92faf-db7a-4668-8ce1-eaf575485771.jpg",
+    color: "#2a3a5a"
   },
 
   // ── PRODUCTO 143: Denim Jeans - Modelo 15 ────────────────────
@@ -1999,12 +1999,12 @@ const PRODUCTOS = [
     nombre: "Denim Jeans - Modelo 15",
     marca: "Chrome Hearts",
     precio: 89999,
-    descripcion: "Jeans de denim Chrome Hearts. Corte premium, detalles bordados con cruces y logo CH. Talle USA (cintura en pulgadas). Importados directo.",
+    descripcion: "Denim Chrome Hearts",
     disponible: true,
     etiqueta: "Premium",
     talles: ["28","29","30","31","32","33","34","35","36"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/YFF45p22/95a94aa9-3640-49b7-b4fa-9fe72a5715de.jpg",
+    color: "#1a2a4a"
   },
 
   // ── PRODUCTO 144: Denim Jeans - Modelo 16 ────────────────────
@@ -2013,12 +2013,12 @@ const PRODUCTOS = [
     nombre: "Denim Jeans - Modelo 16",
     marca: "Chrome Hearts",
     precio: 89999,
-    descripcion: "Jeans de denim Chrome Hearts. Corte premium, detalles bordados con cruces y logo CH. Talle USA (cintura en pulgadas). Importados directo.",
+    descripcion: "Denim Chrome Hearts",
     disponible: true,
     etiqueta: "Premium",
     talles: ["28","29","30","31","32","33","34","35","36"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/m5VsXrk6/4e120eea-3aba-48f0-b027-bce124dcffd4.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 145: Denim Jeans - Modelo 17 ────────────────────
@@ -2027,12 +2027,12 @@ const PRODUCTOS = [
     nombre: "Denim Jeans - Modelo 17",
     marca: "Chrome Hearts",
     precio: 89999,
-    descripcion: "Jeans de denim Chrome Hearts. Corte premium, detalles bordados con cruces y logo CH. Talle USA (cintura en pulgadas). Importados directo.",
+    descripcion: "Denim Chrome Hearts",
     disponible: true,
     etiqueta: "Premium",
     talles: ["28","29","30","31","32","33","34","35","36"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/HDN4N2fT/2307147b-1540-4d47-a972-9d36e32f2895.jpg",
+    color: "#2a3a5a"
   },
 
   // ── PRODUCTO 146: Denim Jeans - Modelo 18 ────────────────────
@@ -2041,12 +2041,12 @@ const PRODUCTOS = [
     nombre: "Denim Jeans - Modelo 18",
     marca: "Chrome Hearts",
     precio: 89999,
-    descripcion: "Jeans de denim Chrome Hearts. Corte premium, detalles bordados con cruces y logo CH. Talle USA (cintura en pulgadas). Importados directo.",
+    descripcion: "Denim Chrome Hearts",
     disponible: true,
     etiqueta: "Premium",
     talles: ["28","29","30","31","32","33","34","35","36"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/Xfq7FC8X/91842e38-d962-41c8-be7e-37382197dfd4.jpg",
+    color: "#1a2a4a"
   },
 
   // ── PRODUCTO 147: Denim Jeans - Modelo 19 ────────────────────
@@ -2055,12 +2055,12 @@ const PRODUCTOS = [
     nombre: "Denim Jeans - Modelo 19",
     marca: "Chrome Hearts",
     precio: 89999,
-    descripcion: "Jeans de denim Chrome Hearts. Corte premium, detalles bordados con cruces y logo CH. Talle USA (cintura en pulgadas). Importados directo.",
+    descripcion: "Denim Chrome Hearts",
     disponible: true,
     etiqueta: "Premium",
     talles: ["28","29","30","31","32","33","34","35","36"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/S4TjqwMy/51dcd30c-2501-4dab-ace0-f3252dfa2598.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 148: Denim Jeans - Modelo 20 ────────────────────
@@ -2069,12 +2069,12 @@ const PRODUCTOS = [
     nombre: "Denim Jeans - Modelo 20",
     marca: "Chrome Hearts",
     precio: 89999,
-    descripcion: "Jeans de denim Chrome Hearts. Corte premium, detalles bordados con cruces y logo CH. Talle USA (cintura en pulgadas). Importados directo.",
+    descripcion: "Denim Chrome Hearts",
     disponible: true,
     etiqueta: "Premium",
     talles: ["28","29","30","31","32","33","34","35","36"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/p6nkbmX7/03b942df-7640-43ba-aced-e8296f73da6f.jpg",
+    color: "#2a3a5a"
   },
 
   // ── PRODUCTO 149: Denim Jeans - Modelo 21 ────────────────────
@@ -2083,12 +2083,12 @@ const PRODUCTOS = [
     nombre: "Denim Jeans - Modelo 21",
     marca: "Chrome Hearts",
     precio: 89999,
-    descripcion: "Jeans de denim Chrome Hearts. Corte premium, detalles bordados con cruces y logo CH. Talle USA (cintura en pulgadas). Importados directo.",
+    descripcion: "Denim Chrome Hearts",
     disponible: true,
     etiqueta: "Premium",
     talles: ["28","29","30","31","32","33","34","35","36"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/cc2Vm5hF/120012c1-8f03-4e27-8e13-5adc55741185.jpg",
+    color: "#1a2a4a"
   },
 
   // ── PRODUCTO 150: Denim Jeans - Modelo 22 ────────────────────
@@ -2097,12 +2097,12 @@ const PRODUCTOS = [
     nombre: "Denim Jeans - Modelo 22",
     marca: "Chrome Hearts",
     precio: 89999,
-    descripcion: "Jeans de denim Chrome Hearts. Corte premium, detalles bordados con cruces y logo CH. Talle USA (cintura en pulgadas). Importados directo.",
+    descripcion: "Denim Chrome Hearts",
     disponible: true,
     etiqueta: "Premium",
     talles: ["28","29","30","31","32","33","34","35","36"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/V0S9qyTs/d13f122f-27da-42f6-8d05-779aa9b50adb.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 151: Denim Jeans - Modelo 23 ────────────────────
@@ -2111,12 +2111,12 @@ const PRODUCTOS = [
     nombre: "Denim Jeans - Modelo 23",
     marca: "Chrome Hearts",
     precio: 89999,
-    descripcion: "Jeans de denim Chrome Hearts. Corte premium, detalles bordados con cruces y logo CH. Talle USA (cintura en pulgadas). Importados directo.",
+    descripcion: "Denim Chrome Hearts",
     disponible: true,
     etiqueta: "Premium",
     talles: ["28","29","30","31","32","33","34","35","36"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/W46gGbgY/2a6204e0-91ac-45fa-b81e-15474d674511.jpg",
+    color: "#2a3a5a"
   },
 
   // ── PRODUCTO 152: Denim Shorts - Blue ────────────────────
@@ -2125,12 +2125,12 @@ const PRODUCTOS = [
     nombre: "Denim Shorts - Blue",
     marca: "Valley Dreams",
     precio: 79999,
-    descripcion: "Short de denim Valley Dreams. Corte holgado streetwear con detalles y lavados originales. Importado directo.",
+    descripcion: "Denim azul clásico",
     disponible: true,
     etiqueta: "New",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/Z67V27kD/VD-Valley-Denim-Shorts-Blue.jpg",
+    color: "#2a4a7a"
   },
 
   // ── PRODUCTO 153: Denim Shorts - Grey ────────────────────
@@ -2139,12 +2139,12 @@ const PRODUCTOS = [
     nombre: "Denim Shorts - Grey",
     marca: "Valley Dreams",
     precio: 79999,
-    descripcion: "Short de denim Valley Dreams. Corte holgado streetwear con detalles y lavados originales. Importado directo.",
+    descripcion: "Denim gris lavado",
     disponible: true,
     etiqueta: "New",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/KcG8xLCf/VD-Valley-Denim-Shorts-Grey.jpg",
+    color: "#888888"
   },
 
   // ── PRODUCTO 154: Denim Shorts - White ────────────────────
@@ -2153,12 +2153,12 @@ const PRODUCTOS = [
     nombre: "Denim Shorts - White",
     marca: "Valley Dreams",
     precio: 79999,
-    descripcion: "Short de denim Valley Dreams. Corte holgado streetwear con detalles y lavados originales. Importado directo.",
+    descripcion: "Denim blanco",
     disponible: true,
     etiqueta: "New",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/pvmj3FGy/VD-Valley-Denim-Shorts-White.jpg",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 155: Denim Shorts - Brown ────────────────────
@@ -2167,12 +2167,12 @@ const PRODUCTOS = [
     nombre: "Denim Shorts - Brown",
     marca: "Valley Dreams",
     precio: 79999,
-    descripcion: "Short de denim Valley Dreams. Corte holgado streetwear con detalles y lavados originales. Importado directo.",
+    descripcion: "Denim marrón Dreams edition",
     disponible: true,
     etiqueta: "New",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/8g3ySnd7/VD-Valley-Dreams-Denim-Shorts-Brown.jpg",
+    color: "#5a3a1a"
   },
 
   // ── PRODUCTO 156: Denim Shorts - Black ────────────────────
@@ -2181,12 +2181,12 @@ const PRODUCTOS = [
     nombre: "Denim Shorts - Black",
     marca: "Valley Dreams",
     precio: 79999,
-    descripcion: "Short de denim Valley Dreams. Corte holgado streetwear con detalles y lavados originales. Importado directo.",
+    descripcion: "Denim negro Dreams edition",
     disponible: true,
     etiqueta: "New",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/vv1xLYGk/VD-Valley-Dreams-Denim-Shorts-Black.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 157: Graphic T-Shirt - 199 X Graphic White ────────────────────
@@ -2195,12 +2195,12 @@ const PRODUCTOS = [
     nombre: "Graphic T-Shirt - 199 X Graphic White",
     marca: "Valley Dreams",
     precio: 39999,
-    descripcion: "Remera de algodón Valley Dreams con gráficas originales de alta calidad. Corte streetwear oversize, serigrafía premium. Importada directo.",
+    descripcion: "Gráfica 199 X sobre blanco",
     disponible: true,
     etiqueta: "New",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/6RYpKvMs/VD-Other-Valley-Dreams-199-X-Graphic-T-Shirt-White.jpg",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 158: Graphic T-Shirt - Dream Printed Black ────────────────────
@@ -2209,12 +2209,12 @@ const PRODUCTOS = [
     nombre: "Graphic T-Shirt - Dream Printed Black",
     marca: "Valley Dreams",
     precio: 39999,
-    descripcion: "Remera de algodón Valley Dreams con gráficas originales de alta calidad. Corte streetwear oversize, serigrafía premium. Importada directo.",
+    descripcion: "Dream print sobre negro",
     disponible: true,
     etiqueta: "New",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/wFMpJf1Z/VD-Valley-Dream-Printed-T-Shirt-Black.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 159: Graphic T-Shirt - Property of Targer Red ────────────────────
@@ -2223,12 +2223,12 @@ const PRODUCTOS = [
     nombre: "Graphic T-Shirt - Property of Targer Red",
     marca: "Valley Dreams",
     precio: 39999,
-    descripcion: "Remera de algodón Valley Dreams con gráficas originales de alta calidad. Corte streetwear oversize, serigrafía premium. Importada directo.",
+    descripcion: "Property of Targer print sobre rojo",
     disponible: true,
     etiqueta: "New",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/VYb37b9D/VD-Valley-T-Shirt-Property-of-Targer-Print-Red.jpg",
+    color: "#aa1a1a"
   },
 
   // ── PRODUCTO 160: Graphic T-Shirt - Ghost Print Black ────────────────────
@@ -2237,12 +2237,12 @@ const PRODUCTOS = [
     nombre: "Graphic T-Shirt - Ghost Print Black",
     marca: "Valley Dreams",
     precio: 39999,
-    descripcion: "Remera de algodón Valley Dreams con gráficas originales de alta calidad. Corte streetwear oversize, serigrafía premium. Importada directo.",
+    descripcion: "Ghost graphic sobre negro",
     disponible: true,
     etiqueta: "New",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/R4dH1FfW/VD-Valley-Ghost-Print-T-Shirt-Black.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 161: Graphic T-Shirt - Jesus Graphic Washed Grey ────────────────────
@@ -2251,12 +2251,12 @@ const PRODUCTOS = [
     nombre: "Graphic T-Shirt - Jesus Graphic Washed Grey",
     marca: "Valley Dreams",
     precio: 39999,
-    descripcion: "Remera de algodón Valley Dreams con gráficas originales de alta calidad. Corte streetwear oversize, serigrafía premium. Importada directo.",
+    descripcion: "Jesus graphic sobre gris lavado",
     disponible: true,
     etiqueta: "New",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/5pw5g8k/VD-Jesus-Graphic-T-Shirt-Washed-Grey.jpg",
+    color: "#888888"
   },
 
   // ── PRODUCTO 162: Graphic T-Shirt - Street Fighter Guile Black ────────────────────
@@ -2265,12 +2265,12 @@ const PRODUCTOS = [
     nombre: "Graphic T-Shirt - Street Fighter Guile Black",
     marca: "Valley Dreams",
     precio: 39999,
-    descripcion: "Remera de algodón Valley Dreams con gráficas originales de alta calidad. Corte streetwear oversize, serigrafía premium. Importada directo.",
+    descripcion: "Street Fighter — Guile graphic sobre negro",
     disponible: true,
     etiqueta: "New",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/v4DBsjgM/VD-Street-Dreams-Street-Fighter-T-Shirt-Guile-Black.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 163: Graphic T-Shirt - Michael Jackson Black ────────────────────
@@ -2279,12 +2279,12 @@ const PRODUCTOS = [
     nombre: "Graphic T-Shirt - Michael Jackson Black",
     marca: "Valley Dreams",
     precio: 39999,
-    descripcion: "Remera de algodón Valley Dreams con gráficas originales de alta calidad. Corte streetwear oversize, serigrafía premium. Importada directo.",
+    descripcion: "King of Pop — MJ graphic sobre negro",
     disponible: true,
     etiqueta: "New",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/TMkZBsVH/VD-Michael-Jackson-T-Shirt-King-of-Pop-Black.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 164: Graphic T-Shirt - Selena Light Blue ────────────────────
@@ -2293,12 +2293,12 @@ const PRODUCTOS = [
     nombre: "Graphic T-Shirt - Selena Light Blue",
     marca: "Valley Dreams",
     precio: 39999,
-    descripcion: "Remera de algodón Valley Dreams con gráficas originales de alta calidad. Corte streetwear oversize, serigrafía premium. Importada directo.",
+    descripcion: "Selena graphic sobre celeste",
     disponible: true,
     etiqueta: "New",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/kVGsg2x9/VD-Selena-T-Shirt-Graphic-Light-Blue.jpg",
+    color: "#80b8e0"
   },
 
   // ── PRODUCTO 165: Graphic T-Shirt - Rock Graphic Light Blue ────────────────────
@@ -2307,12 +2307,12 @@ const PRODUCTOS = [
     nombre: "Graphic T-Shirt - Rock Graphic Light Blue",
     marca: "Valley Dreams",
     precio: 39999,
-    descripcion: "Remera de algodón Valley Dreams con gráficas originales de alta calidad. Corte streetwear oversize, serigrafía premium. Importada directo.",
+    descripcion: "Rock graphic sobre celeste",
     disponible: true,
     etiqueta: "New",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/nqpFhNZs/VD-T-Shirt-Rock-Graphic-Light-Blue.jpg",
+    color: "#80b8e0"
   },
 
   // ── PRODUCTO 166: Graphic T-Shirt - A Better Tomorrow Blue ────────────────────
@@ -2321,12 +2321,12 @@ const PRODUCTOS = [
     nombre: "Graphic T-Shirt - A Better Tomorrow Blue",
     marca: "Valley Dreams",
     precio: 39999,
-    descripcion: "Remera de algodón Valley Dreams con gráficas originales de alta calidad. Corte streetwear oversize, serigrafía premium. Importada directo.",
+    descripcion: "Chow Yun-fat graphic sobre azul",
     disponible: true,
     etiqueta: "New",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/fz2vTRx2/VD-A-Better-Tomorrow-T-Shirt-Chow-Yun-fat-Graphic-Blue.jpg",
+    color: "#1a3a6a"
   },
 
   // ── PRODUCTO 167: Graphic T-Shirt - All Dogs Go To Heaven White ────────────────────
@@ -2335,12 +2335,12 @@ const PRODUCTOS = [
     nombre: "Graphic T-Shirt - All Dogs Go To Heaven White",
     marca: "Valley Dreams",
     precio: 39999,
-    descripcion: "Remera de algodón Valley Dreams con gráficas originales de alta calidad. Corte streetwear oversize, serigrafía premium. Importada directo.",
+    descripcion: "All Dogs Go To Heaven sobre blanco",
     disponible: true,
     etiqueta: "New",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/SwKJDXSZ/VD-All-Dogs-Go-To-Heaven-T-Shirt-White.jpg",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 168: Graphic T-Shirt - Vale Forever White ────────────────────
@@ -2349,12 +2349,12 @@ const PRODUCTOS = [
     nombre: "Graphic T-Shirt - Vale Forever White",
     marca: "Valley Dreams",
     precio: 39999,
-    descripcion: "Remera de algodón Valley Dreams con gráficas originales de alta calidad. Corte streetwear oversize, serigrafía premium. Importada directo.",
+    descripcion: "Vale Forever Destroyer King sobre blanco",
     disponible: true,
     etiqueta: "New",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/SbJMhCC/VD-Vale-Forever-Valley-Dreams-Destroyer-King-T-Shirt-White.jpg",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 169: Graphic Hoodie - High Street Black Blue ────────────────────
@@ -2363,12 +2363,12 @@ const PRODUCTOS = [
     nombre: "Graphic Hoodie - High Street Black Blue",
     marca: "Valley Dreams",
     precio: 59999,
-    descripcion: "Hoodie pullover Valley Dreams con gráficas originales. Construcción premium, interior de felpa, capucha amplia. Importada directo.",
+    descripcion: "High Street Hooded Jacket negro y azul",
     disponible: true,
     etiqueta: "New",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/hRF4N2Cb/VD-Original-Valley-High-Street-Hooded-Jacket-Graphic-Print-Black-Blue.jpg",
+    color: "#0a1a3a"
   },
 
   // ── PRODUCTO 170: Graphic Hoodie - Return of Vale Black ────────────────────
@@ -2377,12 +2377,12 @@ const PRODUCTOS = [
     nombre: "Graphic Hoodie - Return of Vale Black",
     marca: "Valley Dreams",
     precio: 59999,
-    descripcion: "Hoodie pullover Valley Dreams con gráficas originales. Construcción premium, interior de felpa, capucha amplia. Importada directo.",
+    descripcion: "Return of Vale hoodie negro",
     disponible: true,
     etiqueta: "New",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/20hLktKJ/VD-Return-of-Vale-Sweater-Hooded-Printed-Black.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 171: Graphic Hoodie - Original Valley Black Grey ────────────────────
@@ -2391,12 +2391,12 @@ const PRODUCTOS = [
     nombre: "Graphic Hoodie - Original Valley Black Grey",
     marca: "Valley Dreams",
     precio: 59999,
-    descripcion: "Hoodie pullover Valley Dreams con gráficas originales. Construcción premium, interior de felpa, capucha amplia. Importada directo.",
+    descripcion: "Original Valley sweater negro y gris",
     disponible: true,
     etiqueta: "New",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/KxhcCRVY/VD-Original-Valley-Sweater-Printed-Graphic-Hooded-Black-Grey.jpg",
+    color: "#333333"
   },
 
   // ── PRODUCTO 172: Graphic Hoodie - Eagle Jacket White Red ────────────────────
@@ -2405,12 +2405,12 @@ const PRODUCTOS = [
     nombre: "Graphic Hoodie - Eagle Jacket White Red",
     marca: "Valley Dreams",
     precio: 59999,
-    descripcion: "Hoodie pullover Valley Dreams con gráficas originales. Construcción premium, interior de felpa, capucha amplia. Importada directo.",
+    descripcion: "Hooded jacket eagle print blanco y rojo",
     disponible: true,
     etiqueta: "New",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/vxNdL7vp/VD-Valley-Hooded-Jacket-Eagle-Graphic-Print-White-Red.jpg",
+    color: "#e0e0e0"
   },
 
   // ── PRODUCTO 173: Zip Sweater - Spider Graphic Black ────────────────────
@@ -2419,12 +2419,12 @@ const PRODUCTOS = [
     nombre: "Zip Sweater - Spider Graphic Black",
     marca: "Valley Dreams",
     precio: 59999,
-    descripcion: "Sweater con cierre full zip Valley Dreams. Gráficas originales premium, construcción de alta calidad. Importado directo.",
+    descripcion: "Spider graphic sobre negro",
     disponible: true,
     etiqueta: "New",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/PGwdbbtP/VD-Other-Original-Valley-Zip-Sweater-Spider-Graphic-Black.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 174: Zip Sweater - Eagle Print Pink ────────────────────
@@ -2433,12 +2433,12 @@ const PRODUCTOS = [
     nombre: "Zip Sweater - Eagle Print Pink",
     marca: "Valley Dreams",
     precio: 59999,
-    descripcion: "Sweater con cierre full zip Valley Dreams. Gráficas originales premium, construcción de alta calidad. Importado directo.",
+    descripcion: "Eagle print sobre rosa",
     disponible: true,
     etiqueta: "New",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/dJKMfTQ6/VD-Original-Valley-Dreams-Zip-Sweater-Eagle-Print-Pink.jpg",
+    color: "#e890b8"
   },
 
   // ── PRODUCTO 175: Sweatpants - Loose Graphic White ────────────────────
@@ -2447,12 +2447,12 @@ const PRODUCTOS = [
     nombre: "Sweatpants - Loose Graphic White",
     marca: "Valley Dreams",
     precio: 49999,
-    descripcion: "Pantalón de buzo Valley Dreams con gráficas originales. Corte holgado streetwear, elástico ajustable con cordón. Importado directo.",
+    descripcion: "Estampado gráfico suelto sobre blanco",
     disponible: true,
     etiqueta: "New",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/yB4Y4QWm/VD-Valley-Sweatpants-Loose-Graphic-Print-White.jpg",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 176: Sweatpants - Vale Dreams Pink ────────────────────
@@ -2461,12 +2461,12 @@ const PRODUCTOS = [
     nombre: "Sweatpants - Vale Dreams Pink",
     marca: "Valley Dreams",
     precio: 49999,
-    descripcion: "Pantalón de buzo Valley Dreams con gráficas originales. Corte holgado streetwear, elástico ajustable con cordón. Importado directo.",
+    descripcion: "Vale Dreams print sobre rosa",
     disponible: true,
     etiqueta: "New",
     talles: ["S","M","L","XL","XXL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/ymgNnss8/VD-Valley-Sweatpants-Vale-Dreams-Printed-Pink.jpg",
+    color: "#e890b8"
   },
 
   // ── PRODUCTO 177: T-Shirts - Green Camo Black ────────────────────
@@ -2475,12 +2475,12 @@ const PRODUCTOS = [
     nombre: "T-Shirts - Green Camo Black",
     marca: "BAPE",
     precio: 39999,
-    descripcion: "Remeras BAPE con los graficos mas iconicOS. Algodon premium, corte oversize. Importadas directo.",
+    descripcion: "Green Camo sobre negro",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/Kc6mCSL0/95-A-Bathing-Ape-Green-Camo-Black.png",
+    color: "#2a4a2a"
   },
 
   // ── PRODUCTO 178: T-Shirts - Green Camo White ────────────────────
@@ -2489,12 +2489,12 @@ const PRODUCTOS = [
     nombre: "T-Shirts - Green Camo White",
     marca: "BAPE",
     precio: 39999,
-    descripcion: "Remeras BAPE con los graficos mas iconicOS. Algodon premium, corte oversize. Importadas directo.",
+    descripcion: "Green Camo sobre blanco",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/PvszW0JV/94-A-Bathing-Ape-Green-Camo-White.png",
+    color: "#e8f0e8"
   },
 
   // ── PRODUCTO 179: T-Shirts - Purple Camo Black ────────────────────
@@ -2503,12 +2503,12 @@ const PRODUCTOS = [
     nombre: "T-Shirts - Purple Camo Black",
     marca: "BAPE",
     precio: 39999,
-    descripcion: "Remeras BAPE con los graficos mas iconicOS. Algodon premium, corte oversize. Importadas directo.",
+    descripcion: "Purple Camo sobre negro",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/ZpMDBMsb/93-A-Bathing-Ape-T-Shirt-Purple-Camo-Black.png",
+    color: "#4a2a5a"
   },
 
   // ── PRODUCTO 180: T-Shirts - Purple Camo White ────────────────────
@@ -2517,12 +2517,12 @@ const PRODUCTOS = [
     nombre: "T-Shirts - Purple Camo White",
     marca: "BAPE",
     precio: 39999,
-    descripcion: "Remeras BAPE con los graficos mas iconicOS. Algodon premium, corte oversize. Importadas directo.",
+    descripcion: "Purple Camo sobre blanco",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/cmjnJvF/92-A-Bathing-Ape-T-Shirt-Purple-Camo-White.png",
+    color: "#e8e0f0"
   },
 
   // ── PRODUCTO 181: T-Shirts - x Chrome Hearts Black ────────────────────
@@ -2531,12 +2531,12 @@ const PRODUCTOS = [
     nombre: "T-Shirts - x Chrome Hearts Black",
     marca: "BAPE",
     precio: 39999,
-    descripcion: "Remeras BAPE con los graficos mas iconicOS. Algodon premium, corte oversize. Importadas directo.",
+    descripcion: "Collab BAPE x Chrome Hearts sobre negro",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/2xF1GYN/91-Bape-X-Chrome-Hearts-T-Shirt-Black.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 182: T-Shirts - x Chrome Hearts White ────────────────────
@@ -2545,12 +2545,12 @@ const PRODUCTOS = [
     nombre: "T-Shirts - x Chrome Hearts White",
     marca: "BAPE",
     precio: 39999,
-    descripcion: "Remeras BAPE con los graficos mas iconicOS. Algodon premium, corte oversize. Importadas directo.",
+    descripcion: "Collab BAPE x Chrome Hearts sobre blanco",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/62v6PpL/90-Bape-X-Chrome-Hearts-T-Shirt-White.png",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 183: T-Shirts - x Miami Black ────────────────────
@@ -2559,12 +2559,12 @@ const PRODUCTOS = [
     nombre: "T-Shirts - x Miami Black",
     marca: "BAPE",
     precio: 39999,
-    descripcion: "Remeras BAPE con los graficos mas iconicOS. Algodon premium, corte oversize. Importadas directo.",
+    descripcion: "Collab BAPE x Miami sobre negro",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/hFWQJfZd/89-Bape-X-Miami-T-Shirt-Black.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 184: T-Shirts - x Miami White ────────────────────
@@ -2573,12 +2573,12 @@ const PRODUCTOS = [
     nombre: "T-Shirts - x Miami White",
     marca: "BAPE",
     precio: 39999,
-    descripcion: "Remeras BAPE con los graficos mas iconicOS. Algodon premium, corte oversize. Importadas directo.",
+    descripcion: "Collab BAPE x Miami sobre blanco",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/Pzv4pSsn/88-Bape-X-Miami-T-Shirt-White.png",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 185: T-Shirts - x Miami Pink ────────────────────
@@ -2587,12 +2587,12 @@ const PRODUCTOS = [
     nombre: "T-Shirts - x Miami Pink",
     marca: "BAPE",
     precio: 39999,
-    descripcion: "Remeras BAPE con los graficos mas iconicOS. Algodon premium, corte oversize. Importadas directo.",
+    descripcion: "Collab BAPE x Miami sobre rosa",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/7tFpMHYX/87-Bape-X-Miami-T-Shirt-Pink.png",
+    color: "#e890b8"
   },
 
   // ── PRODUCTO 186: T-Shirts - World Gone Mad Shark Camo White ────────────────────
@@ -2601,12 +2601,12 @@ const PRODUCTOS = [
     nombre: "T-Shirts - World Gone Mad Shark Camo White",
     marca: "BAPE",
     precio: 39999,
-    descripcion: "Remeras BAPE con los graficos mas iconicOS. Algodon premium, corte oversize. Importadas directo.",
+    descripcion: "Shark Camo sobre blanco",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/prJGzmY3/86-Bape-World-Gone-Mad-Shark-Camo-White.png",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 187: T-Shirts - World Gone Mad Shark Camo Black ────────────────────
@@ -2615,12 +2615,12 @@ const PRODUCTOS = [
     nombre: "T-Shirts - World Gone Mad Shark Camo Black",
     marca: "BAPE",
     precio: 39999,
-    descripcion: "Remeras BAPE con los graficos mas iconicOS. Algodon premium, corte oversize. Importadas directo.",
+    descripcion: "Shark Camo sobre negro",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/CKr68QFS/85-Bape-World-Gone-Mad-Shark-Camo-Black.png",
+    color: "#1a1a1a"
   },
 
   // ── PRODUCTO 188: T-Shirts - x Heron Preston Purple ────────────────────
@@ -2629,12 +2629,12 @@ const PRODUCTOS = [
     nombre: "T-Shirts - x Heron Preston Purple",
     marca: "BAPE",
     precio: 39999,
-    descripcion: "Remeras BAPE con los graficos mas iconicOS. Algodon premium, corte oversize. Importadas directo.",
+    descripcion: "Collab BAPE x Heron Preston violeta",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/g0vM18r/84-Bape-X-Heron-Preston-T-Shirt-Purple.png",
+    color: "#6a3a8a"
   },
 
   // ── PRODUCTO 189: T-Shirts - x Heron Preston White ────────────────────
@@ -2643,12 +2643,12 @@ const PRODUCTOS = [
     nombre: "T-Shirts - x Heron Preston White",
     marca: "BAPE",
     precio: 39999,
-    descripcion: "Remeras BAPE con los graficos mas iconicOS. Algodon premium, corte oversize. Importadas directo.",
+    descripcion: "Collab BAPE x Heron Preston blanco",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/ccnn2htL/83-Bape-X-Heron-Preston-T-Shirt-White.png",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 190: T-Shirts - x Heron Preston Coral ────────────────────
@@ -2657,12 +2657,12 @@ const PRODUCTOS = [
     nombre: "T-Shirts - x Heron Preston Coral",
     marca: "BAPE",
     precio: 39999,
-    descripcion: "Remeras BAPE con los graficos mas iconicOS. Algodon premium, corte oversize. Importadas directo.",
+    descripcion: "Collab BAPE x Heron Preston coral",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/n8zX34tT/82-Bape-X-Heron-Preston-T-Shirt-Corchoal.png",
+    color: "#e89080"
   },
 
   // ── PRODUCTO 191: T-Shirts - Shuffle Ape Head White ────────────────────
@@ -2671,12 +2671,12 @@ const PRODUCTOS = [
     nombre: "T-Shirts - Shuffle Ape Head White",
     marca: "BAPE",
     precio: 39999,
-    descripcion: "Remeras BAPE con los graficos mas iconicOS. Algodon premium, corte oversize. Importadas directo.",
+    descripcion: "Shuffle Ape Head graphic sobre blanco",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/HTJYKhVc/81-Bape-Shuffle-Ape-Head-T-Shirt-White.png",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 192: T-Shirts - Shuffle Ape Head Black ────────────────────
@@ -2685,12 +2685,12 @@ const PRODUCTOS = [
     nombre: "T-Shirts - Shuffle Ape Head Black",
     marca: "BAPE",
     precio: 39999,
-    descripcion: "Remeras BAPE con los graficos mas iconicOS. Algodon premium, corte oversize. Importadas directo.",
+    descripcion: "Shuffle Ape Head graphic sobre negro",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/LdF1Fgpx/80-Bape-Shuffle-Ape-Head-T-Shirt-Black.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 193: T-Shirts - Baby Milo Camo Ape Head Light Blue ────────────────────
@@ -2699,12 +2699,12 @@ const PRODUCTOS = [
     nombre: "T-Shirts - Baby Milo Camo Ape Head Light Blue",
     marca: "BAPE",
     precio: 39999,
-    descripcion: "Remeras BAPE con los graficos mas iconicOS. Algodon premium, corte oversize. Importadas directo.",
+    descripcion: "Baby Milo Camo Ape Head celeste",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/mCKvDnR7/79-Bape-Baby-Milo-T-Shirt-Camo-Ape-Head-Light-Blue.png",
+    color: "#80b8d0"
   },
 
   // ── PRODUCTO 194: T-Shirts - Baby Milo Camo Ape Head Pink ────────────────────
@@ -2713,12 +2713,12 @@ const PRODUCTOS = [
     nombre: "T-Shirts - Baby Milo Camo Ape Head Pink",
     marca: "BAPE",
     precio: 39999,
-    descripcion: "Remeras BAPE con los graficos mas iconicOS. Algodon premium, corte oversize. Importadas directo.",
+    descripcion: "Baby Milo Camo Ape Head rosa",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/9knGpCZk/78-Bape-Baby-Milo-T-Shirt-Camo-Ape-Head-Pink.png",
+    color: "#e8a0b8"
   },
 
   // ── PRODUCTO 195: T-Shirts - Baby Milo Camo Ape Head Beige ────────────────────
@@ -2727,12 +2727,12 @@ const PRODUCTOS = [
     nombre: "T-Shirts - Baby Milo Camo Ape Head Beige",
     marca: "BAPE",
     precio: 39999,
-    descripcion: "Remeras BAPE con los graficos mas iconicOS. Algodon premium, corte oversize. Importadas directo.",
+    descripcion: "Baby Milo Camo Ape Head beige",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/m5kr8K9s/77-Bape-Baby-Milo-T-Shirt-Camo-Ape-Head-Beige.png",
+    color: "#d0c0a0"
   },
 
   // ── PRODUCTO 196: T-Shirts - Big Ape Head White ────────────────────
@@ -2741,12 +2741,12 @@ const PRODUCTOS = [
     nombre: "T-Shirts - Big Ape Head White",
     marca: "BAPE",
     precio: 39999,
-    descripcion: "Remeras BAPE con los graficos mas iconicOS. Algodon premium, corte oversize. Importadas directo.",
+    descripcion: "Big Ape Head sobre blanco",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/Q7cP38PH/76-Bape-T-Shirt-Big-Ape-Head-White.png",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 197: T-Shirts - Big Ape Head Black ────────────────────
@@ -2755,12 +2755,12 @@ const PRODUCTOS = [
     nombre: "T-Shirts - Big Ape Head Black",
     marca: "BAPE",
     precio: 39999,
-    descripcion: "Remeras BAPE con los graficos mas iconicOS. Algodon premium, corte oversize. Importadas directo.",
+    descripcion: "Big Ape Head sobre negro",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/6JbwGLMc/75-Bape-T-Shirt-Big-Ape-Head-Black.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 198: T-Shirts - World Gone Wild Red ────────────────────
@@ -2769,12 +2769,12 @@ const PRODUCTOS = [
     nombre: "T-Shirts - World Gone Wild Red",
     marca: "BAPE",
     precio: 39999,
-    descripcion: "Remeras BAPE con los graficos mas iconicOS. Algodon premium, corte oversize. Importadas directo.",
+    descripcion: "World Gone Wild rojo",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/zW1ryXk4/74-Bape-T-Shirt-World-Gone-Wild-Red.png",
+    color: "#aa2020"
   },
 
   // ── PRODUCTO 199: T-Shirts - World Gone Mad White ────────────────────
@@ -2783,12 +2783,12 @@ const PRODUCTOS = [
     nombre: "T-Shirts - World Gone Mad White",
     marca: "BAPE",
     precio: 39999,
-    descripcion: "Remeras BAPE con los graficos mas iconicOS. Algodon premium, corte oversize. Importadas directo.",
+    descripcion: "World Gone Mad sobre blanco",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/39qM0gFz/73-Bape-T-Shirt-World-Gone-Mad-White.png",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 200: T-Shirts - World Gone Mad Black ────────────────────
@@ -2797,12 +2797,12 @@ const PRODUCTOS = [
     nombre: "T-Shirts - World Gone Mad Black",
     marca: "BAPE",
     precio: 39999,
-    descripcion: "Remeras BAPE con los graficos mas iconicOS. Algodon premium, corte oversize. Importadas directo.",
+    descripcion: "World Gone Mad sobre negro",
     disponible: true,
     etiqueta: "New",
     talles: ["M","L","XL","XXL","3XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/FbdXS9xZ/72-Bape-T-Shirt-World-Gone-Mad-Black.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 201: Bapesta - Black ────────────────────
@@ -2811,12 +2811,12 @@ const PRODUCTOS = [
     nombre: "Bapesta - Black",
     marca: "BAPE",
     precio: 109999,
-    descripcion: "Iconicas zapatillas Bapesta. Silueta reconocible worldwide, construcción premium. Importadas directo.",
+    descripcion: "Negro clásico",
     disponible: true,
     etiqueta: "New",
     talles: ["38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/9HXgwZsp/00779b52-ccd5-4a00-ae57-ea1d658d8a60-jpg.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 202: Bapesta - White ────────────────────
@@ -2825,12 +2825,12 @@ const PRODUCTOS = [
     nombre: "Bapesta - White",
     marca: "BAPE",
     precio: 109999,
-    descripcion: "Iconicas zapatillas Bapesta. Silueta reconocible worldwide, construcción premium. Importadas directo.",
+    descripcion: "Blanco clásico",
     disponible: true,
     etiqueta: "New",
     talles: ["38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/HTGx5vgD/57251a7b-2776-421a-b303-d34932b5543e-jpg.jpg",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 203: Bapesta - Blue ────────────────────
@@ -2839,12 +2839,12 @@ const PRODUCTOS = [
     nombre: "Bapesta - Blue",
     marca: "BAPE",
     precio: 109999,
-    descripcion: "Iconicas zapatillas Bapesta. Silueta reconocible worldwide, construcción premium. Importadas directo.",
+    descripcion: "Azul BAPE",
     disponible: true,
     etiqueta: "New",
     talles: ["38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/Ngp7q7w5/67921b7e-ee64-4890-9848-b89686c9fa49-jpg.jpg",
+    color: "#1a4a8a"
   },
 
   // ── PRODUCTO 204: Bapesta - Red ────────────────────
@@ -2853,12 +2853,12 @@ const PRODUCTOS = [
     nombre: "Bapesta - Red",
     marca: "BAPE",
     precio: 109999,
-    descripcion: "Iconicas zapatillas Bapesta. Silueta reconocible worldwide, construcción premium. Importadas directo.",
+    descripcion: "Rojo clásico",
     disponible: true,
     etiqueta: "New",
     talles: ["38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/RphGmH93/94640f07-329f-441c-84c4-1b69da3730c4-jpg.jpg",
+    color: "#aa1a1a"
   },
 
   // ── PRODUCTO 205: Bapesta - Pink ────────────────────
@@ -2867,12 +2867,12 @@ const PRODUCTOS = [
     nombre: "Bapesta - Pink",
     marca: "BAPE",
     precio: 109999,
-    descripcion: "Iconicas zapatillas Bapesta. Silueta reconocible worldwide, construcción premium. Importadas directo.",
+    descripcion: "Rosa BAPE",
     disponible: true,
     etiqueta: "New",
     talles: ["38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/NgXX7Wqr/b58cc857-ed63-43d1-8610-908f7c062e45-jpg.jpg",
+    color: "#e890b8"
   },
 
   // ── PRODUCTO 206: Bapesta - Purple ────────────────────
@@ -2881,12 +2881,12 @@ const PRODUCTOS = [
     nombre: "Bapesta - Purple",
     marca: "BAPE",
     precio: 109999,
-    descripcion: "Iconicas zapatillas Bapesta. Silueta reconocible worldwide, construcción premium. Importadas directo.",
+    descripcion: "Violeta",
     disponible: true,
     etiqueta: "New",
     talles: ["38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/CpmYK8gq/bd089cca-bace-481b-bd12-47aa63ad1e7d-jpg.jpg",
+    color: "#7a3aaa"
   },
 
   // ── PRODUCTO 207: Bapesta - Yellow ────────────────────
@@ -2895,12 +2895,12 @@ const PRODUCTOS = [
     nombre: "Bapesta - Yellow",
     marca: "BAPE",
     precio: 109999,
-    descripcion: "Iconicas zapatillas Bapesta. Silueta reconocible worldwide, construcción premium. Importadas directo.",
+    descripcion: "Amarillo",
     disponible: true,
     etiqueta: "New",
     talles: ["38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/99gJk8X7/cdfa6291-e15a-4205-8c57-da6d670ed971-jpg.jpg",
+    color: "#d4c01a"
   },
 
   // ── PRODUCTO 208: Bapesta - Green ────────────────────
@@ -2909,12 +2909,12 @@ const PRODUCTOS = [
     nombre: "Bapesta - Green",
     marca: "BAPE",
     precio: 109999,
-    descripcion: "Iconicas zapatillas Bapesta. Silueta reconocible worldwide, construcción premium. Importadas directo.",
+    descripcion: "Verde",
     disponible: true,
     etiqueta: "New",
     talles: ["38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/pvmQrJZ4/e0a9286d-19b3-4e41-b8ee-28b6b0bd3af5-jpg.jpg",
+    color: "#2a7a3a"
   },
 
   // ── PRODUCTO 209: Bapesta - Orange ────────────────────
@@ -2923,12 +2923,12 @@ const PRODUCTOS = [
     nombre: "Bapesta - Orange",
     marca: "BAPE",
     precio: 109999,
-    descripcion: "Iconicas zapatillas Bapesta. Silueta reconocible worldwide, construcción premium. Importadas directo.",
+    descripcion: "Naranja",
     disponible: true,
     etiqueta: "New",
     talles: ["38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/k2VQQSDX/f05cf122-b01a-4028-81f8-28d40e2c4564-jpg.jpg",
+    color: "#d4601a"
   },
 
   // ── PRODUCTO 210: Bapesta - Grey ────────────────────
@@ -2937,12 +2937,12 @@ const PRODUCTOS = [
     nombre: "Bapesta - Grey",
     marca: "BAPE",
     precio: 109999,
-    descripcion: "Iconicas zapatillas Bapesta. Silueta reconocible worldwide, construcción premium. Importadas directo.",
+    descripcion: "Gris",
     disponible: true,
     etiqueta: "New",
     talles: ["38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/fG1y9rMk/f18ad2b9-3bb7-458d-b7d9-65aa904214b0-jpg.jpg",
+    color: "#888888"
   },
 
   // ── PRODUCTO 211: Bapesta - Navy ────────────────────
@@ -2951,12 +2951,12 @@ const PRODUCTOS = [
     nombre: "Bapesta - Navy",
     marca: "BAPE",
     precio: 109999,
-    descripcion: "Iconicas zapatillas Bapesta. Silueta reconocible worldwide, construcción premium. Importadas directo.",
+    descripcion: "Azul marino",
     disponible: true,
     etiqueta: "New",
     talles: ["38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/Rp214p7z/fa70b465-6d3e-434d-bf0e-ef4d1c3c54f1-jpg.jpg",
+    color: "#0a1a3a"
   },
 
   // ── PRODUCTO 212: Bapesta - Camo Green ────────────────────
@@ -2965,12 +2965,12 @@ const PRODUCTOS = [
     nombre: "Bapesta - Camo Green",
     marca: "BAPE",
     precio: 109999,
-    descripcion: "Iconicas zapatillas Bapesta. Silueta reconocible worldwide, construcción premium. Importadas directo.",
+    descripcion: "Camo verde militar",
     disponible: true,
     etiqueta: "New",
     talles: ["38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/C5r0GYwf/2d93ebcf-cc3f-4b8b-b69e-498ff99857db-jpg.jpg",
+    color: "#4a6a3a"
   },
 
   // ── PRODUCTO 213: Bapesta - Camo Brown ────────────────────
@@ -2979,12 +2979,12 @@ const PRODUCTOS = [
     nombre: "Bapesta - Camo Brown",
     marca: "BAPE",
     precio: 109999,
-    descripcion: "Iconicas zapatillas Bapesta. Silueta reconocible worldwide, construcción premium. Importadas directo.",
+    descripcion: "Camo marrón",
     disponible: true,
     etiqueta: "New",
     talles: ["38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/HDnLsyyr/5a5683c7-896e-450e-84ba-74a5ec2e13cc-jpg.jpg",
+    color: "#5a3a1a"
   },
 
   // ── PRODUCTO 214: Bapesta - Gold ────────────────────
@@ -2993,12 +2993,12 @@ const PRODUCTOS = [
     nombre: "Bapesta - Gold",
     marca: "BAPE",
     precio: 109999,
-    descripcion: "Iconicas zapatillas Bapesta. Silueta reconocible worldwide, construcción premium. Importadas directo.",
+    descripcion: "Dorado",
     disponible: true,
     etiqueta: "New",
     talles: ["38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/jkCStR87/5f6985c8-bd52-4cd6-8bc5-0135f795528c-jpg.jpg",
+    color: "#d4a01a"
   },
 
   // ── PRODUCTO 215: Bapesta - Silver ────────────────────
@@ -3007,12 +3007,12 @@ const PRODUCTOS = [
     nombre: "Bapesta - Silver",
     marca: "BAPE",
     precio: 109999,
-    descripcion: "Iconicas zapatillas Bapesta. Silueta reconocible worldwide, construcción premium. Importadas directo.",
+    descripcion: "Plata",
     disponible: true,
     etiqueta: "New",
     talles: ["38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/kPdtS6R/6a0f285c-4d87-4aac-8e4e-3fd1d3b0b1d3-jpg.jpg",
+    color: "#c0c0c0"
   },
 
   // ── PRODUCTO 216: Bapesta - Black Gold ────────────────────
@@ -3021,12 +3021,12 @@ const PRODUCTOS = [
     nombre: "Bapesta - Black Gold",
     marca: "BAPE",
     precio: 109999,
-    descripcion: "Iconicas zapatillas Bapesta. Silueta reconocible worldwide, construcción premium. Importadas directo.",
+    descripcion: "Negro con detalles dorados",
     disponible: true,
     etiqueta: "New",
     talles: ["38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/5VznsBS/6f9fe105-3ac7-4a8a-bbc8-a4a77cbce1e7-jpg.jpg",
+    color: "#1a1a08"
   },
 
   // ── PRODUCTO 217: Bapesta - White Blue ────────────────────
@@ -3035,12 +3035,12 @@ const PRODUCTOS = [
     nombre: "Bapesta - White Blue",
     marca: "BAPE",
     precio: 109999,
-    descripcion: "Iconicas zapatillas Bapesta. Silueta reconocible worldwide, construcción premium. Importadas directo.",
+    descripcion: "Blanco y azul",
     disponible: true,
     etiqueta: "New",
     talles: ["38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/MDrCXpmM/7a329582-e838-4601-9ddd-cb6ac500fc8b-jpg.jpg",
+    color: "#6a8ecc"
   },
 
   // ── PRODUCTO 218: Bapesta - White Red ────────────────────
@@ -3049,12 +3049,12 @@ const PRODUCTOS = [
     nombre: "Bapesta - White Red",
     marca: "BAPE",
     precio: 109999,
-    descripcion: "Iconicas zapatillas Bapesta. Silueta reconocible worldwide, construcción premium. Importadas directo.",
+    descripcion: "Blanco y rojo",
     disponible: true,
     etiqueta: "New",
     talles: ["38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/8nMX3xcm/7d69ec8a-ac9c-4bed-8870-2177aec1c549-jpg.jpg",
+    color: "#e8e8e8"
   },
 
   // ── PRODUCTO 219: Bapesta - Black Red ────────────────────
@@ -3063,12 +3063,12 @@ const PRODUCTOS = [
     nombre: "Bapesta - Black Red",
     marca: "BAPE",
     precio: 109999,
-    descripcion: "Iconicas zapatillas Bapesta. Silueta reconocible worldwide, construcción premium. Importadas directo.",
+    descripcion: "Negro y rojo",
     disponible: true,
     etiqueta: "New",
     talles: ["38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/wNsyggtT/8c9897fb-bcf5-4c8c-895d-421ef6b43082-jpg.jpg",
+    color: "#2a0a0a"
   },
 
   // ── PRODUCTO 220: Bapesta - Black White ────────────────────
@@ -3077,12 +3077,12 @@ const PRODUCTOS = [
     nombre: "Bapesta - Black White",
     marca: "BAPE",
     precio: 109999,
-    descripcion: "Iconicas zapatillas Bapesta. Silueta reconocible worldwide, construcción premium. Importadas directo.",
+    descripcion: "Negro y blanco",
     disponible: true,
     etiqueta: "New",
     talles: ["38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/BdKFwxH/26e9e444-bbb0-48ad-bf19-502d3e35ba02-jpg.jpg",
+    color: "#333333"
   },
 
   // ── PRODUCTO 221: Bapesta - Pink White ────────────────────
@@ -3091,12 +3091,12 @@ const PRODUCTOS = [
     nombre: "Bapesta - Pink White",
     marca: "BAPE",
     precio: 109999,
-    descripcion: "Iconicas zapatillas Bapesta. Silueta reconocible worldwide, construcción premium. Importadas directo.",
+    descripcion: "Rosa y blanco",
     disponible: true,
     etiqueta: "New",
     talles: ["38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/dsx1jnjF/48f902ad-e15c-4734-8221-ee75f1feb1df-jpg.jpg",
+    color: "#e8c0d0"
   },
 
   // ── PRODUCTO 222: Bapesta - Green Camo v2 ────────────────────
@@ -3105,12 +3105,12 @@ const PRODUCTOS = [
     nombre: "Bapesta - Green Camo v2",
     marca: "BAPE",
     precio: 109999,
-    descripcion: "Iconicas zapatillas Bapesta. Silueta reconocible worldwide, construcción premium. Importadas directo.",
+    descripcion: "Camo verde segunda versión",
     disponible: true,
     etiqueta: "New",
     talles: ["38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/YBkkWdnT/69fb3212-caf6-4e74-a5c1-817622b1d1ad-jpg.jpg",
+    color: "#3a5a2a"
   },
 
   // ── PRODUCTO 223: Bapesta - Light Blue ────────────────────
@@ -3119,12 +3119,12 @@ const PRODUCTOS = [
     nombre: "Bapesta - Light Blue",
     marca: "BAPE",
     precio: 109999,
-    descripcion: "Iconicas zapatillas Bapesta. Silueta reconocible worldwide, construcción premium. Importadas directo.",
+    descripcion: "Azul claro",
     disponible: true,
     etiqueta: "New",
     talles: ["38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/nszG7bRc/88f963d1-c9b3-4d25-b38f-9d99cc43cfc7-jpg.jpg",
+    color: "#80b8e0"
   },
 
   // ── PRODUCTO 224: Timberland Premium 6 - Wheat ────────────────────
@@ -3133,12 +3133,12 @@ const PRODUCTOS = [
     nombre: "Timberland Premium 6 - Wheat",
     marca: "Timberland",
     precio: 114999,
-    descripcion: "Botas Timberland Premium 6 classic. Cuero premium waterproof, suela antideslizante. Icono del streetwear. Importadas directo.",
+    descripcion: "Wheat - amarillo clásico",
     disponible: true,
     etiqueta: "Classic",
     talles: ["40","41","42","43","44","45","46"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/cKYJQCh6/Timberland-Premium-6-Inch-Waterproof-Boot-for-Men-in-Yellow-TBL-Yellow-MKTG1-1.jpg",
+    color: "#d4a01a"
   },
 
   // ── PRODUCTO 225: Timberland Premium 6 - Black ────────────────────
@@ -3147,12 +3147,12 @@ const PRODUCTOS = [
     nombre: "Timberland Premium 6 - Black",
     marca: "Timberland",
     precio: 114999,
-    descripcion: "Botas Timberland Premium 6 classic. Cuero premium waterproof, suela antideslizante. Icono del streetwear. Importadas directo.",
+    descripcion: "Black - negro clásico",
     disponible: true,
     etiqueta: "Classic",
     talles: ["40","41","42","43","44","45","46"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/QFsXB8WD/Timberland-Premium-6-Inch-Waterproof-Boot-for-Men-in-Black-TBL-ALT8.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 226: x Undefeated Timberland - Nubuck Camo ────────────────────
@@ -3161,12 +3161,12 @@ const PRODUCTOS = [
     nombre: "x Undefeated Timberland - Nubuck Camo",
     marca: "BAPE",
     precio: 129999,
-    descripcion: "Colaboracion exclusiva BAPE x Undefeated x Timberland. Botas clsasicas de cuero premium con detalles de las 3 marcas. Importadas directo.",
+    descripcion: "Nubuck Camo - BAPE x Undefeated x Timberland",
     disponible: true,
     etiqueta: "Collab",
     talles: ["40","41","42","43","44","45","46"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/5hzrXhHs/1681856724-undefeated-a-bathing-ape-timberland-release-date-price-011.jpg",
+    color: "#1a1a1a"
   },
 
   // ── PRODUCTO 227: Monogram Cross Print Pocket T-Shirt - Black ────────────────────
@@ -3175,12 +3175,12 @@ const PRODUCTOS = [
     nombre: "Monogram Cross Print Pocket T-Shirt - Black",
     marca: "Chrome Hearts",
     precio: 99999,
-    descripcion: "Remera Chrome Hearts con bolsillo y cruz monograma. Algodón premium, corte oversize. Importada directo.",
+    descripcion: "Negro",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/zHtj7D6k/86-Chrome-Hearts-Monogram-Cross-Print-Pocket-T-Shirt-1-en-negro.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 228: Multi Logo T-Shirt with Embroidered Triple Cross and Star - White ────────────────────
@@ -3189,12 +3189,12 @@ const PRODUCTOS = [
     nombre: "Multi Logo T-Shirt with Embroidered Triple Cross and Star - White",
     marca: "Chrome Hearts",
     precio: 99999,
-    descripcion: "Remera Chrome Hearts con triple cruz y estrella bordadas. Algodón premium, diseño exclusivo. Importada directo.",
+    descripcion: "Blanco",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/VYmsLQm1/85-Chrome-Hearts-Multi-Logo-T-Shirt-with-Embroidered-Triple-Cross-and-Star-1-en-blanco-y-1-en-negr.png",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 229: Multi Logo T-Shirt with Embroidered Triple Cross and Star - Black ────────────────────
@@ -3203,12 +3203,12 @@ const PRODUCTOS = [
     nombre: "Multi Logo T-Shirt with Embroidered Triple Cross and Star - Black",
     marca: "Chrome Hearts",
     precio: 99999,
-    descripcion: "Remera Chrome Hearts con triple cruz y estrella bordadas. Algodón premium, diseño exclusivo. Importada directo.",
+    descripcion: "Negro",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/VYmsLQm1/85-Chrome-Hearts-Multi-Logo-T-Shirt-with-Embroidered-Triple-Cross-and-Star-1-en-blanco-y-1-en-negr.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 230: Fleur-de-Lis Patch Coaches Jacket - Black ────────────────────
@@ -3217,12 +3217,12 @@ const PRODUCTOS = [
     nombre: "Fleur-de-Lis Patch Coaches Jacket - Black",
     marca: "Chrome Hearts",
     precio: 149999,
-    descripcion: "Coaches jacket Chrome Hearts con parche fleur-de-lis. Cuero y tela premium, construcción de alta calidad. Importada directo.",
+    descripcion: "Negro",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/1Jtfvfmp/84-Chrome-Hearts-Fleur-de-Lis-Patch-Coaches-Jacket-1-en-negro.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 231: Matty Boy Chomper Horseshoe T-Shirt - White ────────────────────
@@ -3231,12 +3231,12 @@ const PRODUCTOS = [
     nombre: "Matty Boy Chomper Horseshoe T-Shirt - White",
     marca: "Chrome Hearts",
     precio: 99999,
-    descripcion: "Remera Chrome Hearts Matty Boy con logo horseshoe. Algodón premium, diseño exclusivo. Importada directo.",
+    descripcion: "Blanco",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/XxbHRm14/83-Chrome-Hearts-Matty-Boy-Chomper-Horseshoe-T-Shirt-1-en-blanco-y-1-en-negro.png",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 232: Matty Boy Chomper Horseshoe T-Shirt - Black ────────────────────
@@ -3245,12 +3245,12 @@ const PRODUCTOS = [
     nombre: "Matty Boy Chomper Horseshoe T-Shirt - Black",
     marca: "Chrome Hearts",
     precio: 99999,
-    descripcion: "Remera Chrome Hearts Matty Boy con logo horseshoe. Algodón premium, diseño exclusivo. Importada directo.",
+    descripcion: "Negro",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/XxbHRm14/83-Chrome-Hearts-Matty-Boy-Chomper-Horseshoe-T-Shirt-1-en-blanco-y-1-en-negro.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 233: Vertical Cross Patch Turtle Neck Knit Sweater - Grey ────────────────────
@@ -3259,12 +3259,12 @@ const PRODUCTOS = [
     nombre: "Vertical Cross Patch Turtle Neck Knit Sweater - Grey",
     marca: "Chrome Hearts",
     precio: 119999,
-    descripcion: "Sweater turtle neck Chrome Hearts con parche de cruz vertical. Tejido de punto premium, diseño exclusivo. Importado directo.",
+    descripcion: "Gris",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/hRxYc9zf/82-Chrome-Hearts-Vertical-Cross-Patch-Turtle-Neck-Knit-Sweater-1-en-gris-y-1-en-negro.png",
+    color: "#888888"
   },
 
   // ── PRODUCTO 234: Vertical Cross Patch Turtle Neck Knit Sweater - Black ────────────────────
@@ -3273,12 +3273,12 @@ const PRODUCTOS = [
     nombre: "Vertical Cross Patch Turtle Neck Knit Sweater - Black",
     marca: "Chrome Hearts",
     precio: 119999,
-    descripcion: "Sweater turtle neck Chrome Hearts con parche de cruz vertical. Tejido de punto premium, diseño exclusivo. Importado directo.",
+    descripcion: "Negro",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/hRxYc9zf/82-Chrome-Hearts-Vertical-Cross-Patch-Turtle-Neck-Knit-Sweater-1-en-gris-y-1-en-negro.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 235: Multi Logo T-Shirt with Embroidered Crosses and Stars - White ────────────────────
@@ -3287,12 +3287,12 @@ const PRODUCTOS = [
     nombre: "Multi Logo T-Shirt with Embroidered Crosses and Stars - White",
     marca: "Chrome Hearts",
     precio: 99999,
-    descripcion: "Remera Chrome Hearts con cruces y estrellas bordadas. Algodón premium, diseño exclusivo. Importada directo.",
+    descripcion: "Blanco",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/SDXjnYQ7/81-Chrome-Hearts-Multi-Logo-T-Shirt-with-Embroidered-Crosses-and-Stars-1-en-blanco-y-1-en-negro.png",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 236: Multi Logo T-Shirt with Embroidered Crosses and Stars - Black ────────────────────
@@ -3301,12 +3301,12 @@ const PRODUCTOS = [
     nombre: "Multi Logo T-Shirt with Embroidered Crosses and Stars - Black",
     marca: "Chrome Hearts",
     precio: 99999,
-    descripcion: "Remera Chrome Hearts con cruces y estrellas bordadas. Algodón premium, diseño exclusivo. Importada directo.",
+    descripcion: "Negro",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/SDXjnYQ7/81-Chrome-Hearts-Multi-Logo-T-Shirt-with-Embroidered-Crosses-and-Stars-1-en-blanco-y-1-en-negro.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 237: Horseshoe Logo Sherpa Fleece Jacket - Black ────────────────────
@@ -3315,12 +3315,12 @@ const PRODUCTOS = [
     nombre: "Horseshoe Logo Sherpa Fleece Jacket - Black",
     marca: "Chrome Hearts",
     precio: 159999,
-    descripcion: "Jacket de Sherpa fleece Chrome Hearts con logo horseshoe. Forro suave premium, construcción de alta calidad. Importada directo.",
+    descripcion: "Negro",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/Xrs8sv99/80-Chrome-Hearts-Horseshoe-Logo-Sherpa-Fleece-Jacket-1-en-negro.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 238: Multi Cross Patch Varsity Jacket - Grey ────────────────────
@@ -3329,12 +3329,12 @@ const PRODUCTOS = [
     nombre: "Multi Cross Patch Varsity Jacket - Grey",
     marca: "Chrome Hearts",
     precio: 179999,
-    descripcion: "Varsity jacket Chrome Hearts con parches de cruces múltiples. Cuero y tela premium, construcción de alta calidad. Importada directo.",
+    descripcion: "Gris",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/3yWqk0jT/79-Chrome-Hearts-Multi-Cross-Patch-Varsity-Jacket-1-en-gris-y-1-en-negro.png",
+    color: "#888888"
   },
 
   // ── PRODUCTO 239: Multi Cross Patch Varsity Jacket - Black ────────────────────
@@ -3343,12 +3343,12 @@ const PRODUCTOS = [
     nombre: "Multi Cross Patch Varsity Jacket - Black",
     marca: "Chrome Hearts",
     precio: 179999,
-    descripcion: "Varsity jacket Chrome Hearts con parches de cruces múltiples. Cuero y tela premium, construcción de alta calidad. Importada directo.",
+    descripcion: "Negro",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/3yWqk0jT/79-Chrome-Hearts-Multi-Cross-Patch-Varsity-Jacket-1-en-gris-y-1-en-negro.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 240: Denim Patch Horseshoe T-Shirt - White ────────────────────
@@ -3357,12 +3357,12 @@ const PRODUCTOS = [
     nombre: "Denim Patch Horseshoe T-Shirt - White",
     marca: "Chrome Hearts",
     precio: 99999,
-    descripcion: "Remera Chrome Hearts con parche horseshoe en denim. Algodón premium, diseño exclusivo. Importada directo.",
+    descripcion: "Blanco",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/sdvqbSFC/78-Chrome-Hearts-Denim-Patch-Horseshoe-T-Shirt-1-en-blanco-y-1-en-negro.png",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 241: Denim Patch Horseshoe T-Shirt - Black ────────────────────
@@ -3371,12 +3371,12 @@ const PRODUCTOS = [
     nombre: "Denim Patch Horseshoe T-Shirt - Black",
     marca: "Chrome Hearts",
     precio: 99999,
-    descripcion: "Remera Chrome Hearts con parche horseshoe en denim. Algodón premium, diseño exclusivo. Importada directo.",
+    descripcion: "Negro",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/sdvqbSFC/78-Chrome-Hearts-Denim-Patch-Horseshoe-T-Shirt-1-en-blanco-y-1-en-negro.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 242: Triple Cross Heart Distressed Long Sleeve T-Shirt - White ────────────────────
@@ -3385,12 +3385,12 @@ const PRODUCTOS = [
     nombre: "Triple Cross Heart Distressed Long Sleeve T-Shirt - White",
     marca: "Chrome Hearts",
     precio: 109999,
-    descripcion: "Remera manga larga Chrome Hearts con triple cruz heart y efecto distressed. Algodón premium, diseño exclusivo. Importada directo.",
+    descripcion: "Blanco",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/yFbQMtTF/77-Chrome-Hearts-Triple-Cross-Heart-Distressed-Long-Sleeve-T-Shirt-1-en-blanco-y-1-en-negro.png",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 243: Triple Cross Heart Distressed Long Sleeve T-Shirt - Black ────────────────────
@@ -3399,12 +3399,12 @@ const PRODUCTOS = [
     nombre: "Triple Cross Heart Distressed Long Sleeve T-Shirt - Black",
     marca: "Chrome Hearts",
     precio: 109999,
-    descripcion: "Remera manga larga Chrome Hearts con triple cruz heart y efecto distressed. Algodón premium, diseño exclusivo. Importada directo.",
+    descripcion: "Negro",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/yFbQMtTF/77-Chrome-Hearts-Triple-Cross-Heart-Distressed-Long-Sleeve-T-Shirt-1-en-blanco-y-1-en-negro.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 244: Embroidered Horseshoe Logo T-Shirt - White ────────────────────
@@ -3413,12 +3413,12 @@ const PRODUCTOS = [
     nombre: "Embroidered Horseshoe Logo T-Shirt - White",
     marca: "Chrome Hearts",
     precio: 99999,
-    descripcion: "Remera Chrome Hearts con logo horseshoe bordado. Algodón premium, diseño exclusivo. Importada directo.",
+    descripcion: "Blanco",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/ZztXBNLT/76-Chrome-Hearts-Embroidered-Horseshoe-Logo-T-Shirt-1-en-blanco-y-1-en-negro.png",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 245: Embroidered Horseshoe Logo T-Shirt - Black ────────────────────
@@ -3427,12 +3427,12 @@ const PRODUCTOS = [
     nombre: "Embroidered Horseshoe Logo T-Shirt - Black",
     marca: "Chrome Hearts",
     precio: 99999,
-    descripcion: "Remera Chrome Hearts con logo horseshoe bordado. Algodón premium, diseño exclusivo. Importada directo.",
+    descripcion: "Negro",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/ZztXBNLT/76-Chrome-Hearts-Embroidered-Horseshoe-Logo-T-Shirt-1-en-blanco-y-1-en-negro.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 246: Multi Cross Outline T-Shirt - White ────────────────────
@@ -3441,12 +3441,12 @@ const PRODUCTOS = [
     nombre: "Multi Cross Outline T-Shirt - White",
     marca: "Chrome Hearts",
     precio: 99999,
-    descripcion: "Remera Chrome Hearts con cruces outline. Algodón premium, diseño exclusivo. Importada directo.",
+    descripcion: "Blanco",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/1Gnt8MBH/75-Chrome-Hearts-Multi-Cross-Outline-T-Shirt-1-en-blanco-y-1-en-negro.png",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 247: Multi Cross Outline T-Shirt - Black ────────────────────
@@ -3455,12 +3455,12 @@ const PRODUCTOS = [
     nombre: "Multi Cross Outline T-Shirt - Black",
     marca: "Chrome Hearts",
     precio: 99999,
-    descripcion: "Remera Chrome Hearts con cruces outline. Algodón premium, diseño exclusivo. Importada directo.",
+    descripcion: "Negro",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/1Gnt8MBH/75-Chrome-Hearts-Multi-Cross-Outline-T-Shirt-1-en-blanco-y-1-en-negro.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 248: Multi Logo Pin Patch T-Shirt - Yellow ────────────────────
@@ -3469,12 +3469,12 @@ const PRODUCTOS = [
     nombre: "Multi Logo Pin Patch T-Shirt - Yellow",
     marca: "Chrome Hearts",
     precio: 99999,
-    descripcion: "Remera Chrome Hearts con parches de pin logo. Algodón premium, diseño exclusivo. Importada directo.",
+    descripcion: "Amarillo",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/RpdWn0Ft/74-Chrome-Hearts-Multi-Logo-Pin-Patch-T-Shirt-1-en-amarillo-y-1-en-negro.png",
+    color: "#d4c01a"
   },
 
   // ── PRODUCTO 249: Multi Logo Pin Patch T-Shirt - Black ────────────────────
@@ -3483,12 +3483,12 @@ const PRODUCTOS = [
     nombre: "Multi Logo Pin Patch T-Shirt - Black",
     marca: "Chrome Hearts",
     precio: 99999,
-    descripcion: "Remera Chrome Hearts con parches de pin logo. Algodón premium, diseño exclusivo. Importada directo.",
+    descripcion: "Negro",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/RpdWn0Ft/74-Chrome-Hearts-Multi-Logo-Pin-Patch-T-Shirt-1-en-amarillo-y-1-en-negro.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 250: CDG Homme Paris Distressed Cross T-Shirt - White ────────────────────
@@ -3497,12 +3497,12 @@ const PRODUCTOS = [
     nombre: "CDG Homme Paris Distressed Cross T-Shirt - White",
     marca: "Chrome Hearts",
     precio: 109999,
-    descripcion: "Collab Chrome Hearts x CDG Homme Paris con cruz distressed. Algodón premium, edición limitada. Importada directo.",
+    descripcion: "Blanco",
     disponible: true,
     etiqueta: "Collab",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/Wvtxkvdb/73-Chrome-Hearts-CDG-Homme-Paris-Distressed-Cross-T-Shirt-1-en-blanco-y-1-en-negro.png",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 251: CDG Homme Paris Distressed Cross T-Shirt - Black ────────────────────
@@ -3511,12 +3511,12 @@ const PRODUCTOS = [
     nombre: "CDG Homme Paris Distressed Cross T-Shirt - Black",
     marca: "Chrome Hearts",
     precio: 109999,
-    descripcion: "Collab Chrome Hearts x CDG Homme Paris con cruz distressed. Algodón premium, edición limitada. Importada directo.",
+    descripcion: "Negro",
     disponible: true,
     etiqueta: "Collab",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/Wvtxkvdb/73-Chrome-Hearts-CDG-Homme-Paris-Distressed-Cross-T-Shirt-1-en-blanco-y-1-en-negro.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 252: CDG Homme Paris Cross T-Shirt - White ────────────────────
@@ -3525,12 +3525,12 @@ const PRODUCTOS = [
     nombre: "CDG Homme Paris Cross T-Shirt - White",
     marca: "Chrome Hearts",
     precio: 109999,
-    descripcion: "Collab Chrome Hearts x CDG Homme Paris con cruz. Algodón premium, edición limitada. Importada directo.",
+    descripcion: "Blanco",
     disponible: true,
     etiqueta: "Collab",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/jvjCs7Jh/72-Chrome-Hearts-CDG-Homme-Paris-Cross-T-Shirt-1-en-blanco-y-1-en-negro.png",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 253: CDG Homme Paris Cross T-Shirt - Black ────────────────────
@@ -3539,12 +3539,12 @@ const PRODUCTOS = [
     nombre: "CDG Homme Paris Cross T-Shirt - Black",
     marca: "Chrome Hearts",
     precio: 109999,
-    descripcion: "Collab Chrome Hearts x CDG Homme Paris con cruz. Algodón premium, edición limitada. Importada directo.",
+    descripcion: "Negro",
     disponible: true,
     etiqueta: "Collab",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/jvjCs7Jh/72-Chrome-Hearts-CDG-Homme-Paris-Cross-T-Shirt-1-en-blanco-y-1-en-negro.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 254: Multi Logo Pocket T-Shirt - White ────────────────────
@@ -3553,12 +3553,12 @@ const PRODUCTOS = [
     nombre: "Multi Logo Pocket T-Shirt - White",
     marca: "Chrome Hearts",
     precio: 99999,
-    descripcion: "Remera Chrome Hearts con bolsillo y logos múltiples. Algodón premium, diseño exclusivo. Importada directo.",
+    descripcion: "Blanco",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/yFH3vT2Z/71-Chrome-Hearts-Multi-Logo-Pocket-T-Shirt-1-en-blanco-y-1-en-negro.png",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 255: Multi Logo Pocket T-Shirt - Black ────────────────────
@@ -3567,12 +3567,12 @@ const PRODUCTOS = [
     nombre: "Multi Logo Pocket T-Shirt - Black",
     marca: "Chrome Hearts",
     precio: 99999,
-    descripcion: "Remera Chrome Hearts con bolsillo y logos múltiples. Algodón premium, diseño exclusivo. Importada directo.",
+    descripcion: "Negro",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/yFH3vT2Z/71-Chrome-Hearts-Multi-Logo-Pocket-T-Shirt-1-en-blanco-y-1-en-negro.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 256: CH Patch T-Shirt with Bottom Crosses - Black ────────────────────
@@ -3581,12 +3581,12 @@ const PRODUCTOS = [
     nombre: "CH Patch T-Shirt with Bottom Crosses - Black",
     marca: "Chrome Hearts",
     precio: 99999,
-    descripcion: "Remera Chrome Hearts con parche CH y cruces en la parte inferior. Algodón premium, diseño exclusivo. Importada directo.",
+    descripcion: "Negro",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/wFFqXhLy/70-Chrome-Hearts-CH-Patch-T-Shirt-with-Bottom-Crosses-1-en-negro.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 257: Black Crewneck Sweatshirt with Leather Horseshoe Patch - Black ────────────────────
@@ -3595,12 +3595,12 @@ const PRODUCTOS = [
     nombre: "Black Crewneck Sweatshirt with Leather Horseshoe Patch - Black",
     marca: "Chrome Hearts",
     precio: 129999,
-    descripcion: "Sudadera crewneck Chrome Hearts con parche de cuero horseshoe. Algodón premium, construcción de alta calidad. Importada directo.",
+    descripcion: "Negro",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/CKzgTtSz/69-Chrome-Hearts-Black-Crewneck-Sweatshirt-with-Leather-Horseshoe-Patch-1-en-negro.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 258: Monogram Print Zip Up Hoodie - White ────────────────────
@@ -3609,12 +3609,12 @@ const PRODUCTOS = [
     nombre: "Monogram Print Zip Up Hoodie - White",
     marca: "Chrome Hearts",
     precio: 139999,
-    descripcion: "Hoodie zip up Chrome Hearts con print monograma. Algodón premium, construcción de alta calidad. Importada directo.",
+    descripcion: "Blanco",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/KjdLnFKv/68-Chrome-Hearts-Monogram-Print-Zip-Up-Hoodie-1-en-blanco-y-1-en-negro-y-1-en-celeste.png",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 259: Monogram Print Zip Up Hoodie - Black ────────────────────
@@ -3623,12 +3623,12 @@ const PRODUCTOS = [
     nombre: "Monogram Print Zip Up Hoodie - Black",
     marca: "Chrome Hearts",
     precio: 139999,
-    descripcion: "Hoodie zip up Chrome Hearts con print monograma. Algodón premium, construcción de alta calidad. Importada directo.",
+    descripcion: "Negro",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/KjdLnFKv/68-Chrome-Hearts-Monogram-Print-Zip-Up-Hoodie-1-en-blanco-y-1-en-negro-y-1-en-celeste.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 260: Monogram Print Zip Up Hoodie - Light Blue ────────────────────
@@ -3637,12 +3637,12 @@ const PRODUCTOS = [
     nombre: "Monogram Print Zip Up Hoodie - Light Blue",
     marca: "Chrome Hearts",
     precio: 139999,
-    descripcion: "Hoodie zip up Chrome Hearts con print monograma. Algodón premium, construcción de alta calidad. Importada directo.",
+    descripcion: "Celeste",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/KjdLnFKv/68-Chrome-Hearts-Monogram-Print-Zip-Up-Hoodie-1-en-blanco-y-1-en-negro-y-1-en-celeste.png",
+    color: "#80b8e0"
   },
 
   // ── PRODUCTO 261: Horseshoe and Filigree Cross T-Shirt - White ────────────────────
@@ -3651,12 +3651,12 @@ const PRODUCTOS = [
     nombre: "Horseshoe and Filigree Cross T-Shirt - White",
     marca: "Chrome Hearts",
     precio: 99999,
-    descripcion: "Remera Chrome Hearts con horseshoe y cruz filigree. Algodón premium, diseño exclusivo. Importada directo.",
+    descripcion: "Blanco",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/9mL8grcs/67-Chrome-Hearts-Horseshoe-and-Filigree-Cross-T-Shirt-1-en-blanco-y-1-en-negro-y-1-en-gris.png",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 262: Horseshoe and Filigree Cross T-Shirt - Black ────────────────────
@@ -3665,12 +3665,12 @@ const PRODUCTOS = [
     nombre: "Horseshoe and Filigree Cross T-Shirt - Black",
     marca: "Chrome Hearts",
     precio: 99999,
-    descripcion: "Remera Chrome Hearts con horseshoe y cruz filigree. Algodón premium, diseño exclusivo. Importada directo.",
+    descripcion: "Negro",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/9mL8grcs/67-Chrome-Hearts-Horseshoe-and-Filigree-Cross-T-Shirt-1-en-blanco-y-1-en-negro-y-1-en-gris.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 263: Horseshoe and Filigree Cross T-Shirt - Grey ────────────────────
@@ -3679,12 +3679,12 @@ const PRODUCTOS = [
     nombre: "Horseshoe and Filigree Cross T-Shirt - Grey",
     marca: "Chrome Hearts",
     precio: 99999,
-    descripcion: "Remera Chrome Hearts con horseshoe y cruz filigree. Algodón premium, diseño exclusivo. Importada directo.",
+    descripcion: "Gris",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/9mL8grcs/67-Chrome-Hearts-Horseshoe-and-Filigree-Cross-T-Shirt-1-en-blanco-y-1-en-negro-y-1-en-gris.png",
+    color: "#888888"
   },
 
   // ── PRODUCTO 264: Scattered Cross Patch T-Shirt - White ────────────────────
@@ -3693,12 +3693,12 @@ const PRODUCTOS = [
     nombre: "Scattered Cross Patch T-Shirt - White",
     marca: "Chrome Hearts",
     precio: 99999,
-    descripcion: "Remera Chrome Hearts con parches de cruz dispersos. Algodón premium, diseño exclusivo. Importada directo.",
+    descripcion: "Blanco",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/4QLJ4h1/66-Chrome-Hearts-Scattered-Cross-Patch-T-Shirt-1-en-blanco-y-1-en-negro.png",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 265: Scattered Cross Patch T-Shirt - Black ────────────────────
@@ -3707,12 +3707,12 @@ const PRODUCTOS = [
     nombre: "Scattered Cross Patch T-Shirt - Black",
     marca: "Chrome Hearts",
     precio: 99999,
-    descripcion: "Remera Chrome Hearts con parches de cruz dispersos. Algodón premium, diseño exclusivo. Importada directo.",
+    descripcion: "Negro",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/4QLJ4h1/66-Chrome-Hearts-Scattered-Cross-Patch-T-Shirt-1-en-blanco-y-1-en-negro.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 266: Multi Cross Patch T-Shirt - White ────────────────────
@@ -3721,12 +3721,12 @@ const PRODUCTOS = [
     nombre: "Multi Cross Patch T-Shirt - White",
     marca: "Chrome Hearts",
     precio: 99999,
-    descripcion: "Remera Chrome Hearts con múltiples parches de cruz. Algodón premium, diseño exclusivo. Importada directo.",
+    descripcion: "Blanco",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/ZpK73Fcs/65-Chrome-Hearts-Multi-Cross-Patch-T-Shirt-1-en-blanco-y-1-en-negro.png",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 267: Multi Cross Patch T-Shirt - Black ────────────────────
@@ -3735,12 +3735,12 @@ const PRODUCTOS = [
     nombre: "Multi Cross Patch T-Shirt - Black",
     marca: "Chrome Hearts",
     precio: 99999,
-    descripcion: "Remera Chrome Hearts con múltiples parches de cruz. Algodón premium, diseño exclusivo. Importada directo.",
+    descripcion: "Negro",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/ZpK73Fcs/65-Chrome-Hearts-Multi-Cross-Patch-T-Shirt-1-en-blanco-y-1-en-negro.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 268: Cross Patch T-Shirt - Grey ────────────────────
@@ -3749,12 +3749,12 @@ const PRODUCTOS = [
     nombre: "Cross Patch T-Shirt - Grey",
     marca: "Chrome Hearts",
     precio: 99999,
-    descripcion: "Remera Chrome Hearts con parche de cruz. Algodón premium, diseño exclusivo. Importada directo.",
+    descripcion: "Gris",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/jvCrQrQF/64-Chrome-Hearts-Cross-Patch-T-Shirt-1-en-gris-y-1-en-negro.png",
+    color: "#888888"
   },
 
   // ── PRODUCTO 269: Cross Patch T-Shirt - Black ────────────────────
@@ -3763,12 +3763,12 @@ const PRODUCTOS = [
     nombre: "Cross Patch T-Shirt - Black",
     marca: "Chrome Hearts",
     precio: 99999,
-    descripcion: "Remera Chrome Hearts con parche de cruz. Algodón premium, diseño exclusivo. Importada directo.",
+    descripcion: "Negro",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/jvCrQrQF/64-Chrome-Hearts-Cross-Patch-T-Shirt-1-en-gris-y-1-en-negro.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 270: Triple Cemetery Cross T-Shirt - White ────────────────────
@@ -3777,12 +3777,12 @@ const PRODUCTOS = [
     nombre: "Triple Cemetery Cross T-Shirt - White",
     marca: "Chrome Hearts",
     precio: 99999,
-    descripcion: "Remera Chrome Hearts con triple cruz cemetery. Algodón premium, diseño exclusivo. Importada directo.",
+    descripcion: "Blanco",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/0yqnCLnY/63-Chrome-Hearts-Triple-Cemetery-Cross-T-Shirt-1-blanco-y-1-en-negro.png",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 271: Triple Cemetery Cross T-Shirt - Black ────────────────────
@@ -3791,12 +3791,12 @@ const PRODUCTOS = [
     nombre: "Triple Cemetery Cross T-Shirt - Black",
     marca: "Chrome Hearts",
     precio: 99999,
-    descripcion: "Remera Chrome Hearts con triple cruz cemetery. Algodón premium, diseño exclusivo. Importada directo.",
+    descripcion: "Negro",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/0yqnCLnY/63-Chrome-Hearts-Triple-Cemetery-Cross-T-Shirt-1-blanco-y-1-en-negro.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 272: Black Mesh V-Neck Football Jersey with Silver Script Logo - Black ────────────────────
@@ -3805,12 +3805,12 @@ const PRODUCTOS = [
     nombre: "Black Mesh V-Neck Football Jersey with Silver Script Logo - Black",
     marca: "Chrome Hearts",
     precio: 89999,
-    descripcion: "Jersey de fútbol mesh Chrome Hearts con logo plateado. Malla premium, diseño deportivo. Importado directo.",
+    descripcion: "Negro",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/99vfdvdK/62-Chrome-Hearts-Black-Mesh-V-Neck-Football-Jersey-with-Silver-Script-Logo-1-en-negro.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 273: Black Leather Belt with Silver Star Studs and Star Buckle - Black ────────────────────
@@ -3819,12 +3819,12 @@ const PRODUCTOS = [
     nombre: "Black Leather Belt with Silver Star Studs and Star Buckle - Black",
     marca: "Chrome Hearts",
     precio: 59999,
-    descripcion: "Cinturón de cuero Chrome Hearts con studs de estrella y hebilla estrella. Cuero premium, acabado de alta calidad. Importado directo.",
+    descripcion: "Negro",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/FbfKcJVJ/61-Chrome-Hearts-Black-Leather-Belt-with-Silver-Star-Studs-and-Star-Buckle-1-en-negro.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 274: Black Zip Up Hoodie with Scroll Logo and Sleeve Script Print - Black ────────────────────
@@ -3833,12 +3833,12 @@ const PRODUCTOS = [
     nombre: "Black Zip Up Hoodie with Scroll Logo and Sleeve Script Print - Black",
     marca: "Chrome Hearts",
     precio: 139999,
-    descripcion: "Hoodie zip up Chrome Hearts con logo scroll y print en manga. Algodón premium, construcción de alta calidad. Importada directo.",
+    descripcion: "Negro",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/tpfMmX7y/60-Chrome-Hearts-Black-Zip-Up-Hoodie-with-Scroll-Logo-and-Sleeve-Script-Print-1-en-negro.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 275: Black Zip Up Fleece Hoodie with Horseshoe Logo - Black ────────────────────
@@ -3847,12 +3847,12 @@ const PRODUCTOS = [
     nombre: "Black Zip Up Fleece Hoodie with Horseshoe Logo - Black",
     marca: "Chrome Hearts",
     precio: 129999,
-    descripcion: "Hoodie fleece zip up Chrome Hearts con logo horseshoe. Forro suave premium, construcción de alta calidad. Importada directo.",
+    descripcion: "Negro",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/XfJ1H3zD/59-Chrome-Hearts-Black-Zip-Up-Fleece-Hoodie-with-Horseshoe-Logo-1-en-negro.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 276: Horseshoe Logo Half Zip Fleece Pullover - Black ────────────────────
@@ -3861,12 +3861,12 @@ const PRODUCTOS = [
     nombre: "Horseshoe Logo Half Zip Fleece Pullover - Black",
     marca: "Chrome Hearts",
     precio: 119999,
-    descripcion: "Pullover fleece half zip Chrome Hearts con logo horseshoe. Forro suave premium, construcción de alta calidad. Importado directo.",
+    descripcion: "Negro",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/hRByvdtN/58-Chrome-Hearts-Horseshoe-Logo-Half-Zip-Fleece-Pullover-1-en-negro.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 277: Black Varsity Jacket with Leather Sleeves and Red Cemetery Cross Embroidery - Black ────────────────────
@@ -3875,12 +3875,12 @@ const PRODUCTOS = [
     nombre: "Black Varsity Jacket with Leather Sleeves and Red Cemetery Cross Embroidery - Black",
     marca: "Chrome Hearts",
     precio: 199999,
-    descripcion: "Varsity jacket Chrome Hearts con mangas de cuero y bordado de cruz cemetery roja. Premium construcción. Importada directo.",
+    descripcion: "Negro",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/TDL4ccKw/57-Chrome-Hearts-Black-Varsity-Jacket-with-Leather-Sleeves-and-Red-Cemetery-Cross-Embroidery-1-en.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 278: Horseshoe Logo Panel Track Jacket - Black ────────────────────
@@ -3889,12 +3889,12 @@ const PRODUCTOS = [
     nombre: "Horseshoe Logo Panel Track Jacket - Black",
     marca: "Chrome Hearts",
     precio: 149999,
-    descripcion: "Track jacket Chrome Hearts con panel y logo horseshoe. Tela técnica premium, construcción de alta calidad. Importada directo.",
+    descripcion: "Negro",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/TMXNCrvP/56-Chrome-Hearts-Horseshoe-Logo-Panel-Track-Jacket-1-en-negro.png",
+    color: "#111111"
   },
 
   // ── PRODUCTO 279: Charcoal Grey Zip Up Hoodie with All Over White Dagger Monogram Print - Charcoal Grey ────────────────────
@@ -3903,12 +3903,12 @@ const PRODUCTOS = [
     nombre: "Charcoal Grey Zip Up Hoodie with All Over White Dagger Monogram Print - Charcoal Grey",
     marca: "Chrome Hearts",
     precio: 139999,
-    descripcion: "Hoodie zip up Chrome Hearts con print monograma daga. Algodón premium, construcción de alta calidad. Importada directo.",
+    descripcion: "Gris carbón",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/BKKNNCGR/55-Chrome-Hearts-Charcoal-Grey-Zip-Up-Hoodie-with-All-Over-White-Dagger-Monogram-Print-1-en-gris.png",
+    color: "#36454f"
   },
 
   // ── PRODUCTO 280: Future Low - Fire Red White Black ────────────────────
@@ -3917,12 +3917,12 @@ const PRODUCTOS = [
     nombre: "Future Low - Fire Red White Black",
     marca: "Maison Margiela",
     precio: 99999,
-    descripcion: "Maison Margiela Future Low. Zapatilla low-top runner, silueta limpia. Importada directo.",
+    descripcion: "Fire Red White Black",
     disponible: true,
     etiqueta: "New",
     talles: ["36","37","38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/HLcN3JGP/pcitem902012418622-7f0f0000019ca81eb46a0a207569-1440-1440-jpg.jpg",
+    color: "#aa2020"
   },
 
   // ── PRODUCTO 281: Future Low - Travis Scott Brown ────────────────────
@@ -3931,12 +3931,12 @@ const PRODUCTOS = [
     nombre: "Future Low - Travis Scott Brown",
     marca: "Maison Margiela",
     precio: 99999,
-    descripcion: "Maison Margiela Future Low. Zapatilla low-top runner, silueta limpia. Importada directo.",
+    descripcion: "Travis Scott Brown",
     disponible: true,
     etiqueta: "New",
     talles: ["36","37","38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/PZB4VZJ4/wdseller1845163825-2f13000001901d8195be0a8133cc-1080-1080-jpg.jpg",
+    color: "#5a3a2a"
   },
 
   // ── PRODUCTO 282: Future Low - Travis Scott Cactus Jack ────────────────────
@@ -3945,12 +3945,12 @@ const PRODUCTOS = [
     nombre: "Future Low - Travis Scott Cactus Jack",
     marca: "Maison Margiela",
     precio: 99999,
-    descripcion: "Maison Margiela Future Low. Zapatilla low-top runner, silueta limpia. Importada directo.",
+    descripcion: "Travis Scott Cactus Jack",
     disponible: true,
     etiqueta: "New",
     talles: ["36","37","38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/q3SDqCcJ/wdseller1845163825-3333000001901d7e21150a210256-1080-1080-jpg.jpg",
+    color: "#3a2a1a"
   },
 
   // ── PRODUCTO 283: Future Low - Black Cat ────────────────────
@@ -3959,12 +3959,12 @@ const PRODUCTOS = [
     nombre: "Future Low - Black Cat",
     marca: "Maison Margiela",
     precio: 99999,
-    descripcion: "Maison Margiela Future Low. Zapatilla low-top runner, silueta limpia. Importada directo.",
+    descripcion: "Black Cat",
     disponible: true,
     etiqueta: "New",
     talles: ["36","37","38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/1thZ5w5M/wdseller1845163825-3464000001901d7ee72b0a2102c5-1080-1080-jpg.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 284: Future Low - Taupe Haze ────────────────────
@@ -3973,12 +3973,12 @@ const PRODUCTOS = [
     nombre: "Future Low - Taupe Haze",
     marca: "Maison Margiela",
     precio: 99999,
-    descripcion: "Maison Margiela Future Low. Zapatilla low-top runner, silueta limpia. Importada directo.",
+    descripcion: "Taupe Haze",
     disponible: true,
     etiqueta: "New",
     talles: ["36","37","38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/xqxp207Y/open1850717273-1234478995-0a16000001901b1eb8810a210559-1080-1080-jpg.jpg",
+    color: "#9a8a7a"
   },
 
   // ── PRODUCTO 285: Future Low - Metallic Gold ────────────────────
@@ -3987,12 +3987,12 @@ const PRODUCTOS = [
     nombre: "Future Low - Metallic Gold",
     marca: "Maison Margiela",
     precio: 99999,
-    descripcion: "Maison Margiela Future Low. Zapatilla low-top runner, silueta limpia. Importada directo.",
+    descripcion: "Metallic Gold",
     disponible: true,
     etiqueta: "New",
     talles: ["36","37","38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/hJfsX4mV/open1850717273-1234478995-4b4d000001901b1f40d00a232357-1080-1080-jpg.webp",
+    color: "#c8a020"
   },
 
   // ── PRODUCTO 286: Future Low - Black Canvas ────────────────────
@@ -4001,12 +4001,12 @@ const PRODUCTOS = [
     nombre: "Future Low - Black Canvas",
     marca: "Maison Margiela",
     precio: 99999,
-    descripcion: "Maison Margiela Future Low. Zapatilla low-top runner, silueta limpia. Importada directo.",
+    descripcion: "Black Canvas",
     disponible: true,
     etiqueta: "New",
     talles: ["36","37","38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/7xLzQ41W/open1850717273-1234478995-67f4000001901b1ebb830a22d234-1074-1074-jpg.jpg",
+    color: "#0a0a0a"
   },
 
   // ── PRODUCTO 287: Future Low - Bred Reimagined ────────────────────
@@ -4015,12 +4015,12 @@ const PRODUCTOS = [
     nombre: "Future Low - Bred Reimagined",
     marca: "Maison Margiela",
     precio: 99999,
-    descripcion: "Maison Margiela Future Low. Zapatilla low-top runner, silueta limpia. Importada directo.",
+    descripcion: "Bred Reimagined",
     disponible: true,
     etiqueta: "New",
     talles: ["36","37","38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/jPxMVLw5/open1850717273-1234478995-683c000001901b1ef4540a22d234-1074-1074-jpg.jpg",
+    color: "#aa1010"
   },
 
   // ── PRODUCTO 288: Future Low - SE Craft Medium Olive ────────────────────
@@ -4029,12 +4029,12 @@ const PRODUCTOS = [
     nombre: "Future Low - SE Craft Medium Olive",
     marca: "Maison Margiela",
     precio: 99999,
-    descripcion: "Maison Margiela Future Low. Zapatilla low-top runner, silueta limpia. Importada directo.",
+    descripcion: "SE Craft Medium Olive",
     disponible: true,
     etiqueta: "New",
     talles: ["36","37","38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/Rp4G76yN/open1850717273-1234478995-2954000001901b1eec6b0a8115b5-1080-1080-jpg.webp",
+    color: "#6a7a3a"
   },
 
   // ── PRODUCTO 289: Future Low - Military Blue ────────────────────
@@ -4043,12 +4043,12 @@ const PRODUCTOS = [
     nombre: "Future Low - Military Blue",
     marca: "Maison Margiela",
     precio: 99999,
-    descripcion: "Maison Margiela Future Low. Zapatilla low-top runner, silueta limpia. Importada directo.",
+    descripcion: "Military Blue",
     disponible: true,
     etiqueta: "New",
     talles: ["36","37","38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/rfmGb0YH/open1850717273-1234478995-6125000001901b1ef8de0a239383-1080-1080-jpg.jpg",
+    color: "#1a3a6a"
   },
 
   // ── PRODUCTO 290: Future Low - Off White Sail ────────────────────
@@ -4057,12 +4057,12 @@ const PRODUCTOS = [
     nombre: "Future Low - Off White Sail",
     marca: "Maison Margiela",
     precio: 99999,
-    descripcion: "Maison Margiela Future Low. Zapatilla low-top runner, silueta limpia. Importada directo.",
+    descripcion: "Off White Sail",
     disponible: true,
     etiqueta: "New",
     talles: ["36","37","38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/ccp0cktJ/wdseller1845163825-3312000001901da695b20a2301b4-1080-1080-jpg.jpg",
+    color: "#e8e4d8"
   },
 
   // ── PRODUCTO 291: Future Low - Lakers ────────────────────
@@ -4071,12 +4071,12 @@ const PRODUCTOS = [
     nombre: "Future Low - Lakers",
     marca: "Maison Margiela",
     precio: 99999,
-    descripcion: "Maison Margiela Future Low. Zapatilla low-top runner, silueta limpia. Importada directo.",
+    descripcion: "Lakers",
     disponible: true,
     etiqueta: "New",
     talles: ["36","37","38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/nNrDp4Sc/pcitem902012418622-3a520000019b9560c4660a210256-1440-1440-jpg.jpg",
+    color: "#6a1a8a"
   },
 
   // ── PRODUCTO 292: Future Low - Negro con Brillos ────────────────────
@@ -4085,12 +4085,12 @@ const PRODUCTOS = [
     nombre: "Future Low - Negro con Brillos",
     marca: "Maison Margiela",
     precio: 99999,
-    descripcion: "Maison Margiela Future Low. Zapatilla low-top runner, silueta limpia. Importada directo.",
+    descripcion: "High — Negro con Brillos",
     disponible: true,
     etiqueta: "New",
     talles: ["36","37","38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://si.geilicdn.com/pcitem902012433257-19810000019b8a85e6e50a20e2c5_2160_2880.jpg",
+    color: "#1a1a1a"
   },
 
   // ── PRODUCTO 293: Future Low - Rojas y Negras ────────────────────
@@ -4099,12 +4099,12 @@ const PRODUCTOS = [
     nombre: "Future Low - Rojas y Negras",
     marca: "Maison Margiela",
     precio: 99999,
-    descripcion: "Maison Margiela Future Low. Zapatilla low-top runner, silueta limpia. Importada directo.",
+    descripcion: "High — Rojas y Negras",
     disponible: true,
     etiqueta: "New",
     talles: ["36","37","38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://si.geilicdn.com/pcitem902012433257-21b50000019b8a8621320a2304aa_2160_2880.jpg",
+    color: "#aa1a1a"
   },
 
   // ── PRODUCTO 294: Future Low - Azul ────────────────────
@@ -4113,12 +4113,12 @@ const PRODUCTOS = [
     nombre: "Future Low - Azul",
     marca: "Maison Margiela",
     precio: 99999,
-    descripcion: "Maison Margiela Future Low. Zapatilla low-top runner, silueta limpia. Importada directo.",
+    descripcion: "High — Azul",
     disponible: true,
     etiqueta: "New",
     talles: ["36","37","38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://si.geilicdn.com/pcitem902012433257-45860000019b8a8683340a23057e_2160_2880.jpg",
+    color: "#1a3a8a"
   },
 
   // ── PRODUCTO 295: Future Low - Gamuza Negra ────────────────────
@@ -4127,12 +4127,12 @@ const PRODUCTOS = [
     nombre: "Future Low - Gamuza Negra",
     marca: "Maison Margiela",
     precio: 99999,
-    descripcion: "Maison Margiela Future Low. Zapatilla low-top runner, silueta limpia. Importada directo.",
+    descripcion: "High — Gamuza Negra",
     disponible: true,
     etiqueta: "New",
     talles: ["36","37","38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://si.geilicdn.com/pcitem902012433257-45d30000019b8a858b9f0a210256_2160_2880.jpg",
+    color: "#2a2a2a"
   },
 
   // ── PRODUCTO 296: Future Low - Cuero Negro ────────────────────
@@ -4141,12 +4141,12 @@ const PRODUCTOS = [
     nombre: "Future Low - Cuero Negro",
     marca: "Maison Margiela",
     precio: 99999,
-    descripcion: "Maison Margiela Future Low. Zapatilla low-top runner, silueta limpia. Importada directo.",
+    descripcion: "High — Cuero Negro",
     disponible: true,
     etiqueta: "New",
     talles: ["36","37","38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://si.geilicdn.com/pcitem902012433257-54020000019ab76c23510a231316_2160_2880.jpg",
+    color: "#0a0a0a"
   },
 
   // ── PRODUCTO 297: Future Low - Rojo ────────────────────
@@ -4155,12 +4155,12 @@ const PRODUCTOS = [
     nombre: "Future Low - Rojo",
     marca: "Maison Margiela",
     precio: 99999,
-    descripcion: "Maison Margiela Future Low. Zapatilla low-top runner, silueta limpia. Importada directo.",
+    descripcion: "High — Rojo",
     disponible: true,
     etiqueta: "New",
     talles: ["36","37","38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://si.geilicdn.com/pcitem902012433257-08900000019ab76bf4380a20e672_2160_2880.jpg",
+    color: "#aa1a1a"
   },
 
   // ── PRODUCTO 298: Future Low - Brillos ────────────────────
@@ -4169,12 +4169,12 @@ const PRODUCTOS = [
     nombre: "Future Low - Brillos",
     marca: "Maison Margiela",
     precio: 99999,
-    descripcion: "Maison Margiela Future Low. Zapatilla low-top runner, silueta limpia. Importada directo.",
+    descripcion: "High — Brillos",
     disponible: true,
     etiqueta: "New",
     talles: ["36","37","38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://si.geilicdn.com/pcitem902012433257-45da0000019b8a85bbb50a207569_2160_2880.jpg",
+    color: "#e0ddd8"
   },
 
   // ── PRODUCTO 299: Future Low - White Light Blue ────────────────────
@@ -4183,12 +4183,12 @@ const PRODUCTOS = [
     nombre: "Future Low - White Light Blue",
     marca: "Maison Margiela",
     precio: 99999,
-    descripcion: "Maison Margiela Future Low. Zapatilla low-top runner, silueta limpia. Importada directo.",
+    descripcion: "High — White Light Blue",
     disponible: true,
     etiqueta: "New",
     talles: ["36","37","38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://si.geilicdn.com/pcitem902012433257-46340000019b8a865b280a210256_2160_2880.jpg",
+    color: "#a0c8e8"
   },
 
   // ── PRODUCTO 300: Future Low - Blanco/Gris ────────────────────
@@ -4197,12 +4197,12 @@ const PRODUCTOS = [
     nombre: "Future Low - Blanco/Gris",
     marca: "Maison Margiela",
     precio: 99999,
-    descripcion: "Maison Margiela Future Low. Zapatilla low-top runner, silueta limpia. Importada directo.",
+    descripcion: "High — Blanco y Gris",
     disponible: true,
     etiqueta: "New",
     talles: ["36","37","38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://si.geilicdn.com/pcitem902012433257-03ff0000019ab76c556a0a2396f4_2160_2880.jpg",
+    color: "#d0d0d0"
   },
 
   // ── PRODUCTO 301: Future Low - Negro Total ────────────────────
@@ -4211,12 +4211,12 @@ const PRODUCTOS = [
     nombre: "Future Low - Negro Total",
     marca: "Maison Margiela",
     precio: 99999,
-    descripcion: "Maison Margiela Future Low. Zapatilla low-top runner, silueta limpia. Importada directo.",
+    descripcion: "Low — Negro Total",
     disponible: true,
     etiqueta: "New",
     talles: ["36","37","38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://si.geilicdn.com/pcitem902012433257-2a990000019bc3873dac0a8134f0_2160_2880.jpg",
+    color: "#0a0a0a"
   },
 
   // ── PRODUCTO 302: Future Low - Negro/Blanco ────────────────────
@@ -4225,12 +4225,12 @@ const PRODUCTOS = [
     nombre: "Future Low - Negro/Blanco",
     marca: "Maison Margiela",
     precio: 99999,
-    descripcion: "Maison Margiela Future Low. Zapatilla low-top runner, silueta limpia. Importada directo.",
+    descripcion: "Low — Negro y Blanco",
     disponible: true,
     etiqueta: "New",
     talles: ["36","37","38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://si.geilicdn.com/pcitem902012433257-248f0000019bc387d62e0a239646_2160_2880.jpg",
+    color: "#2a2a2a"
   },
 
   // ── PRODUCTO 303: Future Low - White Brillantes ────────────────────
@@ -4239,12 +4239,12 @@ const PRODUCTOS = [
     nombre: "Future Low - White Brillantes",
     marca: "Maison Margiela",
     precio: 99999,
-    descripcion: "Maison Margiela Future Low. Zapatilla low-top runner, silueta limpia. Importada directo.",
+    descripcion: "Low — White Brillantes",
     disponible: true,
     etiqueta: "New",
     talles: ["36","37","38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://si.geilicdn.com/pcitem902012433257-33df0000019bc38772960a23037f_2160_2880.jpg",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 304: Future Low - Rojas ────────────────────
@@ -4253,12 +4253,12 @@ const PRODUCTOS = [
     nombre: "Future Low - Rojas",
     marca: "Maison Margiela",
     precio: 99999,
-    descripcion: "Maison Margiela Future Low. Zapatilla low-top runner, silueta limpia. Importada directo.",
+    descripcion: "Low — Rojas",
     disponible: true,
     etiqueta: "New",
     talles: ["36","37","38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://si.geilicdn.com/pcitem902012433257-24c40000019bc3879d5c0a20e672_2160_2880.jpg",
+    color: "#aa1a1a"
   },
 
   // ── PRODUCTO 305: Future Low - Beige/Nude ────────────────────
@@ -4267,12 +4267,12 @@ const PRODUCTOS = [
     nombre: "Future Low - Beige/Nude",
     marca: "Maison Margiela",
     precio: 99999,
-    descripcion: "Maison Margiela Future Low. Zapatilla low-top runner, silueta limpia. Importada directo.",
+    descripcion: "Low — Beige Nude",
     disponible: true,
     etiqueta: "New",
     talles: ["36","37","38","39","40","41","42","43","44"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://si.geilicdn.com/pcitem902012433257-006e0000019bc388126f0a811411_2160_2880.jpg",
+    color: "#d4c4a8"
   },
 
   // ── PRODUCTO 306: Reversible Jacket - Black ────────────────────
@@ -4281,12 +4281,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Black",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Negro con detalles BAPE",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/NDQxxPv/crocs-black.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 307: Reversible Jacket - Pink ────────────────────
@@ -4295,12 +4295,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Pink",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Rosa con detalles BAPE",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/m5pV0zc9/crocs-pink.jpg",
+    color: "#e890b8"
   },
 
   // ── PRODUCTO 308: Reversible Jacket - Blue ────────────────────
@@ -4309,12 +4309,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Blue",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Azul con detalles BAPE",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/4wLCLvGK/crocs-blue.jpg",
+    color: "#2a5a9a"
   },
 
   // ── PRODUCTO 309: Reversible Jacket - Green ────────────────────
@@ -4323,12 +4323,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Green",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Verde con detalles BAPE",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/N6Zt1Jqc/crocs-green.jpg",
+    color: "#2a7a3a"
   },
 
   // ── PRODUCTO 310: Reversible Jacket - Negro ────────────────────
@@ -4337,12 +4337,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Negro",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Negro con logo SOX",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/FkRHjZsG/01.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 311: Reversible Jacket - Gris ────────────────────
@@ -4351,12 +4351,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Gris",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Gris con logo SOX",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/RTncdttp/02.jpg",
+    color: "#888888"
   },
 
   // ── PRODUCTO 312: Reversible Jacket - Modelo 1 ────────────────────
@@ -4365,12 +4365,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Modelo 1",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "SOX Sweatpants — colorway 1",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/xSLX3Dq4/03.jpg",
+    color: "#333333"
   },
 
   // ── PRODUCTO 313: Reversible Jacket - Modelo 2 ────────────────────
@@ -4379,12 +4379,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Modelo 2",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "SOX Sweatpants — colorway 2",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/Jj5CnXfs/04.jpg",
+    color: "#555555"
   },
 
   // ── PRODUCTO 314: Reversible Jacket - Negro ────────────────────
@@ -4393,12 +4393,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Negro",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Negro",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/4ns6tDh7/05.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 315: Reversible Jacket - Azul/Letras Rojas ────────────────────
@@ -4407,12 +4407,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Azul/Letras Rojas",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Azul con letras rojas",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/GvpkZRg7/06.jpg",
+    color: "#1a3a6a"
   },
 
   // ── PRODUCTO 316: Reversible Jacket - Negro Cross ────────────────────
@@ -4421,12 +4421,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Negro Cross",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Cross Big Logo negro",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/3mCBF095/07.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 317: Reversible Jacket - Gris Cross ────────────────────
@@ -4435,12 +4435,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Gris Cross",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Cross Big Logo gris",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/Gmc9dXZ/08.jpg",
+    color: "#888888"
   },
 
   // ── PRODUCTO 318: Reversible Jacket - Celeste ────────────────────
@@ -4449,12 +4449,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Celeste",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Big Logo celeste",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/Fq6kLFf2/09.jpg",
+    color: "#80b8e0"
   },
 
   // ── PRODUCTO 319: Reversible Jacket - Gris ────────────────────
@@ -4463,12 +4463,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Gris",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Big Logo gris",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/0RspkSKD/10.jpg",
+    color: "#888888"
   },
 
   // ── PRODUCTO 320: Reversible Jacket - Azul/Amarillo ────────────────────
@@ -4477,12 +4477,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Azul/Amarillo",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Azul con Supreme amarillo",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/DHy0kqC2/11.jpg",
+    color: "#1a3a6a"
   },
 
   // ── PRODUCTO 321: Reversible Jacket - Gris ────────────────────
@@ -4491,12 +4491,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Gris",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Gris con Supreme",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/0yGfW4tx/12.jpg",
+    color: "#888888"
   },
 
   // ── PRODUCTO 322: Reversible Jacket - Gris/Azul ────────────────────
@@ -4505,12 +4505,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Gris/Azul",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Gris con Supreme azul",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/MDGh1ZTH/13.jpg",
+    color: "#6a8ecc"
   },
 
   // ── PRODUCTO 323: Reversible Jacket - Roja/Blanca ────────────────────
@@ -4519,12 +4519,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Roja/Blanca",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Roja con Supreme blanco",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/1YT050M0/14.jpg",
+    color: "#aa1a1a"
   },
 
   // ── PRODUCTO 324: Reversible Jacket - Rojo/Negro ────────────────────
@@ -4533,12 +4533,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Rojo/Negro",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Rojo con Supreme negro",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/SDg8GzC6/20.jpg",
+    color: "#aa1a1a"
   },
 
   // ── PRODUCTO 325: Reversible Jacket - Gris 2 ────────────────────
@@ -4547,12 +4547,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Gris 2",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Gris segunda versión",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/VctQwTWZ/21.jpg",
+    color: "#888888"
   },
 
   // ── PRODUCTO 326: Reversible Jacket - Blue Denim ────────────────────
@@ -4561,12 +4561,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Blue Denim",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Blue Denim jacket",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/m5nPyKfY/15.jpg",
+    color: "#1a3a6a"
   },
 
   // ── PRODUCTO 327: Reversible Jacket - Black Denim ────────────────────
@@ -4575,12 +4575,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Black Denim",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Black Denim jacket",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/kgf0f76w/16.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 328: Reversible Jacket - Negro ────────────────────
@@ -4589,12 +4589,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Negro",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Negro",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/pBhkd5p8/17.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 329: Reversible Jacket - Rosa/Blanco ────────────────────
@@ -4603,12 +4603,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Rosa/Blanco",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Rosa con blanco",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/27KjwFwy/18.jpg",
+    color: "#e890b8"
   },
 
   // ── PRODUCTO 330: Reversible Jacket - Rosa/Blanco 2 ────────────────────
@@ -4617,12 +4617,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Rosa/Blanco 2",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Rosa con blanco segunda versión",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/xRK3S0w/19.jpg",
+    color: "#e890b8"
   },
 
   // ── PRODUCTO 331: Reversible Jacket - Negro/Gris Metalizado ────────────────────
@@ -4631,12 +4631,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Negro/Gris Metalizado",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Negro con gris metalizado",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/r2zxnTtx/23.jpg",
+    color: "#1a1a1a"
   },
 
   // ── PRODUCTO 332: Reversible Jacket - Negro/Gris Metalizado 2 ────────────────────
@@ -4645,12 +4645,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Negro/Gris Metalizado 2",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Negro con gris metalizado v2",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/d4ZmTHDW/22.jpg",
+    color: "#1a1a1a"
   },
 
   // ── PRODUCTO 333: Reversible Jacket - Negro ────────────────────
@@ -4659,12 +4659,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Negro",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Negro IDGAF",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/Hpk2RmWD/25.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 334: Reversible Jacket - Negro 2 ────────────────────
@@ -4673,12 +4673,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Negro 2",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Negro IDGAF versión 2",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/JwXj40TG/24.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 335: Reversible Jacket - Navy Blue ────────────────────
@@ -4687,12 +4687,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Navy Blue",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Navy Blue IDGAF",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/CKDzfw1y/26.jpg",
+    color: "#0a1a3a"
   },
 
   // ── PRODUCTO 336: Reversible Jacket - Azul Oscuro ────────────────────
@@ -4701,12 +4701,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Azul Oscuro",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Azul Oscuro IDGAF",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/xKntW1TG/32.jpg",
+    color: "#0a0a2a"
   },
 
   // ── PRODUCTO 337: Reversible Jacket - Navy Blue ────────────────────
@@ -4715,12 +4715,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Navy Blue",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Navy Blue washed",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/twMR6Vjt/27.jpg",
+    color: "#0a1a3a"
   },
 
   // ── PRODUCTO 338: Reversible Jacket - Black ────────────────────
@@ -4729,12 +4729,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Black",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Black",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/ks0CvP2P/28.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 339: Reversible Jacket - Camo ────────────────────
@@ -4743,12 +4743,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Camo",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Rhinestone Camo",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/wrzpY88P/30.jpg",
+    color: "#6a7a3a"
   },
 
   // ── PRODUCTO 340: Reversible Jacket - Camo 2 ────────────────────
@@ -4757,12 +4757,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Camo 2",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Rhinestone Camo 2",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/bjhGS4q3/29.jpg",
+    color: "#4a6a3a"
   },
 
   // ── PRODUCTO 341: Reversible Jacket - Negro ────────────────────
@@ -4771,12 +4771,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Negro",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Rhinestone Negro",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/q4J7dfS/31.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 342: Reversible Jacket - Cobalt Blue Tint ────────────────────
@@ -4785,12 +4785,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Cobalt Blue Tint",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Azul cobalto con detalles tint",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/xKnmSFpC/Nike-x-NOCTA-Tech-Fleece-Hoodie-Joggers-Set-Cobalt-Blue-Tint.jpg",
+    color: "#2a5aaa"
   },
 
   // ── PRODUCTO 343: Reversible Jacket - Stadium Green Sail ────────────────────
@@ -4799,12 +4799,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Stadium Green Sail",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Verde stadium con sail",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/Rk6kvsS0/Nike-x-NOCTA-Tech-Fleece-Hoodie-Joggers-Set-Stadium-Green-Sail.jpg",
+    color: "#2a6a3a"
   },
 
   // ── PRODUCTO 344: Reversible Jacket - Black ────────────────────
@@ -4813,12 +4813,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Black",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Negro total",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/Xk6WyBCc/Nike-x-NOCTA-Tech-Fleece-Hoodie-Joggers-Set-Black.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 345: Reversible Jacket - Black ────────────────────
@@ -4827,12 +4827,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Black",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Negro clásico",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/1tyyNTz2/moonboot-negra.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 346: Reversible Jacket - Blanca 1 ────────────────────
@@ -4841,12 +4841,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Blanca 1",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Blanca",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/Q7Nywv1n/open1867150125-1234478995-275000000196693b3e480a8115c2-800-800-jpg.jpg",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 347: Reversible Jacket - Negra 1 ────────────────────
@@ -4855,12 +4855,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Negra 1",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Negra",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/kgWjwHD1/open1867150125-1234478995-2b3300000196693b3bd60aa0834c-800-800-jpg.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 348: Reversible Jacket - Blanca 2 ────────────────────
@@ -4869,12 +4869,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Blanca 2",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Blanca",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/VKn04jR/open1867150125-1234478995-2b3500000196693b4a570aa0834c-800-800-jpg.jpg",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 349: Reversible Jacket - Blanca 3 ────────────────────
@@ -4883,12 +4883,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Blanca 3",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Blanca",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/5gXGRK1k/open1867150125-1234478995-2b3900000196693b5ad90aa0834c-800-800-jpg.jpg",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 350: Reversible Jacket - Gris ────────────────────
@@ -4897,12 +4897,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Gris",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Gris",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/0VhDxT0f/open1867150125-1234478995-2b4300000196693b79a20aa0834c-800-800-jpg.jpg",
+    color: "#888888"
   },
 
   // ── PRODUCTO 351: Reversible Jacket - Blanca 4 ────────────────────
@@ -4911,12 +4911,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Blanca 4",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Blanca",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/M5fyG4dY/open1867150125-1234478995-11d100000196693b422b0a23b491-800-800-jpg.jpg",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 352: Reversible Jacket - Negra 2 ────────────────────
@@ -4925,12 +4925,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Negra 2",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Negra",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/XZvBqkkT/open1867150125-1234478995-15d400000196693b445b0a231226-800-800-jpg.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 353: Reversible Jacket - Negra 3 ────────────────────
@@ -4939,12 +4939,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Negra 3",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Negra",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/TDcNFDsK/open1867150125-1234478995-15da00000196693b54f30a231226-800-800-jpg.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 354: Reversible Jacket - Blanca 5 ────────────────────
@@ -4953,12 +4953,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Blanca 5",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Blanca",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/3mySmQKk/open1867150125-1234478995-15e000000196693b75230a231226-800-800-jpg.jpg",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 355: Reversible Jacket - Blanca 6 ────────────────────
@@ -4967,12 +4967,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Blanca 6",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Blanca",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/bMpJ6Ctf/open1867150125-1234478995-15e600000196693b84f70a231226-800-800-jpg.jpg",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 356: Reversible Jacket - Negra 4 ────────────────────
@@ -4981,12 +4981,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Negra 4",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Negra",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/tPCVQ1Q7/open1867150125-1234478995-20be00000196693b403d0a22d249-800-800-jpg.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 357: Reversible Jacket - Negra 5 ────────────────────
@@ -4995,12 +4995,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Negra 5",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Negra",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/sJHVHqNh/open1867150125-1234478995-20c400000196693b50da0a22d249-800-800-jpg.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 358: Reversible Jacket - Blanca 7 ────────────────────
@@ -5009,12 +5009,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Blanca 7",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Blanca",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/XkpXZbff/open1867150125-1234478995-20c600000196693b62ef0a22d249-800-800-jpg.jpg",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 359: Reversible Jacket - Negra 6 ────────────────────
@@ -5023,12 +5023,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Negra 6",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Negra",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/GQpZ2vhN/open1867150125-1234478995-20ca00000196693b72e30a22d249-800-800-jpg.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 360: Reversible Jacket - Negra 7 ────────────────────
@@ -5037,12 +5037,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Negra 7",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Negra",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/r2R4DYBT/open1867150125-1234478995-20d000000196693b80700a22d249-800-800-jpg.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 361: Reversible Jacket - Negra 8 ────────────────────
@@ -5051,12 +5051,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Negra 8",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Negra",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/BH27LH3D/open1867150125-1234478995-30a000000196693b48700a8133b0-800-800-jpg.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 362: Reversible Jacket - Negra 9 ────────────────────
@@ -5065,12 +5065,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Negra 9",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Negra",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/YBYLw5hf/open1867150125-1234478995-30a600000196693b59070a8133b0-800-800-jpg.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 363: Reversible Jacket - Negra 10 ────────────────────
@@ -5079,12 +5079,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Negra 10",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Negra",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/8DWy8v6N/open1867150125-1234478995-30ae00000196693b77680a8133b0-800-800-jpg.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 364: Reversible Jacket - Blanca 8 ────────────────────
@@ -5093,12 +5093,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Blanca 8",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Blanca",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/yBBPB7S7/open1867150125-1234478995-30b200000196693b88ea0a8133b0-800-800-jpg.jpg",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 365: Reversible Jacket - Blanca 9 ────────────────────
@@ -5107,12 +5107,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Blanca 9",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Blanca",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/LdXLt5CY/open1867150125-1234478995-213b00000196693b70e50aa08290-800-800-jpg.jpg",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 366: Reversible Jacket - Blanca 10 ────────────────────
@@ -5121,12 +5121,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Blanca 10",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Blanca",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/TDkPTCnd/open1867150125-1234478995-309e00000196693b39e90a8133b0-800-800-jpg.jpg",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 367: Reversible Jacket - Negra 11 ────────────────────
@@ -5135,12 +5135,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Negra 11",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Negra",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/MD8f9Lbc/open1867150125-1234478995-275400000196693b4cea0a8115c2-800-800-jpg.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 368: Reversible Jacket - Negra 12 ────────────────────
@@ -5149,12 +5149,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Negra 12",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Negra",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/5xX3WqCV/open1867150125-1234478995-276000000196693b7c850a8115c2-800-800-jpg.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 369: Reversible Jacket - Blanca 11 ────────────────────
@@ -5163,12 +5163,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Blanca 11",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Blanca",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/DcPkKjJ/open1867150125-1234478995-276200000196693b8d1a0a8115c2-800-800-jpg.jpg",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 370: Reversible Jacket - Negra 13 ────────────────────
@@ -5177,12 +5177,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Negra 13",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Negra",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/rGXJBXQG/open1867150125-1234478995-328200000196693b86f40a23b4de-800-800-jpg.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 371: Reversible Jacket - Negra 14 ────────────────────
@@ -5191,12 +5191,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Negra 14",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Negra",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/0jq1WF1H/pcitem1934672132-7b7e00000198c3f93b950a20e7c7-800-800-jpg.jpg",
+    color: "#111111"
   },
 
   // ── PRODUCTO 372: Reversible Jacket - Colección ────────────────────
@@ -5205,12 +5205,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Colección",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Vista de los 3 colorways",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/wZD4LHFT/bape-reversible-las-3-lado-lado.jpg",
+    color: "#888888"
   },
 
   // ── PRODUCTO 373: Reversible Jacket - Blanca/Camo ────────────────────
@@ -5219,12 +5219,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Blanca/Camo",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Lado blanco / lado camo reversible",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/HTMN1ySf/bape-reversible-blanca-lado-camo.jpg",
+    color: "#f0f0f0"
   },
 
   // ── PRODUCTO 374: Reversible Jacket - Verde/Camo ────────────────────
@@ -5233,12 +5233,12 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Verde/Camo",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Lado verde / lado camo reversible",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/gnfbzhk/bape-reversible-verde-lado-camo.jpg",
+    color: "#2a6a3a"
   },
 
   // ── PRODUCTO 375: Reversible Jacket - Azul/Camo ────────────────────
@@ -5247,11 +5247,11 @@ const PRODUCTOS = [
     nombre: "Reversible Jacket - Azul/Camo",
     marca: "BAPE",
     precio: 149999,
-    descripcion: "Campera reversible BAPE. Dos looks en una: un lado liso de color, el otro en el icónico camo BAPE. Construcción premium. Importada directo.",
+    descripcion: "Lado azul / lado camo reversible",
     disponible: true,
     etiqueta: "Premium",
     talles: ["S","M","L","XL"],
-    imagen: "",
-    color: "#000000"
+    imagen: "https://i.ibb.co/Y48vLBfB/bape-reversible-azul-lado-camo.jpg",
+    color: "#1a3a6a"
   }
 ];
