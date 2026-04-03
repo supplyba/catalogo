@@ -1082,6 +1082,276 @@
     letter-spacing: 0.3px;
     white-space: nowrap;
   }
+
+  /* ── HERO SLIDER ── */
+  .hero-slider {
+    position: relative;
+    overflow: hidden;
+    height: 380px;
+  }
+  .slider-track {
+    display: flex;
+    transition: transform 0.5s ease;
+    height: 100%;
+  }
+  .slide {
+    min-width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+  }
+  .slide::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 60%);
+  }
+  .slide-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 20px;
+  }
+  .slide-title {
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: clamp(32px, 8vw, 64px);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text);
+    margin-bottom: 8px;
+  }
+  .slide-subtitle {
+    font-size: 14px;
+    color: var(--accent2);
+    margin-bottom: 16px;
+  }
+  .slide-btn {
+    display: inline-block;
+    padding: 12px 28px;
+    background: var(--text);
+    color: var(--bg);
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    transition: transform 0.2s;
+  }
+  .slide-btn:hover { transform: scale(1.03); }
+  .slider-dots {
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 8px;
+    z-index: 2;
+  }
+  .slider-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.4);
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  .slider-dot.active { background: #fff; }
+  .slider-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background: rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+  }
+  .slider-arrow:hover { background: rgba(0,0,0,0.7); }
+  .slider-arrow.prev { left: 12px; }
+  .slider-arrow.next { right: 12px; }
+
+  /* ── FREE SHIPPING BANNER ── */
+  .shipping-banner {
+    background: #1a1a1a;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    padding: 12px 0;
+    overflow: hidden;
+    position: relative;
+  }
+  .shipping-track {
+    display: flex;
+    animation: scrollLeft 15s linear infinite;
+    width: fit-content;
+  }
+  .shipping-content {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    flex-shrink: 0;
+  }
+  .shipping-text {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: var(--text);
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  @keyframes scrollLeft {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  /* ── SECTION HEADERS ── */
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 24px 16px 16px;
+  }
+  .section-title {
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: clamp(24px, 5vw, 36px);
+    letter-spacing: -0.5px;
+    color: var(--text);
+    text-transform: uppercase;
+  }
+  .section-line {
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
+
+  /* ── CATEGORY BANNERS ── */
+  .category-banners {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: var(--border);
+    margin-bottom: 32px;
+    overflow: hidden;
+  }
+  .cat-banner-item {
+    background: var(--surface);
+    overflow: hidden;
+    position: relative;
+    aspect-ratio: 1/1;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  .cat-banner-item:hover { background: var(--surface2); }
+  .cat-banner-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    padding: 24px;
+    filter: brightness(0.9) contrast(1.1);
+    transition: filter 0.35s ease, transform 0.4s ease;
+  }
+  .cat-banner-item:hover img { filter: brightness(1) contrast(1.15); transform: scale(1.05); }
+  .cat-banner-label {
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: var(--text);
+    text-transform: uppercase;
+    opacity: 0;
+    transition: opacity 0.25s ease;
+    white-space: nowrap;
+  }
+  .cat-banner-item:hover .cat-banner-label { opacity: 1; }
+  @media (max-width: 600px) {
+    .category-banners { grid-template-columns: repeat(2, 1fr); }
+    .hero-slider { height: 320px; }
+  }
+
+  /* ── BEST SELLERS POPURRI ── */
+  .popurri-grid {
+    padding: 0 16px 24px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    overflow: hidden;
+  }
+  @media (min-width: 640px) { .popurri-grid { grid-template-columns: repeat(3, 1fr); gap: 16px; } }
+  @media (min-width: 1024px) { .popurri-grid { grid-template-columns: repeat(4, 1fr); max-width: 1200px; margin: 0 auto; } }
+  .popurri-item {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: transform 0.2s, border-color 0.2s;
+  }
+  .popurri-item:hover { transform: translateY(-3px); border-color: #3a3a3a; }
+  .popurri-item-img {
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    position: relative;
+    background: var(--surface2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .popurri-item-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.4s ease;
+  }
+  .popurri-item:hover .popurri-item-img img { transform: scale(1.04); }
+  .popurri-item-body {
+    padding: 12px 12px 14px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .popurri-item-name {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+  .popurri-item-title {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 1.3;
+    color: var(--text);
+  }
+  .popurri-item-price {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: var(--text);
+    margin-top: 2px;
+  }
 </style>
 </head>
 <body>
@@ -1189,6 +1459,54 @@
   </section>
 </div>
 
+<!-- ── FREE SHIPPING BANNER ── -->
+<div class="shipping-banner">
+  <div class="shipping-track">
+    <div class="shipping-content">
+      <p class="shipping-text">ENVÍO GRATiS EN COMPRAS MAYORES A $180.000</p>
+    </div>
+    <div class="shipping-content">
+      <p class="shipping-text">ENVÍO GRATiS EN COMPRAS MAYORES A $180.000</p>
+    </div>
+    <div class="shipping-content">
+      <p class="shipping-text">ENVÍO GRATiS EN COMPRAS MAYORES A $180.000</p>
+    </div>
+    <div class="shipping-content">
+      <p class="shipping-text">ENVÍO GRATiS EN COMPRAS MAYORES A $180.000</p>
+    </div>
+  </div>
+</div>
+
+<!-- ── HERO SLIDER ── -->
+<section class="hero-slider" id="heroSlider">
+  <div class="slider-track" id="sliderTrack">
+    <div class="slide" style="background-image: url('https://i.ibb.co/Hff7rYdj/bape.png');">
+      <div class="slide-content">
+        <h2 class="slide-title">BAPE</h2>
+        <p class="slide-subtitle">La colección más icónica del streetwear</p>
+        <button class="slide-btn" onclick="filterBrand('BAPE')">Ver colección</button>
+      </div>
+    </div>
+    <div class="slide" style="background-image: url('https://i.ibb.co/0NNw2V5/Captura-de-pantalla-2026-03-27-204024.png');">
+      <div class="slide-content">
+        <h2 class="slide-title">SUPREME</h2>
+        <p class="slide-subtitle">Ediciones limitadas exclusivas</p>
+        <button class="slide-btn" onclick="filterBrand('Supreme')">Ver colección</button>
+      </div>
+    </div>
+    <div class="slide" style="background-image: url('https://i.ibb.co/YT0GCDxZ/Captura-de-pantalla-2026-03-27-204059.png');">
+      <div class="slide-content">
+        <h2 class="slide-title">CHROME HEARTS</h2>
+        <p class="slide-subtitle">Lujo underground</p>
+        <button class="slide-btn" onclick="filterBrand('Chrome Hearts')">Ver colección</button>
+      </div>
+    </div>
+  </div>
+  <button class="slider-arrow prev" onclick="changeSlide(-1)">&#8249;</button>
+  <button class="slider-arrow next" onclick="changeSlide(1)">&#8250;</button>
+  <div class="slider-dots" id="sliderDots"></div>
+</section>
+
 <section class="hero">
   <p class="hero-brand">SUPPLY <span>BA</span></p>
   <p class="hero-eyebrow">Lomas de Zamora · Envíos a todo el país</p>
@@ -1196,33 +1514,18 @@
   <p class="hero-sub">Importamos directamente lo que necesitás. Entrega en el día, al mejor precio.</p>
 </section>
 
-<!-- ── BRAND BANNERS ── -->
-
 <!-- ── SEARCH ── -->
-<div class="search-wrap" id="searchWrap" style="display:none;">
+<div class="search-wrap" id="searchWrap">
   <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
   <input class="search-box" id="searchInput" type="text" placeholder="Buscar producto, marca o colorway..." oninput="handleSearch(this.value)">
 </div>
 <div class="search-empty" id="searchEmpty">No encontramos productos para "<span id="searchTerm"></span>"</div>
 
-<div class="brand-banners">
-  <div class="brand-banner-item" onclick="filterBrand('BAPE')">
-    <img src="https://i.ibb.co/Hff7rYdj/bape.png" alt="BAPE">
-    <span class="brand-banner-label">Ver BAPE</span>
-  </div>
-  <div class="brand-banner-item" onclick="filterBrand('Supreme')">
-    <img src="https://i.ibb.co/0NNw2V5/Captura-de-pantalla-2026-03-27-204024.png" alt="Supreme">
-    <span class="brand-banner-label">Ver Supreme</span>
-  </div>
-  <div class="brand-banner-item" onclick="filterBrand('Chrome Hearts')">
-    <img src="https://i.ibb.co/YT0GCDxZ/Captura-de-pantalla-2026-03-27-204059.png" alt="Chrome Hearts">
-    <span class="brand-banner-label">Ver Chrome Hearts</span>
-  </div>
-  <div class="brand-banner-item" onclick="filterBrand('Maison Margiela')">
-    <img src="https://i.ibb.co/XZ8PN2Py/Captura-de-pantalla-2026-03-27-204145.png" alt="Maison Margiela">
-    <span class="brand-banner-label">Ver Margiela</span>
-  </div>
-</div>
+<!-- ── BEST SELLERS ── -->
+<section class="section-header" style="justify-content: center;">
+  <h2 class="section-title" style="text-align: center;">Best Sellers</h2>
+</section>
+<div class="popurri-grid" id="popurriGrid"></div>
 
 <div id="brandSections"></div>
 
@@ -1281,6 +1584,9 @@ let selectedModel   = null;
 
 // ── RENDER POR MARCA ──
 function init() {
+  initSlider();
+  initSections();
+  
   const container = document.getElementById('brandSections');
   const BRAND_ORDER = ['BAPE', 'Supreme', 'Chrome Hearts', 'Jordan', 'Maison Margiela', 'Timberland', 'Valley Dreams'];
   const allBrands = [...new Set(PRODUCTOS.map(p => p.marca))].filter(b => b !== 'Nike');
@@ -1325,9 +1631,6 @@ function init() {
     container.appendChild(section);
   });
 
-  // mostrar buscador
-  document.getElementById('searchWrap').style.display = 'block';
-
   // set max-height after DOM paint
   requestAnimationFrame(() => {
     document.querySelectorAll('.brand-grid').forEach(g => {
@@ -1346,6 +1649,77 @@ function toggleSection(section) {
     grid.style.maxHeight = grid.scrollHeight + 'px';
     requestAnimationFrame(() => section.classList.add('collapsed'));
   }
+}
+
+// ── HERO SLIDER ──
+let currentSlide = 0;
+const totalSlides = 3;
+
+function initSlider() {
+  const dotsContainer = document.getElementById('sliderDots');
+  for (let i = 0; i < totalSlides; i++) {
+    const dot = document.createElement('div');
+    dot.className = 'slider-dot' + (i === 0 ? ' active' : '');
+    dot.onclick = () => goToSlide(i);
+    dotsContainer.appendChild(dot);
+  }
+  setInterval(() => changeSlide(1), 5000);
+}
+
+function changeSlide(direction) {
+  const track = document.getElementById('sliderTrack');
+  currentSlide = (currentSlide + direction + totalSlides) % totalSlides;
+  track.style.transform = `translateX(-${currentSlide * 100}%)`;
+  updateDots();
+}
+
+function goToSlide(index) {
+  const track = document.getElementById('sliderTrack');
+  currentSlide = index;
+  track.style.transform = `translateX(-${currentSlide * 100}%)`;
+  updateDots();
+}
+
+function updateDots() {
+  document.querySelectorAll('.slider-dot').forEach((dot, i) => {
+    dot.classList.toggle('active', i === currentSlide);
+  });
+}
+
+// ── BEST SELLERS & NEW IN ──
+function initSections() {
+  const popurriContainer = document.getElementById('popurriGrid');
+  
+  const bestSellers = PRODUCTOS.filter(p => p.etiqueta === 'Hot' || p.etiqueta === 'Premium' || p.etiqueta === 'Collab');
+  
+  // Popurri - 12 productos evenly distributed
+  const brands = ['BAPE', 'Supreme', 'Chrome Hearts', 'Jordan', 'Maison Margiela', 'Valley Dreams', 'Nocta'];
+  let popurriProducts = [];
+  const perBrand = 2;
+  
+  brands.forEach(brand => {
+    const brandProducts = bestSellers.filter(p => p.marca === brand).slice(0, perBrand);
+    popurriProducts.push(...brandProducts);
+  });
+  
+  // Si no hay suficientes, completar con los demas (sin Timberland)
+  if (popurriProducts.length < 12) {
+    const remaining = bestSellers.filter(p => !popurriProducts.includes(p) && p.marca !== 'Timberland');
+    popurriProducts.push(...remaining.slice(0, 12 - popurriProducts.length));
+  }
+  
+  popurriContainer.innerHTML = popurriProducts.slice(0, 12).map(p => `
+    <div class="popurri-item" onclick="openModal('${p.id}')">
+      <div class="popurri-item-img">
+        <img src="${p.modelos[0].imagen}" alt="${p.nombre}">
+      </div>
+      <div class="popurri-item-body">
+        <p class="popurri-item-name">${p.marca}</p>
+        <p class="popurri-item-title">${p.nombre}</p>
+        <p class="popurri-item-price">$${p.precio.toLocaleString('es-AR')}</p>
+      </div>
+    </div>
+  `).join('');
 }
 
 function cardHTML(p) {
@@ -1565,8 +1939,10 @@ function showAllProducts() {
 
   // Ocultar home
   document.querySelector('.hero').style.display = 'none';
-  document.querySelector('.brand-banners').style.display = 'none';
+  document.querySelector('.hero-slider').style.display = 'none';
+  document.querySelector('.shipping-banner').style.display = 'none';
   document.querySelectorAll('.brand-section').forEach(s => s.style.display = 'none');
+  document.querySelectorAll('.section-header').forEach(el => el.style.display = 'none');
   document.querySelectorAll('.info-section').forEach(el => el.classList.remove('active'));
 
   // Crear o reutilizar catPage
@@ -1626,8 +2002,10 @@ function filterCategory(category) {
   
   // Ocultar home completo
   document.querySelector('.hero').style.display = 'none';
-  document.querySelector('.brand-banners').style.display = 'none';
+  document.querySelector('.hero-slider').style.display = 'none';
+  document.querySelector('.shipping-banner').style.display = 'none';
   document.querySelectorAll('.brand-section').forEach(s => s.style.display = 'none');
+  document.querySelectorAll('.section-header').forEach(el => el.style.display = 'none');
   document.querySelectorAll('.info-section').forEach(el => el.classList.remove('active'));
 
   // Crear o reutilizar catPage
@@ -1664,12 +2042,14 @@ function filterCategory(category) {
 
 function backToHome() {
   document.querySelector('.hero').style.display = 'block';
-  document.querySelector('.brand-banners').style.display = 'grid';
+  document.querySelector('.hero-slider').style.display = 'block';
+  document.querySelector('.shipping-banner').style.display = 'block';
   document.querySelectorAll('.brand-section').forEach(s => s.style.display = 'block');
+  document.querySelectorAll('.section-header').forEach(el => el.style.display = 'flex');
+  document.querySelector('.search-wrap').style.display = 'block';
+  document.getElementById('searchEmpty').style.display = 'none';
   const catPage = document.getElementById('categoryPage');
   if (catPage) catPage.style.display = 'none';
-  document.getElementById('searchWrap').style.display = 'block';
-  document.getElementById('searchEmpty').style.display = 'none';
   const inp = document.getElementById('searchInput');
   inp.value = '';
   handleSearch('');
