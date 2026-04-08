@@ -1296,8 +1296,8 @@
     gap: 12px;
     overflow: hidden;
   }
-  @media (min-width: 640px) { .popurri-grid { grid-template-columns: repeat(3, 1fr); gap: 16px; } }
-  @media (min-width: 1024px) { .popurri-grid { grid-template-columns: repeat(4, 1fr); max-width: 1200px; margin: 0 auto; } }
+  @media (min-width: 640px) { .popurri-grid { grid-template-columns: repeat(4, 1fr); gap: 16px; } }
+  @media (min-width: 1024px) { .popurri-grid { grid-template-columns: repeat(7, 1fr); max-width: 1400px; margin: 0 auto; } }
   .popurri-item {
     background: var(--surface);
     border: 1px solid var(--border);
@@ -1394,20 +1394,14 @@
 
     <button class="menu-category" onclick="toggleSubmenu(this)">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
-      Productos
+      Categorías
       <span class="menu-category-arrow">›</span>
     </button>
     <div class="submenu">
-      <div class="submenu-item" onclick="filterCategory('TEES')">TEES</div>
-      <div class="submenu-item" onclick="filterCategory('ZIP UPS')">ZIP UPS</div>
-      <div class="submenu-item" onclick="filterCategory('PANTS')">PANTS</div>
-      <div class="submenu-item" onclick="filterCategory('SHORTS')">SHORTS</div>
-      <div class="submenu-item" onclick="filterCategory('HOODIES')">HOODIES</div>
-      <div class="submenu-item" onclick="filterCategory('JACKETS')">JACKETS</div>
-      <div class="submenu-item" onclick="filterCategory('ACCESORIOS')">ACCESORIOS</div>
-      <div class="submenu-item" onclick="filterCategory('SNEAKERS')">SNEAKERS</div>
-      <div class="submenu-item" onclick="filterCategory('TIMBERLAND')">TIMBERLAND</div>
-      <div class="submenu-item" onclick="filterCategory('MARGIELA')">MARGIELA</div>
+      <div class="submenu-item" onclick="filterCategory('tops')">TOPS</div>
+      <div class="submenu-item" onclick="filterCategory('bottoms')">BOTTOMS</div>
+      <div class="submenu-item" onclick="filterCategory('calzados')">CALZADOS</div>
+      <div class="submenu-item" onclick="filterCategory('accesorios')">ACCESORIOS</div>
     </div>
 
     <button class="side-menu-item" onclick="showSection('quienes')">
@@ -1509,9 +1503,6 @@
 
 <section class="hero">
   <p class="hero-brand">SUPPLY <span>BA</span></p>
-  <p class="hero-eyebrow">Lomas de Zamora · Envíos a todo el país</p>
-  <h1>HYPE · <em>A PEDIDO</em></h1>
-  <p class="hero-sub">Importamos directamente lo que necesitás. Entrega en el día, al mejor precio.</p>
 </section>
 
 <!-- ── SEARCH ── -->
@@ -1608,7 +1599,7 @@ function init() {
       .filter((p, i, arr) => arr.findIndex(x => x.id === p.id) === i);
 
     const section = document.createElement('div');
-    section.className = 'brand-section';
+    section.className = 'brand-section collapsed';
     section.dataset.brand = brand;
 
     const heading = document.createElement('div');
@@ -1690,25 +1681,64 @@ function updateDots() {
 function initSections() {
   const popurriContainer = document.getElementById('popurriGrid');
   
-  const bestSellers = PRODUCTOS.filter(p => p.etiqueta === 'Hot' || p.etiqueta === 'Premium' || p.etiqueta === 'Collab');
+  // Get unique brands from products
+  const allBrands = [...new Set(PRODUCTOS.map(p => p.marca))];
+  const types = ['tops', 'bottoms', 'calzados', 'accesorios'];
   
-  // Popurri - 12 productos evenly distributed
-  const brands = ['BAPE', 'Supreme', 'Chrome Hearts', 'Jordan', 'Maison Margiela', 'Valley Dreams', 'Nocta'];
-  let popurriProducts = [];
-  const perBrand = 2;
-  
-  brands.forEach(brand => {
-    const brandProducts = bestSellers.filter(p => p.marca === brand).slice(0, perBrand);
-    popurriProducts.push(...brandProducts);
+  // Group products by brand and type
+  const productsByBrandType = {};
+  PRODUCTOS.forEach(p => {
+    const key = `${p.marca}|${p.categoria}`;
+    if (!productsByBrandType[key]) productsByBrandType[key] = [];
+    productsByBrandType[key].push(p);
   });
   
-  // Si no hay suficientes, completar con los demas (sin Timberland)
-  if (popurriProducts.length < 12) {
-    const remaining = bestSellers.filter(p => !popurriProducts.includes(p) && p.marca !== 'Timberland');
-    popurriProducts.push(...remaining.slice(0, 12 - popurriProducts.length));
-  }
+  // Select 14 products evenly distributed
+  // 14 products: 3-4 brands × 3-4 types
+  const targetCount = 14;
+  const selected = [];
   
-  popurriContainer.innerHTML = popurriProducts.slice(0, 12).map(p => `
+  // Shuffle brands for variety
+  const shuffledBrands = allBrands.sort(() => Math.random() - 0.5);
+  
+  // Get 4 random brands
+  const selectedBrands = shuffledBrands.slice(0, 4);
+  
+  // Get 3-4 products from each selected brand, trying to cover different types
+  selectedBrands.forEach(brand => {
+    const brandProducts = PRODUCTOS.filter(p => p.marca === brand);
+    
+    // Shuffle products
+    const shuffledProducts = brandProducts.sort(() => Math.random() - 0.5);
+    
+    // Add up to 4 products, prioritizing different types
+    let added = 0;
+    const typesInBrand = [...new Set(brandProducts.map(p => p.categoria))].sort(() => Math.random() - 0.5);
+    
+    // First add one of each type available
+    typesInBrand.forEach(type => {
+      if (added >= 4) return;
+      const productOfType = brandProducts.find(p => p.categoria === type && !selected.includes(p));
+      if (productOfType && added < 4) {
+        selected.push(productOfType);
+        added++;
+      }
+    });
+    
+    // Fill remaining slots with any product
+    shuffledProducts.forEach(p => {
+      if (added >= 4) return;
+      if (!selected.includes(p)) {
+        selected.push(p);
+        added++;
+      }
+    });
+  });
+  
+  // Shuffle final selection
+  const finalProducts = selected.sort(() => Math.random() - 0.5).slice(0, targetCount);
+  
+  popurriContainer.innerHTML = finalProducts.map(p => `
     <div class="popurri-item" onclick="openModal('${p.id}')">
       <div class="popurri-item-img">
         <img src="${p.modelos[0].imagen}" alt="${p.nombre}">
@@ -1982,16 +2012,10 @@ function toggleSubmenu(btn) {
 
 // ── FILTER BY CATEGORY ──
 const CATEGORIES = {
-  'TEES': { title: 'TEES', ids: ['valley-dreams-tshirt', 'bape-tshirts'] },
-  'HOODIES': { title: 'HOODIES', ids: ['supreme-cross-big-logo', 'supreme-big-logo-celeste', 'supreme-buzo-gris', 'supreme-bogo-animal-print', 'supreme-faded-logo-hoodie', 'valley-dreams-hoodie'] },
-  'JACKETS': { title: 'JACKETS', ids: ['supreme-jacket-gabardina', 'supreme-jacket-jean', 'chrome-hearts-zip-up'] },
-  'ZIP UPS': { title: 'ZIP UPS', ids: ['bape-shark-full-zip', 'bape-double-full-zip', 'supreme-mm6-skull-zip', 'supreme-x-sox-zip', 'supreme-zip-script-logo', 'supreme-faded-logo-zip', 'supreme-x-mm6-big-logo', 'supreme-idgaf-zip', 'supreme-michael-jackson-zip', 'supreme-rhinestone-zip', 'chrome-hearts-zip-up', 'valley-dreams-zip-sweater', 'valley-dreams-hoodie'] },
-  'PANTS': { title: 'PANTS', ids: ['valley-dreams-sweatpants', 'supreme-x-sox-sweatpants', 'chrome-hearts-jeans'] },
-  'SHORTS': { title: 'SHORTS', ids: ['bape-shark-shorts', 'bape-x-miami-shorts', 'bape-x-eric-emanuel-shorts', 'valley-dreams-denim-shorts'] },
-  'ACCESORIOS': { title: 'ACCESORIOS', ids: ['chrome-hearts-belt'] },
-  'SNEAKERS': { title: 'SNEAKERS', ids: ['bape-bapesta', 'bape-x-crocs', 'bape-undefeated-timberland', 'timberland', 'jordan-4', 'margiela-future-high', 'margiela-future-low'] },
-  'TIMBERLAND': { title: 'TIMBERLAND', ids: ['timberland', 'bape-undefeated-timberland'] },
-  'MARGIELA': { title: 'MARGIELA', ids: ['margiela-future-high', 'margiela-future-low'] }
+  'tops': { title: 'TOPS' },
+  'bottoms': { title: 'BOTTOMS' },
+  'calzados': { title: 'CALZADOS' },
+  'accesorios': { title: 'ACCESORIOS' }
 };
 
 function filterCategory(category) {
@@ -2031,9 +2055,10 @@ function filterCategory(category) {
   const container = document.getElementById('catCatalog');
   container.innerHTML = '';
 
-  cat.ids.forEach(id => {
-    const p = PRODUCTOS.find(prod => prod.id === id);
-    if (p) container.innerHTML += cardHTML(p);
+  // Filter products by categoria
+  const filtered = PRODUCTOS.filter(p => p.categoria === category);
+  filtered.forEach(p => {
+    container.innerHTML += cardHTML(p);
   });
 
   catPage.style.display = 'block';
